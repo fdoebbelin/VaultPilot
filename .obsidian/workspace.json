@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/2026-10-26.md",
+                "file": "90-Index/Entwicklungsprotokoll.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-26"
+              "title": "Entwicklungsprotokoll"
             }
           }
         ]
@@ -187,9 +187,9 @@
   },
   "active": "35e123dcdc1b6cb5",
   "lastOpenFiles": [
+    "00-Inbox/2026-10-26.md",
     "90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung.md",
     "10-Wissensbasis/KI-Agent-vs-Chat.md",
-    "00-Inbox/2026-10-26.md",
     "10-Wissensbasis/Erster-Workflow-Test.md"
   ]
 }

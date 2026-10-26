@@ -13,7 +13,7 @@ status: active
 
 ## Zweck
 
-Zentrale Übersicht aller Entwicklungssitzungen. Jede Sitzung wird hier **kurz zusammengefasst** und auf das detaillierte **Sessionprotokoll** in der Projektwurzel verlinkt.
+Zentrale Übersicht aller Entwicklungssitzungen. Jede Sitzung wird hier **kurz zusammengefasst** und auf das detaillierte **Sessionprotokoll** im Unterverzeichnis `90-Index/Sitzungen/` verlinkt.
 
 Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Handoff**), damit das Kontextfenster klein bleibt und eine neue Session – auch auf einem anderen Rechner – nahtlos anknüpfen kann.
 
@@ -43,7 +43,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ### Handoff (Ende einer Sitzung)
 
-1. Erstelle ein detailliertes Sessionprotokoll in der Projektwurzel:
+1. Erstelle ein detailliertes Sessionprotokoll im Unterverzeichnis `90-Index/Sitzungen/`:
    - Dateiname: `JJJJ-MM-TT <Thema>.md` (z. B. `2026-10-27 Umsetzung OpenCode-Setup.md`)
    - Vorlage: `[[90-Index/Handoff-Pickup-Vorlage]]`
 2. Trage oben in dieser Tabelle eine neue Zeile ein (Datum, kurzes Thema, Verlinkung, Status).
