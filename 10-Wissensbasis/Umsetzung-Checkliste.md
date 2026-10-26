@@ -89,9 +89,8 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 
 ### C.1 Vault in Obsidian öffnen
 
-- [ ] Obsidian starten
-- [ ] Vault öffnen: `C:\Users\fritz\Projects\VaultPilot`
-- [ ] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar?
+- [ ] Obsidian starten und VaultPilot-Vault öffnen: `C:\Users\fritz\Projects\VaultPilot`
+- [ ] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
 
 ### C.2 Core-Plugins aktivieren
 
@@ -99,11 +98,14 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 - [ ] `Daily Notes` aktiviert
 - [ ] `Templates` aktiviert
 - [ ] `Backlinks` aktiviert
+- [ ] Daily Notes Speicherort auf `00-Inbox` setzen
 
-### C.3 Erste Daily Note erstellen
+### C.3 Erste Daily Note erstellen und verknüpfen
 
-- [ ] Daily Note über Obsidian-Befehl erstellen
+- [ ] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
 - [ ] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
+- [ ] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
+- [ ] Backlinks prüfen (Seitenleiste → Backlinks)
 
 ## Phase D: Dokumentation & Commit
 
