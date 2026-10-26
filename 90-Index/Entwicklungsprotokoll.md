@@ -27,14 +27,14 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `49dbd6f` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
+- **Letzter Stand:** Commit `49dbd6f` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) + Daily Note `00-Inbox/2026-10-26.md` erstellt (uncommitted)
 - **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free` (Wechsel von `flint-40b-free` wegen Endpoint-Ausfall)
-- **Phase:** Umsetzung gestartet (Phase A abgeschlossen, Phase B: Workflow-Test erfolgreich, Phase C: Obsidian-Auswertung Leitfaden erstellt)
+- **Phase:** Umsetzung gestartet (Phase A abgeschlossen, Phase B: Workflow-Test erfolgreich, Phase C: Obsidian-Auswertung Leitfaden erstellt, erste Daily Note angelegt)
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Offene Punkte:**
   - [ ] Phase A: Installation abgeschlossen (Leitfaden in [[10-Wissensbasis/Phase-A-Installation]])
   - [ ] Erster echter Workflow-Test via `/vault-new` – **erledigt** (siehe `[[10-Wissensbasis/Erster-Workflow-Test]]`)
-  - [ ] Obsidian als Auswertungsfläche einrichten – Leitfaden erstellt (`[[10-Wissensbasis/Obsidian-Auswertung-Einrichten]]`), lokale Umsetzung durch Nutzer ausstehend
+  - [ ] Obsidian als Auswertungsfläche einrichten – Leitfaden erstellt (`[[10-Wissensbasis/Obsidian-Auswertung-Einrichten]]`), erste Daily Note erstellt (`[[00-Inbox/2026-10-26]]`), lokale Umsetzung durch Nutzer ausstehend
 
 ---
 
