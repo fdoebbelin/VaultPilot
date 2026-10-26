@@ -27,11 +27,12 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `c9beb6d` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
+- **Letzter Stand:** Commit `837e1e7` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
 - **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free` (Wechsel von `flint-40b-free` wegen Endpoint-Ausfall)
-- **Phase:** Umsetzung gestartet
+- **Phase:** Umsetzung gestartet (Phase A abgeschlossen)
 - **Offene Punkte:**
-  - [ ] Umsetzung: OpenCode-Setup verifizieren (Windows/PowerShell + scoop)
+  - [ ] Phase A: Installation abgeschlossen (Leitfaden in [[10-Wissensbasis/Phase-A-Installation]])
+  - [ ] Fehler `opencode model` (ENOENT) dokumentiert, Workaround via TUI nötig
   - [ ] Erster echter Workflow-Test via `/vault-new`
   - [ ] Obsidian als Auswertungsfläche einrichten
 
