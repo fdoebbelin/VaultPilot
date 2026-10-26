@@ -14,7 +14,7 @@ status: active
 
 ## Zweck
 
-Detailliertes Protokoll einer einzelnen Entwicklungssitzung. Wird in der **Projektwurzel** abgelegt und vom zentralen `[[90-Index/Entwicklungsprotokoll]]` verlinkt. Dient als Handoff-Basis für die nächste Sitzung (auch auf einem anderen Rechner).
+Detailliertes Protokoll einer einzelnen Entwicklungssitzung. Wird im Unterverzeichnis **`90-Index/Sitzungen/`** abgelegt und vom zentralen `[[90-Index/Entwicklungsprotokoll]]` verlinkt. Dient als Handoff-Basis für die nächste Sitzung (auch auf einem anderen Rechner).
 
 ## Ausgangslage
 

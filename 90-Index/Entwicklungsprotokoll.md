@@ -21,7 +21,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 | Datum | Thema | Sessionprotokoll | Status |
 |-------|-------|------------------|--------|
-| 2026-10-26 | Projekt-Vorbereitung, Vault-Aufbau, Agenten-Workflow, GitHub-Publish, Sitzungsprotokoll | [[2026-10-26 VaultPilot-Protokoll]] | abgeschlossen |
+| 2026-10-26 | Projekt-Vorbereitung, Vault-Aufbau, Agenten-Workflow, GitHub-Publish, Sitzungsprotokoll | [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] | abgeschlossen |
 
 ---
 
@@ -59,4 +59,4 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 ## Links
 
 - [[90-Index/Handoff-Pickup-Vorlage]] – Vorlage für Sessionprotokolle und Übergaben
-- [[2026-10-26 VaultPilot-Protokoll]] – detailliertes Protokoll der ersten Sitzung
+- [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] – detailliertes Protokoll der ersten Sitzung
