@@ -27,8 +27,9 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `587104f` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
+- **Letzter Stand:** Commit `c9beb6d` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
 - **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free` (Wechsel von `flint-40b-free` wegen Endpoint-Ausfall)
+- **Phase:** Umsetzung gestartet
 - **Offene Punkte:**
   - [ ] Umsetzung: OpenCode-Setup verifizieren (Windows/PowerShell + scoop)
   - [ ] Erster echter Workflow-Test via `/vault-new`
