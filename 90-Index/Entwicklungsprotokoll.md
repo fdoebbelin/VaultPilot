@@ -22,19 +22,20 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | Datum | Thema | Sessionprotokoll | Status |
 |-------|-------|------------------|--------|
 | 2026-10-26 | Projekt-Vorbereitung, Vault-Aufbau, Agenten-Workflow, GitHub-Publish, Sitzungsprotokoll | [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] | abgeschlossen |
+| 2026-10-26 | Umsetzung: Obsidian-Auswertung, erste Daily Note | [[90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `49dbd6f` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) + Daily Note `00-Inbox/2026-10-26.md` erstellt (uncommitted)
+- **Letzter Stand:** Commit `0fe249c` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
 - **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free` (Wechsel von `flint-40b-free` wegen Endpoint-Ausfall)
-- **Phase:** Umsetzung gestartet (Phase A abgeschlossen, Phase B: Workflow-Test erfolgreich, Phase C: Obsidian-Auswertung Leitfaden erstellt, erste Daily Note angelegt)
+- **Phase:** Umsetzung gestartet (Phase A abgeschlossen, Phase B: Workflow-Test erfolgreich, Phase C: Obsidian-Auswertung Leitfaden erstellt, erste Daily Note angelegt, Sessionprotokoll erstellt)
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Offene Punkte:**
-  - [ ] Phase A: Installation abgeschlossen (Leitfaden in [[10-Wissensbasis/Phase-A-Installation]])
-  - [ ] Erster echter Workflow-Test via `/vault-new` – **erledigt** (siehe `[[10-Wissensbasis/Erster-Workflow-Test]]`)
-  - [ ] Obsidian als Auswertungsfläche einrichten – Leitfaden erstellt (`[[10-Wissensbasis/Obsidian-Auswertung-Einrichten]]`), erste Daily Note erstellt (`[[00-Inbox/2026-10-26]]`), lokale Umsetzung durch Nutzer ausstehend
+  - [ ] Konzept finalisieren (Outcome, Meilensteine, Erfolgskriterien präzisieren)
+  - [ ] Weitere Wissensnotizen für Kursinhalte erstellen
+  - [ ] Obsidian als Auswertungsfläche lokal durch Nutzer verifizieren
 
 ---
 
