@@ -20,24 +20,27 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 
 ### A.1 OpenCode über PowerShell + scoop installieren
 
-- [ ] PowerShell als Administrator öffnen
-- [ ] Scoop installieren (falls noch nicht vorhanden):
+- [ ] PowerShell als normaler User öffnen (kein Administrator nötig für CurrentUser-Scope)
+- [ ] Scoop installieren:
   ```powershell
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  iwr -useb get.scoop.sh | iex
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
   ```
-- [ ] OpenCode über scoop installieren:
+- [ ] OpenCode Version 2 über scoop installieren:
   ```powershell
-  scoop install opencode
+  scoop install git
+  scoop bucket add versions
+  scoop install versions/opencode2
   ```
-- [ ] OpenCode-Version prüfen:
+- [ ] Version prüfen:
   ```powershell
   opencode --version
   ```
-- [ ] OpenCode starten und Modell prüfen:
+- [ ] Modell prüfen (Hinweis: `opencode model` kann einen ENOENT-Fehler liefern – siehe [[10-Wissensbasis/Phase-A-Installation]] für Workaround)
   ```powershell
   opencode model
-  # erwartet: opencode/nemotron-3.5-super-vl-free
+  # möglicher Fehler: ENOENT: no such file or directory, chdir ...
+  # Workaround: Modell über TUI (Leader-Key Ctrl+X → m) oder Config-Datei setzen
   ```
 
 ### A.2 Projektrepository klonen / öffnen
