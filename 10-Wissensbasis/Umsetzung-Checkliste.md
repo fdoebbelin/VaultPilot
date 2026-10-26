@@ -36,11 +36,9 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
   ```powershell
   opencode --version
   ```
-- [ ] Modell prüfen (Hinweis: `opencode model` kann einen ENOENT-Fehler liefern – siehe [[10-Wissensbasis/Phase-A-Installation]] für Workaround)
+- [ ] Modell prüfen/wechseln (Hinweis: es gibt keinen CLI-Befehl `opencode model`; verfügbare Modelle auflisten mit `opencode models`, Wechsel über TUI `Ctrl+X` → `m`)
   ```powershell
-  opencode model
-  # möglicher Fehler: ENOENT: no such file or directory, chdir ...
-  # Workaround: Modell über TUI (Leader-Key Ctrl+X → m) oder Config-Datei setzen
+  opencode models
   ```
 
 ### A.2 Projektrepository klonen / öffnen
