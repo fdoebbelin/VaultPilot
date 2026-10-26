@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "daily-notes": true,
+    "templates": true,
+    "backlinks": true
+  }
+}
