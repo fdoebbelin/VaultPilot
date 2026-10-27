@@ -88,6 +88,22 @@ status: active
 
 **Korrektur (Nutzerfeedback, gleiche Sitzung):** Tatsächliches Kontextmenü-Label laut Nutzer: **„Rechts teilen"** (nicht „Nach rechts aufteilen"); in der Befehlspalette findet man die Funktion über den Suchbegriff **„teilen"**. Dokumentationsregel daraus: Menü-Labels nicht als exakte Namen behaupten, sondern belegte Labels verwenden und zusätzlich den **Suchbegriff** angeben – Labels variieren je nach Obsidian-Version und Übersetzung. Faustregel im Leitfaden entsprechend ergänzt.
 
+### Neue Notizen landen in der Vault-Wurzel, kein Standard-Frontmatter (Nutzerfund Nr. 3)
+
+**Symptom:** Beim Üben fiel auf: `Strg+N` erzeugt Notizen in der Vault-Wurzel; neue Notizen haben kein Frontmatter; unklar war auch, wie `/vault-index` aufzurufen ist
+
+**Ursache:** `app.json` enthielt keine `newFileLocation`-Einstellung (Obsidian-Standard: Wurzel); das aktive Templates-Plugin hatte keinen konfigurierten Template-Ordner und es existierte keine Vorlage; die Command-Aufrufsyntax war nicht dokumentiert
+
+**Lösung:**
+- `app.json`: `"newFileLocation": "folder"`, `"newFileFolderPath": "00-Inbox"` – neue Notizen landen jetzt in der Inbox (konsistent mit Vault-Konvention: Rohmaterial in 00-Inbox, danach einsortieren)
+- `templates.json` neu: Template-Ordner `90-Index/Templates`
+- Vorlage `90-Index/Templates/Wissensnotiz.md` mit Platzhaltern `{{title}}` / `{{date:YYYY-MM-DD}}` (Frontmatter incl. `status: draft`)
+- Übungsnotiz und Leitfäden aktualisiert: `Strg+N`-Hinweis (landet in 00-Inbox), Template-Workflow (Strg+P → „Vorlage"), `/vault-index`-Aufrufschritte in [[Agenten-Workflow]] (OpenCode-TUI, Slash-Command mit Autocomplete, danach Verifikation + Git)
+
+**Verwerfte Ansätze:** Notizen in der Wurzel belassen – widerspricht der Vault-Konvention; Community-Plugin „Templater" – Abgrenzungsentscheidung: keine Plugin-Installationen (Core-Plugin Templates genügt)
+
+**Verifikation:** Config-Dateien liegen versioniert im Repo (geteilte Konfiguration); falls Obsidian die Einstellungen nicht sofort übernimmt (App läuft parallel): Obsidian neu starten bzw. Einstellungen → Dateien → Standardordner prüfen
+
 ## Artefakte (neu / geändert)
 
 - `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)
@@ -98,6 +114,8 @@ status: active
 - `[[10-Wissensbasis/Umsetzung-Checkliste]]` – C.0/C.3/B.4 verifiziert, Abschluss-Sektion aktualisiert
 - `[[10-Wissensbasis/GitHub-Repository]]`, `[[90-Index/Session-Starter]]` – modernisiert
 - `[[00-Inbox/Übung Obsidian-Grundlagen]]` – neu (C.0-Abarbeitungsliste)
+- `.obsidian/app.json` + `.obsidian/templates.json` – Standardordner für neue Notizen (`00-Inbox`), Template-Ordner (`90-Index/Templates`)
+- `90-Index/Templates/Wissensnotiz.md` – Vorlage mit Frontmatter-Platzhaltern
 - Commit `111a39b` + Abschlussbericht/Protokoll-Commits
 
 ## Entscheidungen

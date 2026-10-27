@@ -34,6 +34,14 @@ Der Unterschied zum Chat: Der Agent **führt aus** (schreibt Dateien, committet)
 - **`commands/vault-link.md`** – `/vault-link "<Notiz>"`: vernetzt eine Notiz mit verwandten Notizen
 - **`commands/vault-index.md`** – `/vault-index "<Fokus>"`: erstellt/aktualisiert den Wissensindex (MOC) in `90-Index/`
 
+**Aufrufen eines Commands (so geht's):**
+
+1. OpenCode im Vault starten: `cd $env:VAULTPILOT` → `opencode` (TUI)
+2. Im Eingabefeld `/` tippen → OpenCode zeigt die verfügbaren Slash-Commands mit Autocomplete (`vault-new`, `vault-link`, `vault-index`)
+3. Command mit Argument ausführen, z. B. `/vault-index Allgemeiner Überblick`
+4. Der Agent arbeitet den Auftrag ab (Ziel → Plan → Tool-Use → Iteration) und meldet das Ergebnis – **verifizieren**: die betroffene Datei öffnen (z. B. `90-Index/Wissensindex.md`) und prüfen
+5. Danach wie immer: `git add` → `git commit` → `git push` (siehe [[10-Wissensbasis/Git-Grundlagen]])
+
 ## Der Sitzungs-Workflow (Handoff/Pickup)
 
 1. **Pickup:** Entwicklungsprotokoll öffnen, „Aktueller Handoff" lesen, bei offenen Punkten fortsetzen

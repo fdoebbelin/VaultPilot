@@ -42,7 +42,7 @@ Installation und Vault-Setup: [[10-Wissensbasis/Obsidian-Installation-Einrichtun
 | `Strg+P` | Befehlspalette (alle Befehle, inkl. Plugins) |
 | `Strg+O` | Quick Switcher (Notiz schnell öffnen, by name) |
 | `Strg+Shift+F` | Globale Suche über alle Notizen |
-| `Strg+N` | Neue Notiz |
+| `Strg+N` | Neue Notiz (landet automatisch in `00-Inbox/`) |
 | `Strg+E` | Umschalten Lesen/Editieransicht |
 | `Strg+K` | Link einfügen |
 | `[[` eingeben | Wikilink-Auswahlliste (Autocomplete über alle Notizen) |
@@ -111,9 +111,9 @@ Dieser Vault ist ein Git-Repository – Obsidian und Git arbeiten parallel auf d
 - [x] Notiz per `Strg+O` (Quick Switcher) öffnen
 - [x] In einer Notiz `[[` tippen und einen Link auf eine bestehende Notiz setzen
 - [x] Backlinks-Pane öffnen und die Verknüpfung beide Richtungen prüfen
-- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Text) → „Rechts teilen" – zwei Notizen nebeneinander (alternativ: `Strg+P` → „teilen" tippen)
-- [ ] Globale Suche (`Strg+Shift+F`) nach einem Begriff aus der Wissensbasis
-- [ ] Graph-Ansicht öffnen und die Verlinkungsstruktur betrachten
+- [x] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Text) → „Rechts teilen" – zwei Notizen nebeneinander (alternativ: `Strg+P` → „teilen" tippen)
+- [x] Globale Suche (`Strg+Shift+F`) nach einem Begriff aus der Wissensbasis
+- [x] Graph-Ansicht öffnen und die Verlinkungsstruktur betrachten
 - [ ] Neue Notiz mit Frontmatter anlegen und in einen MOC verlinken (z. B. über `/vault-index`)
 
 ## Links

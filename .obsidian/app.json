@@ -3,5 +3,7 @@
     "daily-notes": true,
     "templates": true,
     "backlinks": true
-  }
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-Inbox"
 }

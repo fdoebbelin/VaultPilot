@@ -22,7 +22,7 @@ Praktischer Durchlauf der Übungen aus [[10-Wissensbasis/Obsidian-Grundlagen]] (
 ## Layout
 
 - [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Notiztext) → „Rechts teilen" – zwei Notizen nebeneinander; alternativ `Strg+P` → „teilen" tippen
-- [ ] Neue Notiz mit Frontmatter anlegen (`Strg+N`) und im [[90-Index/Wissensindex]] verlinken (echtes Thema wählen, z. B. einen Kursinhalt)
+- [ ] Neue Notiz anlegen (`Strg+N`) → landet automatisch in `00-Inbox/` → `Strg+P` → „Vorlage" tippen → „Vorlage einfügen" → Template „Wissensnotiz" wählen (Frontmatter wird automatisch gesetzt) → Thema als `# Überschrift` eintragen → im [[90-Index/Wissensindex]] verlinken; zur endgültigen Ordnung per Drag & Drop nach `10-Wissensbasis/` verschieben (oder `/vault-index` per OpenCode nutzen – siehe [[Agenten-Workflow]])
 
 ## Graph-Ansicht
 
