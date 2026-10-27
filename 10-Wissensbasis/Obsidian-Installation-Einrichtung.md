@@ -21,7 +21,7 @@ Obsidian ist eine kostenlose (privat genutzte) Notiz-App, die lokal auf Markdown
 ## Voraussetzungen
 
 - Windows, PowerShell
-- VaultPilot-Repository lokal vorhanden (siehe [[10-Wissensbasis/Phase-A-Installation]], Schritt A.2)
+- VaultPilot-Repository lokal vorhanden und über `$env:VAULTPILOT` erreichbar (Einrichtung der Variable: siehe README bzw. Checkliste A.2)
 
 ## Schritte
 
@@ -58,7 +58,7 @@ Ein **Vault** in Obsidian ist ein gewöhnlicher Ordner; seine Einstellungen lieg
 
 1. Obsidian starten
 2. Startbildschirm: **„Ordner als Vault öffnen"** (Open folder as vault)
-3. `C:\Users\fritz\Projects\VaultPilot` auswählen
+3. Ordner `$env:VAULTPILOT` auswählen (Standardort: `$env:USERPROFILE\Projects\VaultPilot`)
 4. Bestätigen: Obsidian fragt nach „Trust author" – bei eigenem Vault bestätigen
 5. Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sind in der linken Seitenleiste sichtbar
 

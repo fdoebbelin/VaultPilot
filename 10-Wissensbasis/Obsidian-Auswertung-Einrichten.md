@@ -20,14 +20,14 @@ Obsidian als zentrale Oberfläche nutzen, um die Wissensbasis zu durchsuchen, zu
 
 - Obsidian installiert (Desktop-App) – siehe [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 - Grundlegende Bedienung bekannt – siehe [[10-Wissensbasis/Obsidian-Grundlagen]]
-- VaultPilot-Repository lokal vorhanden: `C:\Users\fritz\Projects\VaultPilot`
+- VaultPilot-Repository lokal vorhanden, erreichbar über `$env:VAULTPILOT`
 
 ## Schritte
 
 ### 1. Vault in Obsidian öffnen
 
 1. Obsidian starten
-2. „Öffnen als Vault" → `C:\Users\fritz\Projects\VaultPilot` auswählen
+2. „Öffnen als Vault“ → Ordner `$env:VAULTPILOT` auswählen
 3. Bestätigen, dass `.obsidian/`, `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar sind
 
 ### 2. Core-Plugins prüfen und aktivieren

@@ -43,15 +43,22 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 
 ### A.2 Projektrepository klonen / öffnen
 
-- [ ] Repository klonen (falls auf einem anderen Rechner):
+- [ ] Pfad-Variable einrichten (einmalig, dauerhaft für den Benutzer; Einrichtung im Detail siehe README):
   ```powershell
-  git clone https://github.com/fdoebbelin/VaultPilot.git
-  cd VaultPilot
+  [Environment]::SetEnvironmentVariable("VAULTPILOT", "$env:USERPROFILE\Projects\VaultPilot", "User")
+  $env:VAULTPILOT = "$env:USERPROFILE\Projects\VaultPilot"   # aktuelle Sitzung (oder PowerShell neu starten)
+  ```
+- [ ] Repository klonen (falls auf einem anderen Rechner; Standardort: `$env:USERPROFILE\Projects\VaultPilot`):
+  ```powershell
+  git clone https://github.com/fdoebbelin/VaultPilot.git $env:VAULTPILOT
+  cd $env:VAULTPILOT
   ```
 - [ ] Oder bestehendes Verzeichnis öffnen:
   ```powershell
-  cd C:\Users\fritz\Projects\VaultPilot
+  cd $env:VAULTPILOT
   ```
+
+> **Konvention:** In allen Leitfäden wird das Repository über `$env:VAULTPILOT` adressiert – niemals über hartcodierte Benutzerpfade.
 
 ### A.3 Obsidian installieren und Vault öffnen
 
@@ -116,7 +123,7 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 
 ### C.1 Vault in Obsidian öffnen
 
-- [x] Obsidian starten und VaultPilot-Vault öffnen: `C:\Users\fritz\Projects\VaultPilot`
+- [x] Obsidian starten und VaultPilot-Vault öffnen: `$env:VAULTPILOT`
 - [x] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
 
 ### C.2 Core-Plugins aktivieren

@@ -34,6 +34,7 @@ Führe jeden Auftrag in vier Phasen durch:
 - Verwende `[[Wikilinks]]` für Verweise zwischen Notizen.
 - Keine Löschungen ohne explizite Nutzeranfrage.
 - Halte Notizen praxisnah, strukturiert und wiederverwendbar.
+- **Pfad-Konvention:** Das Repository wird ausschließlich über `$env:VAULTPILOT` adressiert (Standardort: `$env:USERPROFILE\Projects\VaultPilot`). Hartcodierte Benutzerpfade (`C:\Users\<Name>\…`) sind verboten – weder in Notizen, Leitfäden, Checklisten noch in Befehlen. Einrichtung der Variable: siehe README (Abschnitt „Einrichtung“).
 
 ## Vault-Konventionen
 
