@@ -63,5 +63,6 @@ Nach erfolgreichem Abschluss:
 
 ## Links
 
+- [[10-Wissensbasis/Obsidian-Installation-Einrichtung]] – Obsidian installieren und Vault öffnen (A.3)
 - [[90-Index/Entwicklungsprotokoll]]
 - [[10-Wissensbasis/Umsetzung-Checkliste]]

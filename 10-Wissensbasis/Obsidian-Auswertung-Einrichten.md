@@ -1,7 +1,7 @@
 ---
 title: Obsidian als Auswertungsfläche einrichten
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 tags:
   - obsidian
   - auswertung
@@ -18,7 +18,8 @@ Obsidian als zentrale Oberfläche nutzen, um die Wissensbasis zu durchsuchen, zu
 
 ## Voraussetzungen
 
-- Obsidian installiert (Desktop-App)
+- Obsidian installiert (Desktop-App) – siehe [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
+- Grundlegende Bedienung bekannt – siehe [[10-Wissensbasis/Obsidian-Grundlagen]]
 - VaultPilot-Repository lokal vorhanden: `C:\Users\fritz\Projects\VaultPilot`
 
 ## Schritte
@@ -79,6 +80,8 @@ Nach erfolgreichem Abschluss:
 
 ## Links
 
+- [[10-Wissensbasis/Obsidian-Installation-Einrichtung]] – Installation & Vault-Setup
+- [[10-Wissensbasis/Obsidian-Grundlagen]] – Bedienungsgrundlagen
 - [[90-Index/Entwicklungsprotokoll]]
 - [[10-Wissensbasis/Umsetzung-Checkliste]]
 - [[VaultPilot – Konzept]]

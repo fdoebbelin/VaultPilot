@@ -1,7 +1,7 @@
 ---
 title: Umsetzung – Checkliste
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 tags:
   - umsetzung
   - checklist
@@ -53,6 +53,20 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
   cd C:\Users\fritz\Projects\VaultPilot
   ```
 
+### A.3 Obsidian installieren und Vault öffnen
+
+Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
+
+- [ ] Obsidian installieren (Variante 1, konsistent mit OpenCode):
+  ```powershell
+  scoop bucket add extras
+  scoop install obsidian
+  ```
+  (Alternativ: Installer von https://obsidian.md oder `winget install Obsidian.Obsidian`)
+- [ ] VaultPilot-Ordner als Vault öffnen (nicht „Create new vault")
+- [ ] Prüfen: `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
+- [ ] Grundkonfiguration geladen (Theme, aktivierten Plugins, Daily-Notes-Speicherort)
+
 ## Phase B: Erster Workflow-Test (Teilziel 3)
 
 ### B.1 Agent & Command prüfen
@@ -86,6 +100,17 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 - [ ] Prüfen: MOC in `90-Index/` erstellt/aktualisiert?
 
 ## Phase C: Obsidian als Auswertungsfläche (Teilziel 4)
+
+### C.0 Obsidian-Grundlagen erarbeiten
+
+Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
+
+- [ ] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste
+- [ ] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E`
+- [ ] Markdown-Grundlagen und Frontmatter verstanden
+- [ ] `[[Wikilink]]` gesetzt und Backlinks geprüft
+- [ ] Graph-Ansicht betrachtet
+- [ ] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung)
 
 ### C.1 Vault in Obsidian öffnen
 
