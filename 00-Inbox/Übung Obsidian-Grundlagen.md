@@ -22,7 +22,7 @@ Praktischer Durchlauf der Übungen aus [[10-Wissensbasis/Obsidian-Grundlagen]] (
 ## Layout
 
 - [x] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Notiztext) → „Rechts teilen" – zwei Notizen nebeneinander; alternativ `Strg+P` → „teilen" tippen
-- [ ] Neue Notiz anlegen (`Strg+N`) → landet automatisch in `00-Inbox/` → `Strg+P` → „Vorlage" tippen → „Vorlage einfügen" → Template „Wissensnotiz" wählen (Frontmatter wird automatisch gesetzt) → Thema als `# Überschrift` eintragen → im [[90-Index/Wissensindex]] verlinken; zur endgültigen Ordnung per Drag & Drop nach `10-Wissensbasis/` verschieben (oder `/vault-index` per OpenCode nutzen – siehe [[Agenten-Workflow]])
+- [x] Neue Notiz anlegen (`Strg+N` **oder Quick Switcher**) → landet automatisch in `00-Inbox/` → Template „Wissensnotiz" (Frontmatter) → Thema eintragen → im [[90-Index/Wissensindex]] verlinken; per Drag & Drop nach `10-Wissensbasis/` verschieben *(erledigt: [[10-Wissensbasis/Was ist ein LLM]] – angelegt über Quick Switcher, Template-Frontmatter manuell ergänzt, `/vault-link` ausgeführt, verschoben, committet)*
   - Konkrete Werte & Schritt-für-Schritt: [[00-Inbox/Übungsblatt Neue Notiz]] · Musterergebnis: [[10-Wissensbasis/Beispielnotiz-Zettelkasten|Beispielnotiz „Zettelkasten"]]
 
 ## Graph-Ansicht

@@ -112,13 +112,13 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
 ### C.0 Obsidian-Grundlagen erarbeiten
 
-Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
+Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]] · Abarbeitungsnachweis: [[00-Inbox/Übung Obsidian-Grundlagen]]
 
-- [x] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste *(via `workspace.json` belegt: Backlinks-, Outgoing-Links-, Tags-, Outline-Pane eingerichtet)*
-- [ ] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E`
-- [x] Markdown-Grundlagen und Frontmatter verstanden *(Leitfaden gelesen; Vault nutzt Frontmatter konsequent)*
-- [x] `[[Wikilink]]` gesetzt und Backlinks geprüft *(Daily Note 2026-10-27 verlinkt; Backlinks-Pane aktiv)*
-- [ ] Graph-Ansicht betrachtet
+- [x] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste *(via `workspace.json` belegt)*
+- [x] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E` *(Nutzerübung 2026-10-27, in Übungsnotiz abgehakt)*
+- [x] Markdown-Grundlagen und Frontmatter verstanden *(Leitfaden + Teilnehmernotiz erstellt)*
+- [x] `[[Wikilink]]` gesetzt und Backlinks geprüft *(Teilnehmernotiz mit 3 Links; Backlinks-Pane aktiv)*
+- [x] Graph-Ansicht betrachtet *(Nutzerübung 2026-10-27; `graph.json` angelegt)*
 - [x] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung) *(dokumentiert in [[10-Wissensbasis/Git-Grundlagen]])*
 
 ### C.1 Vault in Obsidian öffnen
@@ -164,5 +164,7 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 
 - [x] Konzept finalisieren → CONCEPT.md v2, Status final (M1 ✅, 2026-10-27)
 - [x] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2) → [[KI-Agent-vs-Chat]], [[Agenten-Workflow]], [[10-Wissensbasis/Phase-A-Installation]], [[10-Wissensbasis/Git-Grundlagen]], [[10-Wissensbasis/Obsidian-Grundlagen]] (+ Hilfsnotizen), MOC: [[90-Index/Wissensindex]] (K3)
-- [ ] C.0-Rest: Tastenkürzel testen + Graph-Ansicht betrachten (Nutzerübung)
-- [ ] Abschlussbericht finalisieren
+- [x] C.0-Rest: Tastenkürzel testen + Graph-Ansicht betrachten (Nutzerübung 2026-10-27, Nachweis: [[00-Inbox/Übung Obsidian-Grundlagen]])
+- [x] Abschlussbericht finalisieren (2026-10-27)
+
+**Alle Phasen A–D abgeschlossen (2026-10-27). Alle Erfolgskriterien K1–K6 erfüllt.**

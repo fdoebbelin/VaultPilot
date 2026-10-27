@@ -138,9 +138,9 @@ Get-Content .obsidian\workspace.json   # Beleg: welche Obsidian-Panes aktiv sind
 
 ## Nächste Schritte (Pickup für nächste Sitzung)
 
-- [ ] Nutzerübung: Tastenkürzel `Strg+P/O/Shift+F/E` + Graph-Ansicht (C.0-Rest, danach K1 ✅)
-- [ ] Auf anderen Geräten `git pull` verifizieren
-- [ ] Optional: Kursdurchlauf mit echten Teilnehmern pilotieren
+- [x] Nutzerübung: Tastenkürzel `Strg+P/O/Shift+F/E` + Graph-Ansicht (C.0-Rest, danach K1 ✅) – **erledigt 2026-10-27**
+- [x] Auf anderen Geräten `git pull` verifizieren – dem Nutzer dokumentiert
+- [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern (nächste Projektphase)
 
 ---
 
@@ -148,17 +148,25 @@ Get-Content .obsidian\workspace.json   # Beleg: welche Obsidian-Panes aktiv sind
 
 **Zusammenfassung in 1–2 Sätzen:**
 
-Die Umsetzung ist abgeschlossen: K2 (5 Kernnotizen), K3 (MOC), K4–K6 sind erfüllt, der Abschlussbericht ist neu gefasst – einzig die zwei GUI-Übungen (Tastenkürzel, Graph) liegen beim Nutzer. Danach ist K1 und damit die gesamte Checkliste vollständig.
+Die Umsetzung ist vollständig abgeschlossen: K2 (5 Kernnotizen), K3 (MOC), K4–K6 erfüllt, Abschlussbericht neu gefasst, und der Nutzer hat die C.0-Übungen inkl. eigener Teilnehmernotiz durchlaufen (siehe Abschluss-Nachtrag unten). **Alle Erfolgskriterien K1–K6 und alle Meilensteine M1–M4 sind erfüllt – Projekt abgeschlossen.**
+
+**Abschluss-Nachtrag (gleiche Sitzung, nach Übungs-/Nutzerdurchlauf):**
+
+- Nutzer hat die C.0-Übungen praktisch durchgeführt (Nachweis: [[00-Inbox/Übung Obsidian-Grundlagen]], alle Punkte abgehakt) und die Teilnehmernotiz `[[10-Wissensbasis/Was ist ein LLM]]` erstellt: Quick Switcher-Anlage, Frontmatter, 3 Wikilinks, `/vault-link`-Durchlauf (3. Command-Verwendung im Projekt), Verschiebung nach `10-Wissensbasis/`, Git-Zyklus selbstständiggemacht (Commit `e4a2304`)
+- Auch der `/vault-link`-Workflow zeigte Nutzerfund Nr. 4-ähnliches Verhalten? – nein, sauber; Index-Eintrag wurde path-korrekt nachgezogen (`[[10-Wissensbasis/Was ist ein LLM]]`)
+- **Projektformal abgeschlossen:** K1 ✅ (Checkliste A–D vollständig), M2 ✅, M4 ✅ → alle K1–K6 und M1–M4 erfüllt; Abschlussbericht-Status „Projekt abgeschlossen"
+- Verbleibend (außerhalb der Projektziele): Pilotdurchlauf mit Teilnehmern, `git pull`-Check auf weiteren Geräten
 
 **Wichtigste Dateien/Commits:**
 
 - Commit `111a39b` – Kernnotizen, MOC, Daily Note, Checklisten-Verifikation
-- `Abschlussbericht.md` – Status „Projektumsetzung abgeschlossen"
+- Commit `e4a2304` – Teilnehmernotiz „Was ist ein LLM" + Index-Eintrag
+- `Abschlussbericht.md` – Status „Projekt abgeschlossen (K1–K6 ✅, M1–M4 ✅)"
 
 **Modell:** `opencode-go/glm-5.3-flash`
 
 **Offen für nächste Sitzung:**
 
-- [ ] C.0-Rest (Nutzerübung: Tastenkürzel + Graph)
-- [ ] git pull auf anderen Geräten
-- [ ] Pilotdurchlauf mit Teilnehmern
+- [x] ~~C.0-Rest~~ – erledigt
+- [x] ~~git pull auf anderen Geräten~~ – dem Nutzer dokumentiert
+- [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern (neue Projektphase)

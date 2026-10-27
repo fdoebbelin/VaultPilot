@@ -52,9 +52,9 @@ Wissen strukturiert ablegen, vernetzen und dauerhaft pflegen – unterstützt un
 | Meilenstein | Beschreibung | Status |
 |---|---|---|
 | **M1** | Konzept finalisiert und an das Niveau der Zielgruppe angepasst (dieses Dokument) | ✅ |
-| **M2** | Installation, Einführung und Wissensbasis-Aufbau umgesetzt (Checkliste Phase A + C.0) | 🟡 weitgehend (Rest: C.0-Übungen) |
+| **M2** | Installation, Einführung und Wissensbasis-Aufbau umgesetzt (Checkliste Phase A + C.0) | ✅ (2026-10-27, Übungsnachweis) |
 | **M3** | Agenten-Workflow mit OpenCode etabliert (`/vault-new`, `/vault-link`, `/vault-index`) | ✅ (Phase B) |
-| **M4** | Obsidian als Auswertungsfläche genutzt (Checkliste Phase C) | 🟡 weitgehend (Rest: Backlinks-Ansicht) |
+| **M4** | Obsidian als Auswertungsfläche genutzt (Checkliste Phase C) | ✅ (2026-10-27) |
 
 ## Erfolgskriterien & Messbarkeit
 
@@ -92,10 +92,11 @@ Sitzungsdokumentation: [[90-Index/Entwicklungsprotokoll]] (Handoff/Pickup-Workfl
 
 ## Nächste Schritte
 
-- [ ] C.0-Übungen durchlaufen + Backlinks-Ansicht prüfen (Phase-C-Rest → M2/M4)
-- [ ] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2)
-- [ ] Abschlussbericht finalisieren
+- [x] ~~C.0-Übungen durchlaufen + Backlinks-Ansicht prüfen~~ (erledigt 2026-10-27)
+- [x] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2) – erledigt
+- [x] Abschlussbericht finalisieren – erledigt
+- [ ] Pilotdurchlauf des Kurses mit Teilnehmern
 
 ---
 
-Status: ✅ Konzept finalisiert (2026-10-27)
+Status: ✅ Konzept finalisiert & Umsetzung abgeschlossen (2026-10-27)

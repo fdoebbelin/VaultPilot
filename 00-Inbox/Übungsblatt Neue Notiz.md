@@ -34,11 +34,11 @@ Konkrete Werte für die Layout-Übung aus [[00-Inbox/Übung Obsidian-Grundlagen]
 
 ## Verifikation
 
-- [ ] Notiz heißt genau `Was ist ein LLM` und liegt in `10-Wissensbasis/`
-- [ ] Frontmatter vollständig: `title`, `tags`, `created`, `updated`, `status`
-- [ ] Mindestens 2 Wikilinks, alle klicken auf existierende Notizen (Wurzel prüfen: keine Stub-Notizen entstanden)
-- [ ] Eintrag im [[90-Index/Wissensindex]] vorhanden
-- [ ] `git status` zeigt die neue Datei → `git add` → `git commit` → `git push` (siehe [[10-Wissensbasis/Git-Grundlagen]])
+- [x] Notiz heißt genau `Was ist ein LLM` und liegt in `10-Wissensbasis/` *(2026-10-27 verifiziert)*
+- [x] Frontmatter vollständig: `title`, `tags`, `created`, `updated`, `status`
+- [x] Mindestens 2 Wikilinks, alle klicken auf existierende Notizen (Wurzel prüfen: keine Stub-Notizen entstanden) *(3 Links: KI-Agent-vs-Chat, Agenten-Workflow, Wissensindex)*
+- [x] Eintrag im [[90-Index/Wissensindex]] vorhanden *(ergänzt durch `/vault-link` + path-korrekte Anpassung)*
+- [x] `git status` zeigt die neue Datei → `git add` → `git commit` → `git push` *(Commit `e4a2304`, working tree clean)*
 
 ## Links
 

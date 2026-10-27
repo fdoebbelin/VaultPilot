@@ -36,7 +36,7 @@ Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Foku
 
 ## 4. Wissensbasis
 
-**Kernnotizen (Erfolgskriterium K2 erfüllt – 5 Kernnotizen, jede mit Frontmatter und `[[Wikilink]]`):**
+- **Kernnotizen (Erfolgskriterium K2 erfüllt – 5 Kernnotizen, jede mit Frontmatter und `[[Wikilink]]`):**
 
 | Kernnotiz | Kursinhalt |
 |---|---|
@@ -46,8 +46,9 @@ Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Foku
 | [[10-Wissensbasis/Git-Grundlagen]] | Git-Workflow & Versionierung (Teilziel 5) |
 | [[10-Wissensbasis/Obsidian-Grundlagen]] | Obsidian-Bedienung (Teilziel 4) |
 
-**Unterstützende Notizen:** [[10-Wissensbasis/Obsidian-Installation-Einrichtung]], [[10-Wissensbasis/Obsidian-Auswertung-Einrichten]], [[10-Wissensbasis/GitHub-Repository]], [[10-Wissensbasis/Erster-Workflow-Test]], [[10-Wissensbasis/Umsetzung-Checkliste]].
-**Index/MOC:** [[90-Index/Wissensindex]] (K3 ✅) · **Sitzungsdokumentation:** [[90-Index/Entwicklungsprotokoll]] mit 6 Protokollen in `90-Index/Sitzungen/`.
+**Unterstützende Notizen:** [[10-Wissensbasis/Obsidian-Installation-Einrichtung]], [[10-Wissensbasis/Obsidian-Auswertung-Einrichten]], [[10-Wissensbasis/GitHub-Repository]], [[10-Wissensbasis/Erster-Workflow-Test]], [[10-Wissensbasis/Umsetzung-Checkliste]], [[10-Wissensbasis/Was ist ein LLM]] (Teilnehmernotiz aus der C.0-Übung).
+**Übungsmaterial:** [[00-Inbox/Übung Obsidian-Grundlagen]] (C.0-Nachweis), [[00-Inbox/Übungsblatt Neue Notiz]], [[10-Wissensbasis/Beispielnotiz-Zettelkasten]] (Muster), [[90-Index/Templates/Wissensnotiz]].
+**Index/MOC:** [[90-Index/Wissensindex]] (K3 ✅) · **Sitzungsdokumentation:** [[90-Index/Entwicklungsprotokoll]] mit 7 Protokollen in `90-Index/Sitzungen/`.
 
 ## 5. Ergebnisse
 
@@ -61,7 +62,7 @@ Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Foku
 
 | Kriterium | Status |
 |---|---|
-| K1 – Checkliste vollständig | 🟡 Rest: 2 Nutzerübungen (Tastenkürzel, Graph-Ansicht) |
+| K1 – Checkliste vollständig | ✅ (C.0-Nutzerübungen 2026-10-27, Nachweis: Übungsnotiz + Teilnehmernotiz) |
 | K2 – 5–7 Kernnotizen | ✅ |
 | K3 – MOC verlinkt Kernnotizen | ✅ |
 | K4 – Agenten-Workflow funktionsfähig | ✅ |
@@ -70,9 +71,11 @@ Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Foku
 
 ## 7. Offene Punkte & nächste Schritte
 
-- [ ] C.0-Rest: Tastenkürzel (`Strg+P/O/Shift+F/E`) testen und Graph-Ansicht betrachten (Nutzerübung, 5 Minuten)
+- [x] ~~C.0-Rest (Tastenkürzel, Graph-Ansicht)~~ – erledigt 2026-10-27
+- [x] ~~Abschlussbericht finalisieren~~ – erledigt 2026-10-27
 - [ ] Auf weiteren Geräten: `git pull` – dort wird `workspace.json` entfernt und von Obsidian neu angelegt (erwartetes Verhalten)
+- [ ] Pilotdurchlauf des Kurses mit Teilnehmern
 
 ---
 
-Status: ✅ Projektumsetzung abgeschlossen (Rest: 1 Nutzerübung) – 2026-10-27
+Status: ✅ Projekt abgeschlossen – alle Erfolgskriterien K1–K6 erfüllt, alle Meilensteine M1–M4 erreicht (2026-10-27)

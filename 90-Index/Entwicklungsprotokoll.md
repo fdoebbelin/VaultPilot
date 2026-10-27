@@ -33,17 +33,16 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `111a39b` + Folge-Commits auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Umsetzungsabschluss: Kernnotizen (K2 ✅), MOC (K3 ✅), Abschlussbericht neu gefasst; Protokoll im Folge-Commit
+- **Letzter Stand:** Commit `e4a2304` + Abschluss-Commit auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – **Projekt abgeschlossen:** alle Erfolgskriterien K1–K6 erfüllt, alle Meilensteine M1–M4 erreicht
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
-- **Phase:** Umsetzung abgeschlossen – M1 ✅, M3 ✅, M2/M4 ✅ bis auf eine Nutzerübung (K1 🟡 Rest: C.0 Tastenkürzel + Graph-Ansicht)
+- **Phase:** ✅ Umsetzung abgeschlossen (Phase A–D); Detaildokumentation: [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]], Statusübersicht: [[Abschlussbericht]]
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten
 - **Hinweis:** Auf anderen Geräten wird `workspace.json` beim nächsten `git pull` aus dem Repo gelöscht – Obsidian legt sie beim ersten Start automatisch neu an (harmlos)
-- **Offene Punkte:**
-  - [ ] Nutzerübung: Tastenkürzel (`Strg+P/O/Shift+F/E`) + Graph-Ansicht (C.0-Rest → danach K1 ✅)
-  - [ ] `git pull` auf anderen Geräten verifizieren
-  - [ ] Optional: Pilotdurchlauf des Kurses mit Teilnehmern
+- **Offene Punkte (nächste Projektphase):**
+  - [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
+  - [ ] Erfahrungswerte aus dem Piloten zurück in die Materialien (Kurs-Iteration)
 
 ---
 
