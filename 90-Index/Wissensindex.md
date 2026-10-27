@@ -39,6 +39,12 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 - [[10-Wissensbasis/Erster-Workflow-Test]] – erster Agenten-Durchlauf
 - [[90-Index/Entwicklungsprotokoll]] – Sitzungsübersicht mit Handoff
 
+## Übungen & Beispiele
+
+- [[10-Wissensbasis/Beispielnotiz-Zettelkasten|Beispielnotiz „Zettelkasten"]] – Muster einer vollständigen Wissensnotiz (Vorlagen-Nutzung)
+- [[00-Inbox/Übung Obsidian-Grundlagen]] – Abarbeitungsliste C.0
+- [[00-Inbox/Übungsblatt Neue Notiz]] – konkrete Werte für die Notiz-Übung
+
 ## Wartung
 
 Bei neuen Notizen: hier verlinken oder `/vault-index` ausführen.

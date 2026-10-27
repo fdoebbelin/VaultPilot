@@ -36,6 +36,11 @@ status: active
 - `90-Index/Session-Starter.md` auf aktuellen Stand aktualisiert (veralteter Commit/Modell/Offene-Punkte-Stand)
 - Checkliste: B.4 (MOC) ✅, K2/K3-Status vermerkt
 
+**Nachtrag (Übungsmaterial „Neue Notiz", Nutzerwunsch):**
+- Beispielnotiz `10-Wissensbasis/Beispielnotiz-Zettelkasten.md` dauerhaft hinterlegt – echter Kursinhalt (Zettelkasten-Methode), folgt exakt der Vorlage `Wissensnotiz`, dient als Zielfoto für die Übung
+- Übungsblatt `00-Inbox/Übungsblatt Neue Notiz.md` mit konkreten Werten (Notizname `Was ist ein LLM`, Tags, Template, Zielsortierort), Schrittfolge und Verifikationsliste – bewusst anderes Thema als die Muster-Notiz, damit doppelt Inhalt entsteht: Muster + eigene Notiz
+- Übung Obsidian-Grundlagen verlinkt beide; Wissensindex um Abschnitt „Übungen & Beispiele" erweitert
+
 **3) Abschlussbericht:**
 - `Abschlussbericht.md` vollständig neu gefasst: 5 Teilziele, K1–K6-Statustabelle (K2–K6 ✅, K1 🟡 Rest: Nutzerübungen), Wissensbasis-Tabelle, didaktischer Ansatz, Status „Projektumsetzung abgeschlossen"
 - Commits: `111a39b` (Inhalte), Abschlussbericht im Folge-Commit
@@ -116,6 +121,8 @@ status: active
 - `[[00-Inbox/Übung Obsidian-Grundlagen]]` – neu (C.0-Abarbeitungsliste)
 - `.obsidian/app.json` + `.obsidian/templates.json` – Standardordner für neue Notizen (`00-Inbox`), Template-Ordner (`90-Index/Templates`)
 - `90-Index/Templates/Wissensnotiz.md` – Vorlage mit Frontmatter-Platzhaltern
+- `[[10-Wissensbasis/Beispielnotiz-Zettelkasten]]` – Beispielwissensnotiz (Muster, dauerhaft)
+- `[[00-Inbox/Übungsblatt Neue Notiz]]` – Übungsblatt mit konkreten Werten
 - Commit `111a39b` + Abschlussbericht/Protokoll-Commits
 
 ## Entscheidungen
