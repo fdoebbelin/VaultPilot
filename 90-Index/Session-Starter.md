@@ -9,19 +9,20 @@ status: active
 
 ## Aktueller Stand (zum Kopieren in neue Sitzungen)
 
-- **Letzter Commit:** `5cd2a8e` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
-- **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free`
-- **Phase:** Umsetzung gestartet
+- **Letzter Commit:** siehe [[90-Index/Entwicklungsprotokoll]] → „Aktueller Handoff" (hier nicht doppelt pflegen)
+- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
+- **Konzept:** finalisiert (CONCEPT.md v2, M1 ✅); M3 ✅; M2/M4 🟡 (Rest: C.0-Übungen)
+- **Pfad-Konvention:** Repository immer über `$env:VAULTPILOT` adressieren
 - **Offene Punkte:**
-  - [ ] Konzept finalisieren (Outcome, Meilensteine, Erfolgskriterien)
-  - [ ] Weitere Wissensnotizen für Kursinhalte erstellen
-  - [ ] Obsidian als Auswertungsfläche lokal verifizieren
+  - [ ] C.0-Übungen + Graph-Ansicht (Phase-C-Rest)
+  - [ ] Abschlussbericht finalisieren
 
 ## Wichtigste Dateien
 
 - `90-Index/Entwicklungsprotokoll.md` – zentrale Übersicht mit Handoff
+- `90-Index/Wissensindex.md` – MOC über die Wissensbasis (K3)
 - `90-Index/Sitzungen/` – alle Einzelsitzungsprotokolle
-- `CONCEPT.md` – Projektkonzept
+- `CONCEPT.md` – Projektkonzept (finalisiert)
 - `10-Wissensbasis/` – alle Wissensnotizen
 - `00-Inbox/` – Daily Notes
 

@@ -105,8 +105,8 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
 ### B.4 Wissensindex aktualisieren
 
-- [ ] `/vault-index "Allgemeiner Überblick"` ausführen
-- [ ] Prüfen: MOC in `90-Index/` erstellt/aktualisiert?
+- [x] `/vault-index "Allgemeiner Überblick"` ausführen
+- [x] Prüfen: MOC in `90-Index/` erstellt/aktualisiert? → [[90-Index/Wissensindex]] (2026-10-27 erstellt, verlinkt alle Kernnotizen)
 
 ## Phase C: Obsidian als Auswertungsfläche (Teilziel 4)
 
@@ -114,12 +114,12 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
 Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 
-- [ ] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste
+- [x] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste *(via `workspace.json` belegt: Backlinks-, Outgoing-Links-, Tags-, Outline-Pane eingerichtet)*
 - [ ] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E`
-- [ ] Markdown-Grundlagen und Frontmatter verstanden
-- [ ] `[[Wikilink]]` gesetzt und Backlinks geprüft
+- [x] Markdown-Grundlagen und Frontmatter verstanden *(Leitfaden gelesen; Vault nutzt Frontmatter konsequent)*
+- [x] `[[Wikilink]]` gesetzt und Backlinks geprüft *(Daily Note 2026-10-27 verlinkt; Backlinks-Pane aktiv)*
 - [ ] Graph-Ansicht betrachtet
-- [ ] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung)
+- [x] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung) *(dokumentiert in [[10-Wissensbasis/Git-Grundlagen]])*
 
 ### C.1 Vault in Obsidian öffnen
 
@@ -139,7 +139,7 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 - [x] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
 - [x] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
 - [x] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
-- [ ] Backlinks prüfen (Seitenleiste → Backlinks)
+- [x] Backlinks prüfen (Seitenleiste → Backlinks) *(via `workspace.json` verifiziert: „Rückverweise"-Pane aktiv eingerichtet)*
 
 ## Phase D: Dokumentation & Commit
 
@@ -162,6 +162,7 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 
 ## Nächste Schritte nach Abschluss
 
-- [ ] Konzept finalisieren (Outcome, Meilensteine, Erfolgskriterien präzisieren)
-- [ ] Weitere Wissensnotizen für Kursinhalte erstellen
-- [ ] Obsidian als zentrale Auswertungsfläche nutzen
+- [x] Konzept finalisieren → CONCEPT.md v2, Status final (M1 ✅, 2026-10-27)
+- [x] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2) → [[KI-Agent-vs-Chat]], [[Agenten-Workflow]], [[10-Wissensbasis/Phase-A-Installation]], [[10-Wissensbasis/Git-Grundlagen]], [[10-Wissensbasis/Obsidian-Grundlagen]] (+ Hilfsnotizen), MOC: [[90-Index/Wissensindex]] (K3)
+- [ ] C.0-Rest: Tastenkürzel testen + Graph-Ansicht betrachten (Nutzerübung)
+- [ ] Abschlussbericht finalisieren

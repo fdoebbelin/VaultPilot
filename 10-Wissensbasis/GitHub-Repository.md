@@ -2,7 +2,7 @@
 title: GitHub-Repository – Einrichtung & Workflow
 tags: [github, git, repository, devops, dokumentation]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # GitHub-Repository – Einrichtung & Workflow
@@ -33,13 +33,14 @@ VaultPilot als GitHub-Projekt versionieren und bereitstellen.
 
 - Repo enthält: Konzept, Agenda, Wissensnotizen, Agent-Konfiguration, Vault-Struktur
 - Versionierung begleitet Implementierung & Tests
-- GitHub als Ort der **Verteilung der Wissensbasis**
+- GitHub als Ort der **Verteilung der Wissensbasis** (Teilziel 5)
 
-## Offene Punkte
+## Status
 
-- GitHub-Remote-URL ergänzen
-- Erste Veröffentlichung / Push
+✅ Erledigt: Remote `https://github.com/fdoebbelin/VaultPilot.git` eingerichtet, erste Veröffentlichung gepusht. Der tägliche Workflow (pull/commit/push) ist in [[10-Wissensbasis/Git-Grundlagen]] beschrieben.
 
 ## Links
 
+- [[10-Wissensbasis/Git-Grundlagen]]
 - [[VaultPilot – Konzept]]
+- [[90-Index/Wissensindex]]
