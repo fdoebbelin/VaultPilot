@@ -74,6 +74,18 @@ status: active
 
 **Verifikation:** `Notizname.md` existiert nicht mehr; der Beispielblock rendert als ein zusammenhängender Codeblock
 
+### Englische UI-Labels in deutschem Leitfaden (Nutzerfund Nr. 2)
+
+**Symptom:** Übung „Notiz teilen" war in der Obsidian-Oberfläche nicht auffindbar – kein Menüpunkt „Split right"
+
+**Ursache:** Leitfaden verwendete englische Menübezeichnungen; die Workspace-Konfiguration belegt eine deutsche UI („Rückverweise", „Graph-Ansicht öffnen", „Befehlspalette öffnen"). Für einen deutschsprachigen Kurs sind die deutschen Labels maßgeblich
+
+**Lösung:** Labels in Leitfaden und Übungsnotiz auf deutsche Bezeichnungen korrigiert („Nach rechts aufteilen" / „Nach unten aufteilen"), Klarstellung „auf den Tab-Reiter klicken, nicht in den Notiztext" ergänzt, alternativer Weg über die Befehlspalette (`Strg+P` → „aufteilen") dokumentiert
+
+**Verwerfte Ansätze:** Englische Labels beibehalten mit Hinweis – schlecht für die Zielgruppe; nur Befehlspalette ohne Rechtsklick-Weg – der direkte Weg ist lehrreich
+
+**Verifikation:** Befehlspalette `Strg+P` → Suche nach „aufteilen" zeigt die deutschen Befehle; Übungsnotiz deckt jetzt alle 7 Leitfaden-Übungen ab
+
 ## Artefakte (neu / geändert)
 
 - `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)

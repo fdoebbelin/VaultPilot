@@ -31,7 +31,7 @@ Installation und Vault-Setup: [[10-Wissensbasis/Obsidian-Installation-Einrichtun
 |---|---|
 | Linke Seitenleiste | Datei-Explorer (Ordner/Dateien), Suche, Bookmarks |
 | Rechte Seitenleiste | Backlinks, Outline, Tags |
-| Hauptbereich | Tabs; per Rechtsklick → „Split" in mehrere Panes teilbar |
+| Hauptbereich | Tabs; per Rechtsklick **auf den Tab-Reiter** → „Nach rechts aufteilen" / „Nach unten aufteilen" in mehrere Panes teilbar |
 | Statusleiste unten | Wortanzahl, Backlink-/Linkanzahl der offenen Notiz |
 | Tab-Stammbaum | Oben am Tab: Pfeile für Navigationshistorie (vor/zurück) |
 
@@ -108,10 +108,10 @@ Dieser Vault ist ein Git-Repository – Obsidian und Git arbeiten parallel auf d
 
 ## Übungen (Verifikation)
 
-- [ ] Notiz per `Strg+O` (Quick Switcher) öffnen
-- [ ] In einer Notiz `[[` tippen und einen Link auf eine bestehende Notiz setzen
-- [ ] Backlinks-Pane öffnen und die Verknüpfung beide Richtungen prüfen
-- [ ] Notiz teilen: Rechtsklick auf Tab → „Split right" – zwei Notizen nebeneinander
+- [x] Notiz per `Strg+O` (Quick Switcher) öffnen
+- [x] In einer Notiz `[[` tippen und einen Link auf eine bestehende Notiz setzen
+- [x] Backlinks-Pane öffnen und die Verknüpfung beide Richtungen prüfen
+- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Text) → „Nach rechts aufteilen" – zwei Notizen nebeneinander (alternativ: `Strg+P` → „aufteilen" tippen)
 - [ ] Globale Suche (`Strg+Shift+F`) nach einem Begriff aus der Wissensbasis
 - [ ] Graph-Ansicht öffnen und die Verlinkungsstruktur betrachten
 - [ ] Neue Notiz mit Frontmatter anlegen und in einen MOC verlinken (z. B. über `/vault-index`)

@@ -11,22 +11,27 @@ Praktischer Durchlauf der Übungen aus [[10-Wissensbasis/Obsidian-Grundlagen]] (
 
 ## Tastenkürzel
 
-- [ ] `Strg+O` – Quick Switcher: „git" tippen → Notiz `Git-Grundlagen` öffnen
-- [ ] `Strg+P` – Befehlspalette: „graph" tippen → Graph-Befehle erscheinen sehen
-- [ ] `Strg+Shift+F` – Globale Suche: „Wikilink" suchen → Treffer über alle Notizen
-- [ ] `Strg+E` – Ansicht umschalten (Lesen ↔ Bearbeiten) bei einer Notiz testen
-- [ ] (Optional) `Strg+N` – Neue Notiz, dann `[[` tippen → Autocomplete sehen
+- [x] `Strg+O` – Quick Switcher: „git" tippen → Notiz `Git-Grundlagen` öffnen
+- [x] `Strg+P` – Befehlspalette: „graph" tippen → Graph-Befehle erscheinen sehen
+- [x] `Strg+Shift+F` – Globale Suche: „Wikilink" suchen → Treffer über alle Notizen
+- [x] `Strg+E` – Ansicht umschalten (Lesen ↔ Bearbeiten) bei einer Notiz testen
+- [x] (Optional) `Strg+N` – Neue Notiz, dann `[[` tippen → Autocomplete sehen
 
 > **Vorsicht bei der Wikilink-Übung:** Einen **echten** Notiznamen verwenden (z. B. `KI-Agent-vs-Chat` aus der Autocomplete-Liste wählen) – keinen Namen frei erfinden und nichts aus Codeblöcken klicken/kopieren, sonst entstehen Stub-Notizen (Standard-Ort dafür: Vault-Wurzel).
 
+## Layout
+
+- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Notiztext) → „Nach rechts aufteilen" – zwei Notizen nebeneinander; alternativ `Strg+P` → „aufteilen" tippen
+- [ ] Neue Notiz mit Frontmatter anlegen (`Strg+N`) und im [[90-Index/Wissensindex]] verlinken (echtes Thema wählen, z. B. einen Kursinhalt)
+
 ## Graph-Ansicht
 
-- [ ] `Strg+P` → „Graph-Ansicht öffnen" – Knoten von [[90-Index/Wissensindex]] verbinden alle Kernnotizen
-- [ ] (Optional) In einer Kernnotiz `Strg+P` → „Lokaler Graph" – Nachbarschaft einer einzelnen Notiz
+- [x] `Strg+P` → „Graph-Ansicht öffnen" – Knoten von [[90-Index/Wissensindex]] verbinden alle Kernnotizen
+- [x] (Optional) In einer Kernnotiz `Strg+P` → „Lokaler Graph" – Nachbarschaft einer einzelnen Notiz
 
 ## Aufräumen (falls passiert)
 
-- [ ] Versehentlich erzeugte Stub-Notizen löschen: Datei-Explorer → Rechtsklick → Löschen (z. B. eine Notiz `Notizname` in der Vault-Wurzel)
+- [x] Versehentlich erzeugte Stub-Notizen löschen: Datei-Explorer → Rechtsklick → Löschen (z. B. eine Notiz `Notizname` in der Vault-Wurzel)
 
 ## Warum diese Übung?
 
