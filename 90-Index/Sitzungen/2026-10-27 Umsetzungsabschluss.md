@@ -62,6 +62,18 @@ status: active
 
 **Lösung:** Session-Starter verweist jetzt auf den Handoff-Block im Entwicklungsprotokoll statt einen Commit-Stand doppelt zu pflegen
 
+### Markdown-Beispielblock erzeugte Stub-Notizen beim Klick (Nutzerfund)
+
+**Symptom:** Beim Durchführen der C.0-Übungen erstellte ein Klick auf die Beispiellinks in `10-Wissensbasis/Obsidian-Grundlagen.md` eine Notiz `Notizname.md` in der **Vault-Wurzel**
+
+**Ursache:** Verschachtelte Codefences – der ```-Beispielblock enthielt selbst einen ```python-Block; der äußere Fence schloss dadurch vorzeitig, und die Beispiellinks (`[[Notizname|Anzeigetext]]` etc.) wurden als echte, klickbare Wikilinks gerendert. Obsidian erstellt bei Klick auf ungesetzte Links Stub-Notizen (Standardort: Vault-Root)
+
+**Lösung:** Beispielblock auf 4-Backtick-Fence umgestellt (````markdown … ````), Warnhinweis vor dem Block ergänzt („Beispiele sind nicht klickbar"); Stub-Notiz gelöscht (enthielt nur duplizierten Inhalt, keinen eigenen Wert); zusätzlich Übungsnotiz `00-Inbox/Übung Obsidian-Grundlagen.md` erstellt mit explizitem Warnhinweis zur Wikilink-Übung
+
+**Verwerfte Ansätze:** Beispiellinks aus dem Beispiel entfernen – schlechter fürs Lernen; nur Hinweis ohne Fence-Fix – der Klick-Effekt bliebe
+
+**Verifikation:** `Notizname.md` existiert nicht mehr; der Beispielblock rendert als ein zusammenhängender Codeblock
+
 ## Artefakte (neu / geändert)
 
 - `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)
@@ -71,6 +83,7 @@ status: active
 - `[[Abschlussbericht]]` – neu gefasst
 - `[[10-Wissensbasis/Umsetzung-Checkliste]]` – C.0/C.3/B.4 verifiziert, Abschluss-Sektion aktualisiert
 - `[[10-Wissensbasis/GitHub-Repository]]`, `[[90-Index/Session-Starter]]` – modernisiert
+- `[[00-Inbox/Übung Obsidian-Grundlagen]]` – neu (C.0-Abarbeitungsliste)
 - Commit `111a39b` + Abschlussbericht/Protokoll-Commits
 
 ## Entscheidungen

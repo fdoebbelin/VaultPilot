@@ -52,7 +52,9 @@ Installation und Vault-Setup: [[10-Wissensbasis/Obsidian-Installation-Einrichtun
 
 ## Markdown-Grundlagen
 
-```markdown
+> **Hinweis:** Alle Beispiele stehen bewusst in einem Codeblock und sind **nicht klickbar**. Nur `[[Wikilinks]]` außerhalb von Codeblöcken sind echte Verweise – ein Klick auf die Beispiele würde sonst leere Stub-Notizen erzeugen.
+
+````markdown
 # Überschrift Ebene 1
 ## Überschrift Ebene 2
 
@@ -83,7 +85,7 @@ print("Hallo")
 [[Notizname|Anzeigetext]]
 ![[Notizname]]  <!-- Transklusion: Inhalt einbetten -->
 [Externer Link](https://example.com)
-```
+````
 
 **Frontmatter** (wie in allen VaultPilot-Notizen): YAML-Block ganz oben mit `title`, `created`, `updated`, `tags`, `status` – Obsidian zeigt Tags und Properties damit strukturiert an.
 
