@@ -29,7 +29,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `97ea9aa` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – `.gitignore` eingerichtet, `workspace.json` aus Versionskontrolle entfernt; Sitzungsdokumentation im Folge-Commit
+- **Letzter Stand:** Commit `13516da` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – `.gitignore` eingerichtet, `workspace.json` aus Versionskontrolle entfernt, Solarized-Theme versioniert; Sitzungsdokumentation im Folge-Commit
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
 - **Phase:** Umsetzung; Git-Hygiene abgeschlossen (Phase A Installation, Phase B Workflow-Test, Phase C Auswertung-Leitfaden + erste Daily Note bestehen fort)
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei

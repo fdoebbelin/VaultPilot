@@ -59,6 +59,7 @@ status: active
 ## Hinweise
 
 - Auf anderen Geräten, die das Repo bereits geklont haben, wird `workspace.json` beim nächsten `git pull` aus dem Repo gelöscht – Obsidian legt sie beim ersten Start automatisch neu an (harmlos)
+- **Nachtrag (gleiche Sitzung):** Nutzer hat in Obsidian das Community-Theme „Solarized" aktiviert → `appearance.json` (`cssTheme`) und `.obsidian/themes/Solarized/` wurden versioniert (Commit `13516da`), damit der Vault geräteübergreifend in sich geschlossen bleibt. Wer Themes lieber nicht mitsynchronisiert, kann `.obsidian/themes/` stattdessen in die `.gitignore` aufnehmen.
 
 ## Nützliche Befehle & Snippets
 
