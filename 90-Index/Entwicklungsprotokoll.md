@@ -1,7 +1,7 @@
 ---
 title: Entwicklungsprotokoll VaultPilot
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 type: entwicklungsprotokoll
 tags:
   - entwicklungsprotokoll
@@ -23,15 +23,17 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 |-------|-------|------------------|--------|
 | 2026-10-26 | Projekt-Vorbereitung, Vault-Aufbau, Agenten-Workflow, GitHub-Publish, Sitzungsprotokoll | [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] | abgeschlossen |
 | 2026-10-26 | Umsetzung: Obsidian-Auswertung, erste Daily Note | [[90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung]] | abgeschlossen |
+| 2026-10-27 | Git-Hygiene: arbeitsplatzbezogene Obsidian-Konfiguration ausgeschlossen | [[90-Index/Sitzungen/2026-10-27 Git-Ignore-Arbeitsplatzkonfiguration]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `0fe249c` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`)
-- **Aktives OpenCode-Modell:** `opencode/nemotron-3.5-super-vl-free` (Wechsel von `flint-40b-free` wegen Endpoint-Ausfall)
-- **Phase:** Umsetzung gestartet (Phase A abgeschlossen, Phase B: Workflow-Test erfolgreich, Phase C: Obsidian-Auswertung Leitfaden erstellt, erste Daily Note angelegt, Sessionprotokoll erstellt)
+- **Letzter Stand:** Commit `97ea9aa` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – `.gitignore` eingerichtet, `workspace.json` aus Versionskontrolle entfernt; Sitzungsdokumentation im Folge-Commit
+- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
+- **Phase:** Umsetzung; Git-Hygiene abgeschlossen (Phase A Installation, Phase B Workflow-Test, Phase C Auswertung-Leitfaden + erste Daily Note bestehen fort)
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
+- **Hinweis:** Auf anderen Geräten wird `workspace.json` beim nächsten `git pull` aus dem Repo gelöscht – Obsidian legt sie beim ersten Start automatisch neu an (harmlos)
 - **Offene Punkte:**
   - [ ] Konzept finalisieren (Outcome, Meilensteine, Erfolgskriterien präzisieren)
   - [ ] Weitere Wissensnotizen für Kursinhalte erstellen
@@ -63,3 +65,5 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 - [[90-Index/Handoff-Pickup-Vorlage]] – Vorlage für Sessionprotokolle und Übergaben
 - [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] – detailliertes Protokoll der ersten Sitzung
+- [[90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung]] – Protokoll der Umsetzungssitzung
+- [[90-Index/Sitzungen/2026-10-27 Git-Ignore-Arbeitsplatzkonfiguration]] – Protokoll der Git-Hygiene-Sitzung
