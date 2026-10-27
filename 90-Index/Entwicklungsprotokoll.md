@@ -24,20 +24,22 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | 2026-10-26 | Projekt-Vorbereitung, Vault-Aufbau, Agenten-Workflow, GitHub-Publish, Sitzungsprotokoll | [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] | abgeschlossen |
 | 2026-10-26 | Umsetzung: Obsidian-Auswertung, erste Daily Note | [[90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung]] | abgeschlossen |
 | 2026-10-27 | Git-Hygiene: arbeitsplatzbezogene Obsidian-Konfiguration ausgeschlossen | [[90-Index/Sitzungen/2026-10-27 Git-Ignore-Arbeitsplatzkonfiguration]] | abgeschlossen |
+| 2026-10-27 | Leitfäden: Obsidian-Installation & Obsidian-Grundlagen (Checkliste A.3/C.0) | [[90-Index/Sitzungen/2026-10-27 Obsidian-Leitfäden]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `13516da` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – `.gitignore` eingerichtet, `workspace.json` aus Versionskontrolle entfernt, Solarized-Theme versioniert; Sitzungsdokumentation im Folge-Commit
+- **Letzter Stand:** Commit `3f30fe6` auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Obsidian-Installations- und Grundlagen-Leitfäden ergänzt (Checkliste A.3/C.0); Protokoll im Folge-Commit
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
-- **Phase:** Umsetzung; Git-Hygiene abgeschlossen (Phase A Installation, Phase B Workflow-Test, Phase C Auswertung-Leitfaden + erste Daily Note bestehen fort)
+- **Phase:** Umsetzung; Git-Hygiene abgeschlossen, Obsidian-Dokumentation vervollständigt (Phase A Installation inkl. A.3, Phase B Workflow-Test, Phase C Auswertung-Leitfaden + C.0 Grundlagen + erste Daily Note)
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Auf anderen Geräten wird `workspace.json` beim nächsten `git pull` aus dem Repo gelöscht – Obsidian legt sie beim ersten Start automatisch neu an (harmlos)
 - **Offene Punkte:**
   - [ ] Konzept finalisieren (Outcome, Meilensteine, Erfolgskriterien präzisieren)
+  - [ ] Obsidian-Installation & -Grundlagen praktisch durchlaufen (Checkliste A.3 + C.0, inkl. Übungen)
+  - [ ] Obsidian als Auswertungsfläche lokal durch Nutzer verifizieren (Phase C, Voraussetzung: A.3/C.0)
   - [ ] Weitere Wissensnotizen für Kursinhalte erstellen
-  - [ ] Obsidian als Auswertungsfläche lokal durch Nutzer verifizieren
 
 ---
 
@@ -67,3 +69,4 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 - [[90-Index/Sitzungen/2026-10-26 VaultPilot-Protokoll]] – detailliertes Protokoll der ersten Sitzung
 - [[90-Index/Sitzungen/2026-10-26 Umsetzung Obsidian-Auswertung]] – Protokoll der Umsetzungssitzung
 - [[90-Index/Sitzungen/2026-10-27 Git-Ignore-Arbeitsplatzkonfiguration]] – Protokoll der Git-Hygiene-Sitzung
+- [[90-Index/Sitzungen/2026-10-27 Obsidian-Leitfäden]] – Protokoll der Obsidian-Leitfäden-Sitzung
