@@ -1,0 +1,112 @@
+---
+title: Sessionprotokoll Umsetzungsabschluss
+created: 2026-10-27
+type: sessionprotokoll
+source: opencode
+model: opencode-go/glm-5.3-flash
+tags:
+  - sessionprotokoll
+  - umsetzung
+  - wissensbasis
+  - abschlussbericht
+status: active
+---
+
+# Sessionprotokoll – 2026-10-27 Umsetzungsabschluss
+
+## Ausgangslage
+
+- **Datum:** 2026-10-27 (Fortsetzung nach [[90-Index/Sitzungen/2026-10-27 Konzeptfinalisierung]])
+- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
+- **Letzter Commit (Themenbeginn):** `d36f8d8`
+- **Ziel der Sitzung:** Die drei verbleibenden Punkte in Reihenfolge: 1) C.0-Übungen + Backlinks, 2) Wissensbasis ausbauen (K2/K3), 3) Abschlussbericht finalisieren
+
+## Was getan wurde
+
+**1) Phase-C-Rest (C.0 + Backlinks):**
+- Verifikation über lokale `.obsidian/workspace.json` (gitignored, aber lokal lesbar): **Backlinks-Pane („Rückverweise") aktiv eingerichtet** – zusätzlich Outgoing-Links, Tags, Outline, Properties → C.3-Endpunkt objektiv belegt
+- Daily Note `00-Inbox/2026-10-27.md` erstellt (Übungsmaterial mit Wikilinks auf die neuen Kernnotizen)
+- C.0 in der Checkliste: 4 von 6 Punkten objektiv verifiziert abgehakt; verbleiben Tastenkürzel-Test und Graph-Ansicht (Nutzerübung)
+
+**2) Wissensbasis-Ausbau (K2/K3):**
+- Kernnotiz `10-Wissensbasis/Git-Grundlagen.md` erstellt (täglicher Git-Zyklus, git status lesen, .gitignore, Verifikationsbefehle)
+- Kernnotiz `10-Wissensbasis/Agenten-Workflow.md` erstellt (Prinzip-Zuordnung, `.opencode/`-Bausteine, Handoff/Pickup, kritische Würdigung)
+- `10-Wissensbasis/GitHub-Repository.md` modernisiert: veraltete „Offene Punkte" (Remote/erster Push) als erledigt dokumentiert, Link auf Git-Grundlagen
+- MOC `90-Index/Wissensindex.md` erstellt – verlinkt alle 5 Kernnotizen + Hilfsnotizen (K3)
+- `90-Index/Session-Starter.md` auf aktuellen Stand aktualisiert (veralteter Commit/Modell/Offene-Punkte-Stand)
+- Checkliste: B.4 (MOC) ✅, K2/K3-Status vermerkt
+
+**3) Abschlussbericht:**
+- `Abschlussbericht.md` vollständig neu gefasst: 5 Teilziele, K1–K6-Statustabelle (K2–K6 ✅, K1 🟡 Rest: Nutzerübungen), Wissensbasis-Tabelle, didaktischer Ansatz, Status „Projektumsetzung abgeschlossen"
+- Commits: `111a39b` (Inhalte), Abschlussbericht im Folge-Commit
+
+## Probleme & Lösungen
+
+### GUI-Übungen sind nicht agentenverifizierbar
+
+**Symptom:** C.0 fordert Tastenkürzel-Test und Graph-Ansicht – Aktionen in der Obsidian-GUI, die der Agent nicht ausführen kann
+
+**Ursache:** Grenze der Agent-Fähigkeiten: Dateisystem/CLI ja, GUI nein
+
+**Lösung:** Objektiv Prüfbares über `workspace.json` belegt (Panes, gelesene Leitfäden); die zwei reinen GUI-Übungen explizit als Nutzerübung markiert statt sie fälschlich abzuhaken
+
+**Verwerfte Ansätze:** Alle C.0-Punkte abhaken „im Zweifel für den Nutzer" – wäre eine unvertretbare Behauptung
+
+**Verifikation:** Checkliste C.0 zeigt nachvollziehbar, was belegt und was offen ist
+
+### Veraltete Doppel Pflege in Session-Starter
+
+**Symptom:** `Session-Starter.md` führte eigenen „Letzter Commit"-Stand, der bereits abweichend war (5cd2a8e vs. aktuell)
+
+**Ursache:** Redundanz zur Handoff-Datei
+
+**Lösung:** Session-Starter verweist jetzt auf den Handoff-Block im Entwicklungsprotokoll statt einen Commit-Stand doppelt zu pflegen
+
+## Artefakte (neu / geändert)
+
+- `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)
+- `[[Agenten-Workflow]]` – neu (K2)
+- `[[90-Index/Wissensindex]]` – neu (K3, MOC)
+- `[[00-Inbox/2026-10-27]]` – Daily Note
+- `[[Abschlussbericht]]` – neu gefasst
+- `[[10-Wissensbasis/Umsetzung-Checkliste]]` – C.0/C.3/B.4 verifiziert, Abschluss-Sektion aktualisiert
+- `[[10-Wissensbasis/GitHub-Repository]]`, `[[90-Index/Session-Starter]]` – modernisiert
+- Commit `111a39b` + Abschlussbericht/Protokoll-Commits
+
+## Entscheidungen
+
+- **`workspace.json` als Verifikationsquelle:** die gitignorierte lokale Datei bleibt lesbar und ist objektiver Beleg für Obsidian-Nutzung – dokumentiert als Methode
+- **Kernnotiz-Kanon (5):** KI-Agent-vs-Chat, Agenten-Workflow, Phase-A-Installation (= OpenCode-Setup), Git-Grundlagen, Obsidian-Grundlagen – entspricht exakt den in K2 genannten Kursinhalten
+
+## Nützliche Befehle & Snippets
+
+```powershell
+Get-Content .obsidian\workspace.json   # Beleg: welche Obsidian-Panes aktiv sind
+```
+
+## Nächste Schritte (Pickup für nächste Sitzung)
+
+- [ ] Nutzerübung: Tastenkürzel `Strg+P/O/Shift+F/E` + Graph-Ansicht (C.0-Rest, danach K1 ✅)
+- [ ] Auf anderen Geräten `git pull` verifizieren
+- [ ] Optional: Kursdurchlauf mit echten Teilnehmern pilotieren
+
+---
+
+## Handoff (für Übergabe an nächste Sitzung)
+
+**Zusammenfassung in 1–2 Sätzen:**
+
+Die Umsetzung ist abgeschlossen: K2 (5 Kernnotizen), K3 (MOC), K4–K6 sind erfüllt, der Abschlussbericht ist neu gefasst – einzig die zwei GUI-Übungen (Tastenkürzel, Graph) liegen beim Nutzer. Danach ist K1 und damit die gesamte Checkliste vollständig.
+
+**Wichtigste Dateien/Commits:**
+
+- Commit `111a39b` – Kernnotizen, MOC, Daily Note, Checklisten-Verifikation
+- `Abschlussbericht.md` – Status „Projektumsetzung abgeschlossen"
+
+**Modell:** `opencode-go/glm-5.3-flash`
+
+**Offen für nächste Sitzung:**
+
+- [ ] C.0-Rest (Nutzerübung: Tastenkürzel + Graph)
+- [ ] git pull auf anderen Geräten
+- [ ] Pilotdurchlauf mit Teilnehmern

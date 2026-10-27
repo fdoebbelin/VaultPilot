@@ -1,42 +1,78 @@
+---
+title: VaultPilot – Abschlussbericht
+created: 2026-10-26
+updated: 2026-10-27
+tags:
+  - abschlussbericht
+  - vaultpilot
+status: active
+---
+
 # VaultPilot – Abschlussbericht
 
 ## 1. Ausgangslage
 
-Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Fokus: **Aufbau und Verwaltung eines Obsidian Vaults** zum **Wissensmanagement** – als „zweites Gehirn“.
+Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Fokus: **Aufbau und Verwaltung eines Obsidian Vaults** zum **Wissensmanagement** – als „zweites Gehirn". Zielgruppe: Fachinformatiker aller Richtungen im 2. Ausbildungsjahr.
 
 ## 2. Projektziele
 
 - **Zentrales Ziel:** Wissen strukturiert ablegen, vernetzen und dauerhaft pflegen – unterstützt und automatisiert durch einen KI-Agenten.
-- **Teilziele:**
-  1. Installation & Setup (Windows / PowerShell + scoop, OpenCode)
+- **Teilziele** (finalisiert, siehe `CONCEPT.md`):
+  1. Installation & Setup (Windows / PowerShell + scoop: OpenCode, Obsidian, Git)
   2. Einführung KI-Agent (Chat vs. Agent, Funktionsweise: Ziel → Plan → Tool-Use → Iteration)
   3. Aufbau Wissensbasis (Agent erstellt, strukturiert, vernetzt Notizen)
   4. Einsatz Obsidian als Auswertung (Durchsuchen, Verwalten, Auswerten)
+  5. Verteilung & Versionierung über GitHub (Git-Workflow, Pfad-Konvention)
+- **Abgrenzungen:** keine Plugin-Entwicklung, kein Obsidian Sync (Abo), keine Mobile-Einrichtung, kein macOS/Linux
 
 ## 3. Durchgeführte Schritte
 
-1. **Projekt-Konzept & Ziele:** Finalisiert (`CONCEPT.md`)
-2. **Vault-Struktur:** Initialisiert (`.obsidian/`, `00-Inbox/`, `10-Wissensbasis/`, `90-Index/`)
-3. **Agenten-Workflow:** Definiert (`.opencode/agents/vaultpilot.md`, Commands `/vault-new`, `/vault-link`, `/vault-index`)
-4. **Implementierung & Tests:** Konfigurations-Validierung ✅, Vault-Konventionen im Agent ergänzt ✅
+1. **Projekt-Konzept & Ziele:** Finalisiert (CONCEPT.md v2 mit 5 Teilzielen, Abgrenzungen, Erfolgskriterien K1–K6 – M1 ✅)
+2. **Vault-Struktur:** Initialisiert (`.obsidian/`, `00-Inbox/`, `10-Wissensbasis/`, `90-Index/`) mit Frontmatter-/Tag-Konventionen
+3. **Agenten-Workflow:** Definiert und getestet (`.opencode/agents/vaultpilot.md`, Commands `/vault-new`, `/vault-link`, `/vault-index`) – M3 ✅
+4. **Installation & Setup:** OpenCode per scoop ([[10-Wissensbasis/Phase-A-Installation]]), Obsidian ([[10-Wissensbasis/Obsidian-Installation-Einrichtung]]), Git-Hygiene (`.gitignore`, `workspace.json` aus VCS entfernt), Pfad-Konvention `$env:VAULTPILOT`
+5. **Obsidian als Auswertungsfläche:** Core-Plugins (Daily Notes, Templates, Backlinks) verifiziert, Daily Notes mit Wikilinks, Backlinks-Pane aktiv – M4 weitgehend ✅
+6. **Dokumentation:** Entwicklungsprotokoll mit Handoff/Pickup-Workflow, 6 Sessionprotokolle, Leitfäden für Installation und Grundlagen
 
 ## 4. Wissensbasis
 
-- `10-Wissensbasis/Konzept.md` – erster Wissensstand (Entwurf)
-- `10-Wissensbasis/KI-Agent-vs-Chat.md` – Vergleich: KI-Agent vs. KI-Chat
+**Kernnotizen (Erfolgskriterium K2 erfüllt – 5 Kernnotizen, jede mit Frontmatter und `[[Wikilink]]`):**
+
+| Kernnotiz | Kursinhalt |
+|---|---|
+| [[KI-Agent-vs-Chat]] | Einführung KI-Agent (Teilziel 2) |
+| [[Agenten-Workflow]] | Agenten-Prinzip konkret + kritische Prüfung (Teilziel 2/3) |
+| [[10-Wissensbasis/Phase-A-Installation]] | OpenCode-Setup (Teilziel 1) |
+| [[10-Wissensbasis/Git-Grundlagen]] | Git-Workflow & Versionierung (Teilziel 5) |
+| [[10-Wissensbasis/Obsidian-Grundlagen]] | Obsidian-Bedienung (Teilziel 4) |
+
+**Unterstützende Notizen:** [[10-Wissensbasis/Obsidian-Installation-Einrichtung]], [[10-Wissensbasis/Obsidian-Auswertung-Einrichten]], [[10-Wissensbasis/GitHub-Repository]], [[10-Wissensbasis/Erster-Workflow-Test]], [[10-Wissensbasis/Umsetzung-Checkliste]].
+**Index/MOC:** [[90-Index/Wissensindex]] (K3 ✅) · **Sitzungsdokumentation:** [[90-Index/Entwicklungsprotokoll]] mit 6 Protokollen in `90-Index/Sitzungen/`.
 
 ## 5. Ergebnisse
 
-- Agenten-Workflow implementiert und konfiguriert
-- Vault-Struktur mit Konventionen aufgesetzt
-- Implementierung validiert (JSON, Frontmatter, Command-Werte)
+- **Agenten-Workflow** produktiv im Einsatz: Der Agent hat sämtliche Projektartefakte (Notizen, Leitfäden, Protokolle, Konzept) erstellt, vernetzt und versioniert – der Kurs nutzt sein eigenes Werkzeug als Demonstrationsobjekt
+- **Wissensbasis** gemäß K2/K3 aufgebaut und verlinkt
+- **Verteilung** funktioniert (K5): Repository auf GitHub, arbeitsplatzbezogene Dateien ignoriert, Pfad-Konvention dokumentiert und in Agent-Regeln verankert
+- **Auswertung** verifiziert (K6): Vault in Obsidian, Core-Plugins aktiv, Backlinks-Pane eingerichtet
+- **Didaktik:** „Vertrauen durch Verifikation" – Agenten-Aussagen werden anhand Checklisten und `git`-Befehlen geprüft; alle Erfolgskriterien sind objektiv agentenprüfbar
 
-## 6. Offene Punkte & nächste Schritte
+## 6. Erfolgskriterien (Status)
 
-- [ ] Umsetzung: Installation, Einführung, Wissensbasis-Aufbau (laut CONCEPT.md)
-- [ ] Obsidian als Auswertungsfläche einsetzen
-- [ ] Dokumentation & finale Kursabgabe vorbereiten
+| Kriterium | Status |
+|---|---|
+| K1 – Checkliste vollständig | 🟡 Rest: 2 Nutzerübungen (Tastenkürzel, Graph-Ansicht) |
+| K2 – 5–7 Kernnotizen | ✅ |
+| K3 – MOC verlinkt Kernnotizen | ✅ |
+| K4 – Agenten-Workflow funktionsfähig | ✅ |
+| K5 – Verteilung funktioniert | ✅ |
+| K6 – Auswertung verifiziert | ✅ |
+
+## 7. Offene Punkte & nächste Schritte
+
+- [ ] C.0-Rest: Tastenkürzel (`Strg+P/O/Shift+F/E`) testen und Graph-Ansicht betrachten (Nutzerübung, 5 Minuten)
+- [ ] Auf weiteren Geräten: `git pull` – dort wird `workspace.json` entfernt und von Obsidian neu angelegt (erwartetes Verhalten)
 
 ---
 
-Status: 🚧 Abschlussbericht erstellt – Projekt in Umsetzung
+Status: ✅ Projektumsetzung abgeschlossen (Rest: 1 Nutzerübung) – 2026-10-27
