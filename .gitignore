@@ -1,0 +1,22 @@
+# ── Obsidian: arbeitsplatzbezogene Dateien ─────────────────────────
+# Fenstersitzung (geöffnete Tabs, Panes, Scrollposition) – ändert sich bei jeder Nutzung
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+# Interner Cache (Suchindex etc.)
+.obsidian/cache/
+# Obsidian-Papierkorb
+.trash/
+
+# Optional: Plugin-Ordner werden bei Installation ohnehin neu geladen
+# .obsidian/plugins/
+# Optional: Plugin-Einstellungen, falls diese pro Arbeitsplatz unterschiedlich sein sollen
+# .obsidian/plugins/*/data.json
+
+# ── Betriebssystem ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / Tools (optional entkommentieren) ───────────────────────
+# .vscode/
+# .idea/
