@@ -21,7 +21,7 @@ Praktischer Durchlauf der Übungen aus [[10-Wissensbasis/Obsidian-Grundlagen]] (
 
 ## Layout
 
-- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Notiztext) → „Nach rechts aufteilen" – zwei Notizen nebeneinander; alternativ `Strg+P` → „aufteilen" tippen
+- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Notiztext) → „Rechts teilen" – zwei Notizen nebeneinander; alternativ `Strg+P` → „teilen" tippen
 - [ ] Neue Notiz mit Frontmatter anlegen (`Strg+N`) und im [[90-Index/Wissensindex]] verlinken (echtes Thema wählen, z. B. einen Kursinhalt)
 
 ## Graph-Ansicht

@@ -31,7 +31,7 @@ Installation und Vault-Setup: [[10-Wissensbasis/Obsidian-Installation-Einrichtun
 |---|---|
 | Linke Seitenleiste | Datei-Explorer (Ordner/Dateien), Suche, Bookmarks |
 | Rechte Seitenleiste | Backlinks, Outline, Tags |
-| Hauptbereich | Tabs; per Rechtsklick **auf den Tab-Reiter** → „Nach rechts aufteilen" / „Nach unten aufteilen" in mehrere Panes teilbar |
+| Hauptbereich | Tabs; per Rechtsklick **auf den Tab-Reiter** → „Rechts teilen“ / „Unten teilen“ in mehrere Panes teilbar (Label kann je nach Version variieren – Suchbegriff in der Befehlspalette: „teilen“) |
 | Statusleiste unten | Wortanzahl, Backlink-/Linkanzahl der offenen Notiz |
 | Tab-Stammbaum | Oben am Tab: Pfeile für Navigationshistorie (vor/zurück) |
 
@@ -48,7 +48,7 @@ Installation und Vault-Setup: [[10-Wissensbasis/Obsidian-Installation-Einrichtun
 | `[[` eingeben | Wikilink-Auswahlliste (Autocomplete über alle Notizen) |
 | `Strg+G` | Graph-Ansicht (Befehl „Open graph view") |
 
-**Faustregel:** Befehlspalette (`Strg+P`) statt Menüs suchen – fast alles ist dort erreichbar und benennbar.
+**Faustregel:** Befehlspalette (`Strg+P`) statt Menüs suchen – fast alles ist dort erreichbar. **Bei unbekanntem Wortlaut mit Teilworten suchen** (z. B. „teilen" statt den vollen Menüpunkt raten): Menü- und Befehls-Labels variieren je nach Obsidian-Version und Sprache.
 
 ## Markdown-Grundlagen
 
@@ -111,7 +111,7 @@ Dieser Vault ist ein Git-Repository – Obsidian und Git arbeiten parallel auf d
 - [x] Notiz per `Strg+O` (Quick Switcher) öffnen
 - [x] In einer Notiz `[[` tippen und einen Link auf eine bestehende Notiz setzen
 - [x] Backlinks-Pane öffnen und die Verknüpfung beide Richtungen prüfen
-- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Text) → „Nach rechts aufteilen" – zwei Notizen nebeneinander (alternativ: `Strg+P` → „aufteilen" tippen)
+- [ ] Notiz teilen: Rechtsklick **auf den Tab-Reiter** (Reiter oben, nicht in den Text) → „Rechts teilen" – zwei Notizen nebeneinander (alternativ: `Strg+P` → „teilen" tippen)
 - [ ] Globale Suche (`Strg+Shift+F`) nach einem Begriff aus der Wissensbasis
 - [ ] Graph-Ansicht öffnen und die Verlinkungsstruktur betrachten
 - [ ] Neue Notiz mit Frontmatter anlegen und in einen MOC verlinken (z. B. über `/vault-index`)

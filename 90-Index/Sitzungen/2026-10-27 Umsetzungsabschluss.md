@@ -86,6 +86,8 @@ status: active
 
 **Verifikation:** Befehlspalette `Strg+P` → Suche nach „aufteilen" zeigt die deutschen Befehle; Übungsnotiz deckt jetzt alle 7 Leitfaden-Übungen ab
 
+**Korrektur (Nutzerfeedback, gleiche Sitzung):** Tatsächliches Kontextmenü-Label laut Nutzer: **„Rechts teilen"** (nicht „Nach rechts aufteilen"); in der Befehlspalette findet man die Funktion über den Suchbegriff **„teilen"**. Dokumentationsregel daraus: Menü-Labels nicht als exakte Namen behaupten, sondern belegte Labels verwenden und zusätzlich den **Suchbegriff** angeben – Labels variieren je nach Obsidian-Version und Übersetzung. Faustregel im Leitfaden entsprechend ergänzt.
+
 ## Artefakte (neu / geändert)
 
 - `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)
