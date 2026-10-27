@@ -57,15 +57,17 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 
 Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
-- [ ] Obsidian installieren (Variante 1, konsistent mit OpenCode):
+- [x] Obsidian installieren (Variante 1, konsistent mit OpenCode):
   ```powershell
   scoop bucket add extras
   scoop install obsidian
   ```
   (Alternativ: Installer von https://obsidian.md oder `winget install Obsidian.Obsidian`)
-- [ ] VaultPilot-Ordner als Vault öffnen (nicht „Create new vault")
-- [ ] Prüfen: `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
-- [ ] Grundkonfiguration geladen (Theme, aktivierten Plugins, Daily-Notes-Speicherort)
+- [x] VaultPilot-Ordner als Vault öffnen (nicht „Create new vault")
+- [x] Prüfen: `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
+- [x] Grundkonfiguration geladen (Theme, aktivierten Plugins, Daily-Notes-Speicherort)
+
+> **Verifiziert am 2026-10-27 (dieser Rechner):** Installation via offiziellem Installer (Variante 2) unter `%LOCALAPPDATA%\Programs\Obsidian\Obsidian.exe`; Vault als geöffnet registriert in `%APPDATA%\obsidian\obsidian.json`; Theme Solarized geladen (siehe Commit `13516da`).
 
 ## Phase B: Erster Workflow-Test (Teilziel 3)
 
@@ -114,22 +116,22 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]]
 
 ### C.1 Vault in Obsidian öffnen
 
-- [ ] Obsidian starten und VaultPilot-Vault öffnen: `C:\Users\fritz\Projects\VaultPilot`
-- [ ] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
+- [x] Obsidian starten und VaultPilot-Vault öffnen: `C:\Users\fritz\Projects\VaultPilot`
+- [x] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
 
 ### C.2 Core-Plugins aktivieren
 
-- [ ] Einstellungen → Core Plugins
-- [ ] `Daily Notes` aktiviert
-- [ ] `Templates` aktiviert
-- [ ] `Backlinks` aktiviert
-- [ ] Daily Notes Speicherort auf `00-Inbox` setzen
+- [x] Einstellungen → Core Plugins
+- [x] `Daily Notes` aktiviert (verifiziert via `core-plugins.json`)
+- [x] `Templates` aktiviert
+- [x] `Backlinks` aktiviert
+- [x] Daily Notes Speicherort auf `00-Inbox` setzen (verifiziert via `daily-notes.json`)
 
 ### C.3 Erste Daily Note erstellen und verknüpfen
 
-- [ ] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
-- [ ] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
-- [ ] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
+- [x] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
+- [x] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
+- [x] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
 - [ ] Backlinks prüfen (Seitenleiste → Backlinks)
 
 ## Phase D: Dokumentation & Commit
