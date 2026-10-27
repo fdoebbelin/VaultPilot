@@ -26,17 +26,18 @@ Wissen strukturiert ablegen, vernetzen und dauerhaft pflegen – unterstützt un
 
 ## 📅 Roadmap
 
-- [x] Projekt-Konzept & Ziele
+- [x] Projekt-Konzept & Ziele (finalisiert am 2026-10-27, siehe `CONCEPT.md`)
 - [x] Git/GitHub-Repository anlegen
-- [ ] Vault-Struktur (Ordner / Tags / Frontmatter)
-- [x] Agenten-Workflow mit OpenCode definieren
-- [ ] Implementierung & Tests
-- [x] Dokumentation & Abschlussbericht
+- [x] Vault-Struktur (Ordner / Tags / Frontmatter)
+- [x] Agenten-Workflow mit OpenCode definiert und getestet
+- [ ] Implementierung & Tests (Rest: Obsidian-Grundlagen-Übungen, Backlinks, Notiz-Ausbau)
+- [ ] Abschlussbericht finalisieren
 
 ## 🔭 Nächste Schritte
 
-- [ ] GitHub-Repository initialisieren
-- [ ] Umsetzung: Installation, Einführung, Wissensbasis-Aufbau
+- [ ] C.0-Übungen durchlaufen + Backlinks-Ansicht prüfen (Phase-C-Rest)
+- [ ] Wissensbasis auf 5–7 Kernnotizen ausbauen (Erfolgskriterium K2)
+- [ ] Abschlussbericht finalisieren
 
 ## Status
 
