@@ -37,7 +37,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 - **Letzter Stand:** Commit `b5b40cd` + Protokoll-Commit auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Projekt abgeschlossen (K1–K6 ✅, M1–M4 ✅); für die Pilotphase ergänzt: `Einstieg.md` (Außenstehenden-Einstieg) und Command `/vault-reset` (definierter Startpunkt)
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
 - **Phase:** Pilotvorbereitung – Umsetzung (Phase A–D) ist abgeschlossen; Detaildokumentation: [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]], Statusübersicht: [[Abschlussbericht]], Einstieg für Außenstehende: [[Einstieg]]
-- **Hinweis:** `/vault-reset` wurde noch nicht live ausgeführt – erstes Kommando: `/vault-reset check` (Inventur ohne Änderungen); `apply` fragt vor jedem Löschen/Verschieben nach
+- **Hinweis:** `/vault-reset` ist live getestet (check ✓, apply ✓ – 42 Checkboxen zurückgesetzt, Reset noch unversioniert); abgearbeitete Daily Notes werden nach `20-Archiv/` **in Obsidian per Drag & Drop** archiviert (Nutzer macht das selbst – Obsidian aktualisiert die Wikilinks), die Tages-Note des aktuellen Tages bleibt in der Inbox
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten

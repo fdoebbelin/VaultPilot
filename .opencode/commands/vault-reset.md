@@ -21,7 +21,7 @@ Arbeite im Vault-Root (Konvention: `$env:VAULTPILOT`, keine hartcodierten Pfade)
 - `Übung Obsidian-Grundlagen.md`
 - `Übungsblatt Neue Notiz.md`
 
-Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehentliche Stub-Notizen) ist **Überschuss**.
+Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehentliche Stub-Notizen) ist **Überschuss** – mit einer Ausnahme: die **Daily Note des aktuellen Tages** gilt als aktives Arbeitsmittel und bleibt in `00-Inbox/` (sie entsteht ohnehin automatisch dort; bei ihrem Verschwinden gilt die Archivierungs-Regel unten).
 
 **Checkbox-Zurücksetzung gilt nur für Arbeitsmaterial – namentlich festgelegt:**
 
@@ -46,7 +46,8 @@ Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehen
 
 1. Für jede Überschuss-Datei einen Vorschlag unterbreiten:
    - **Wissensinhalt** (ausgearbeitete Notiz) → Verschiebung nach `10-Wissensbasis/` vorschlagen
-   - **veraltet/unerwünscht** → Löschen vorschlagen
+   - **abgearbeitete Daily Note** (älter als heute) → **Archivierung** vorschlagen: der **Nutzer verschiebt sie selbst in Obsidian** nach `20-Archiv/` (Drag & Drop im Datei-Explorer) – so aktualisiert Obsidian alle `[[Wikilinks]]` automatisch. Der Agent verschiebt Daily Notes **nicht** per Dateisystem (Link-Bruch-Risiko); er gibt nur die Anleitung und verifiziert danach das Ergebnis.
+   - **veraltet/unerwünscht** (ohne eingehende Links) → Löschen vorschlagen
    - **unklar** → Behalten vorschlagen und nachfragen
 2. Checkbox-Reset ankündigen (Dateiliste + Trefferzahlen).
 3. **Warte auf die explizite Bestätigung des Nutzers.** Niemals ohne Bestätigung löschen oder verschieben (Agenten-Regel: keine Löschungen ohne explizite Nutzeranfrage).
@@ -72,6 +73,6 @@ Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehen
 
 ### Phase 4 – Verifikation & Abschlussbericht
 
-1. `00-Inbox/` erneut listen → muss exakt die zwei Startdokumente enthalten (plus: was der Nutzer in Phase 2 ausdrücklich behalten wollte).
+1. `00-Inbox/` erneut listen → erwarteter Zustand: die zwei Startdokumente, optional die Daily Note des aktuellen Tages, sowie was der Nutzer in Phase 2 ausdrücklich behalten wollte.
 2. Ziel-Dateien nach `- [x]` durchsuchen → erwartet: 0 Treffer.
 3. `git status` zusammenfassen und einen Commit-Vorschlag unterbreiten (z. B. `vault-reset: definierter Startpunkt hergestellt`) – Ausführung erst nach Bestätigung.

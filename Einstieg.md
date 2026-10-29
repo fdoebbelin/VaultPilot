@@ -52,7 +52,7 @@ opencode
 
 Er macht genau zwei Dinge – und bewusst nichts anderes:
 
-1. **00-Inbox prüfen:** Dort dürfen nur die zwei Startdokumente liegen (`Übung Obsidian-Grundlagen`, `Übungsblatt Neue Notiz`). Alles andere (Daily Notes alter Tage, Übungsergebnisse, Stub-Notizen) meldet der Agent als Überschuss und schlägt pro Datei einen Umgang vor (verschieben nach `10-Wissensbasis/` / löschen / behalten). **Nichts wird ohne deine Bestätigung verschoben oder gelöscht.**
+1. **00-Inbox prüfen:** Dort dürfen nur die zwei Startdokumente liegen (`Übung Obsidian-Grundlagen`, `Übungsblatt Neue Notiz`) – plus die Daily Note des aktuellen Tages als aktives Arbeitsmittel. Alles andere meldet der Agent als Überschuss und schlägt pro Datei einen Umgang vor: ausgearbeitete Notizen verschieben nach `10-Wissensbasis/`; **abgearbeitete Daily Notes nach `20-Archiv/` archivieren – das nimmst du selbst in Obsidian per Drag & Drop vor**, damit Obsidian die Wikilinks automatisch aktualisiert (der Agent verschiebt sie bewusst nicht per Dateisystem); unverlinktes Zeug löschen. **Nichts wird ohne deine Bestätigung verschoben oder gelöscht.**
 2. **Checkboxen zurücksetzen:** Alle `- [x]` im Arbeitsmaterial (Umsetzung-Checkliste + Übungsdocs in 00-Inbox) werden zu `- [ ]`, damit Übungen erneut durchlaufen werden können.
 
 Nicht angefasst werden Historie und Statusdokumente: Sessionprotokolle, Daily Notes, `README.md`, `CONCEPT.md`, `Abschlussbericht.md`, der Wissensindex und die übrigen Wissensnotizen.
@@ -65,7 +65,8 @@ Nicht angefasst werden Historie und Statusdokumente: Sessionprotokolle, Daily No
 | `Einstieg.md` | dieses Dokument |
 | `CONCEPT.md` | finalisiertes Projektkonzept (Teilziele, Abgrenzungen, Erfolgskriterien K1–K6, Meilensteine M1–M4) |
 | `Abschlussbericht.md` | Projektabschluss mit Status aller Erfolgskriterien |
-| `00-Inbox/` | Startdokumente (Übungen), Daily Notes |
+| `00-Inbox/` | Startdokumente (Übungen) + Daily Note des aktuellen Tages (Erfassung) |
+| `20-Archiv/` | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten) |
 | `10-Wissensbasis/` | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste) |
 | `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlage für Notizen](90-Index/Templates/Wissensnotiz.md) |
 | `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`) |

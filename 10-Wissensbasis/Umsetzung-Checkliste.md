@@ -64,15 +64,15 @@ Konkrete Aufgabenliste für die Umsetzungsphase des VaultPilot-Projekts (laut CO
 
 Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
-- [x] Obsidian installieren (Variante 1, konsistent mit OpenCode):
+- [ ] Obsidian installieren (Variante 1, konsistent mit OpenCode):
   ```powershell
   scoop bucket add extras
   scoop install obsidian
   ```
   (Alternativ: Installer von https://obsidian.md oder `winget install Obsidian.Obsidian`)
-- [x] VaultPilot-Ordner als Vault öffnen (nicht „Create new vault")
-- [x] Prüfen: `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
-- [x] Grundkonfiguration geladen (Theme, aktivierten Plugins, Daily-Notes-Speicherort)
+- [ ] VaultPilot-Ordner als Vault öffnen (nicht „Create new vault")
+- [ ] Prüfen: `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
+- [ ] Grundkonfiguration geladen (Theme, aktivierten Plugins, Daily-Notes-Speicherort)
 
 > **Verifiziert am 2026-10-27 (dieser Rechner):** Installation via offiziellem Installer (Variante 2) unter `%LOCALAPPDATA%\Programs\Obsidian\Obsidian.exe`; Vault als geöffnet registriert in `%APPDATA%\obsidian\obsidian.json`; Theme Solarized geladen (siehe Commit `13516da`).
 
@@ -105,8 +105,8 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
 ### B.4 Wissensindex aktualisieren
 
-- [x] `/vault-index "Allgemeiner Überblick"` ausführen
-- [x] Prüfen: MOC in `90-Index/` erstellt/aktualisiert? → [[90-Index/Wissensindex]] (2026-10-27 erstellt, verlinkt alle Kernnotizen)
+- [ ] `/vault-index "Allgemeiner Überblick"` ausführen
+- [ ] Prüfen: MOC in `90-Index/` erstellt/aktualisiert? → [[90-Index/Wissensindex]] (2026-10-27 erstellt, verlinkt alle Kernnotizen)
 
 ## Phase C: Obsidian als Auswertungsfläche (Teilziel 4)
 
@@ -114,32 +114,32 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 
 Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]] · Abarbeitungsnachweis: [[00-Inbox/Übung Obsidian-Grundlagen]]
 
-- [x] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste *(via `workspace.json` belegt)*
-- [x] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E` *(Nutzerübung 2026-10-27, in Übungsnotiz abgehakt)*
-- [x] Markdown-Grundlagen und Frontmatter verstanden *(Leitfaden + Teilnehmernotiz erstellt)*
-- [x] `[[Wikilink]]` gesetzt und Backlinks geprüft *(Teilnehmernotiz mit 3 Links; Backlinks-Pane aktiv)*
-- [x] Graph-Ansicht betrachtet *(Nutzerübung 2026-10-27; `graph.json` angelegt)*
-- [x] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung) *(dokumentiert in [[10-Wissensbasis/Git-Grundlagen]])*
+- [ ] Oberfläche bekannt: Seitenleisten, Tabs, Panes, Statusleiste *(via `workspace.json` belegt)*
+- [ ] Tastenkürzel getestet: `Strg+P`, `Strg+O`, `Strg+Shift+F`, `Strg+E` *(Nutzerübung 2026-10-27, in Übungsnotiz abgehakt)*
+- [ ] Markdown-Grundlagen und Frontmatter verstanden *(Leitfaden + Teilnehmernotiz erstellt)*
+- [ ] `[[Wikilink]]` gesetzt und Backlinks geprüft *(Teilnehmernotiz mit 3 Links; Backlinks-Pane aktiv)*
+- [ ] Graph-Ansicht betrachtet *(Nutzerübung 2026-10-27; `graph.json` angelegt)*
+- [ ] Sync-Regeln für Git-Vault bekannt (pull vor / push nach Sitzung) *(dokumentiert in [[10-Wissensbasis/Git-Grundlagen]])*
 
 ### C.1 Vault in Obsidian öffnen
 
-- [x] Obsidian starten und VaultPilot-Vault öffnen: `$env:VAULTPILOT`
-- [x] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
+- [ ] Obsidian starten und VaultPilot-Vault öffnen: `$env:VAULTPILOT`
+- [ ] Prüfen: Ordner `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` sichtbar
 
 ### C.2 Core-Plugins aktivieren
 
-- [x] Einstellungen → Core Plugins
-- [x] `Daily Notes` aktiviert (verifiziert via `core-plugins.json`)
-- [x] `Templates` aktiviert
-- [x] `Backlinks` aktiviert
-- [x] Daily Notes Speicherort auf `00-Inbox` setzen (verifiziert via `daily-notes.json`)
+- [ ] Einstellungen → Core Plugins
+- [ ] `Daily Notes` aktiviert (verifiziert via `core-plugins.json`)
+- [ ] `Templates` aktiviert
+- [ ] `Backlinks` aktiviert
+- [ ] Daily Notes Speicherort auf `00-Inbox` setzen (verifiziert via `daily-notes.json`)
 
 ### C.3 Erste Daily Note erstellen und verknüpfen
 
-- [x] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
-- [x] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
-- [x] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
-- [x] Backlinks prüfen (Seitenleiste → Backlinks) *(via `workspace.json` verifiziert: „Rückverweise"-Pane aktiv eingerichtet)*
+- [ ] Erste Daily Note erstellen (Strg+P → „Tagesnotiz erstellen")
+- [ ] Prüfen: Wurde in `00-Inbox/` abgelegt? (laut `daily-notes.json`)
+- [ ] Daily Note per `[[Wikilink]]` mit einer Wissensnotiz verknüpfen (z. B. `[[Erster-Workflow-Test]]`)
+- [ ] Backlinks prüfen (Seitenleiste → Backlinks) *(via `workspace.json` verifiziert: „Rückverweise"-Pane aktiv eingerichtet)*
 
 ## Phase D: Dokumentation & Commit
 
@@ -162,9 +162,9 @@ Leitfaden mit Übungen: [[10-Wissensbasis/Obsidian-Grundlagen]] · Abarbeitungsn
 
 ## Nächste Schritte nach Abschluss
 
-- [x] Konzept finalisieren → CONCEPT.md v2, Status final (M1 ✅, 2026-10-27)
-- [x] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2) → [[KI-Agent-vs-Chat]], [[Agenten-Workflow]], [[10-Wissensbasis/Phase-A-Installation]], [[10-Wissensbasis/Git-Grundlagen]], [[10-Wissensbasis/Obsidian-Grundlagen]] (+ Hilfsnotizen), MOC: [[90-Index/Wissensindex]] (K3)
-- [x] C.0-Rest: Tastenkürzel testen + Graph-Ansicht betrachten (Nutzerübung 2026-10-27, Nachweis: [[00-Inbox/Übung Obsidian-Grundlagen]])
-- [x] Abschlussbericht finalisieren (2026-10-27)
+- [ ] Konzept finalisieren → CONCEPT.md v2, Status final (M1 ✅, 2026-10-27)
+- [ ] Wissensbasis auf 5–7 Kernnotizen ausbauen (K2) → [[KI-Agent-vs-Chat]], [[Agenten-Workflow]], [[10-Wissensbasis/Phase-A-Installation]], [[10-Wissensbasis/Git-Grundlagen]], [[10-Wissensbasis/Obsidian-Grundlagen]] (+ Hilfsnotizen), MOC: [[90-Index/Wissensindex]] (K3)
+- [ ] C.0-Rest: Tastenkürzel testen + Graph-Ansicht betrachten (Nutzerübung 2026-10-27, Nachweis: [[00-Inbox/Übung Obsidian-Grundlagen]])
+- [ ] Abschlussbericht finalisieren (2026-10-27)
 
 **Alle Phasen A–D abgeschlossen (2026-10-27). Alle Erfolgskriterien K1–K6 erfüllt.**

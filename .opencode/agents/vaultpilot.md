@@ -38,7 +38,7 @@ Führe jeden Auftrag in vier Phasen durch:
 
 ## Vault-Konventionen
 
-- **Ordner:** `00-Inbox/` (Eingangsnotizen), `10-Wissensbasis/` (strukturierte Notizen), `90-Index/` (Wissens-Index / MOCs)
+- **Ordner:** `00-Inbox/` (Eingangsnotizen + aktuelle Daily Notes), `10-Wissensbasis/` (strukturierte Notizen), `90-Index/` (Wissens-Index / MOCs), `20-Archiv/` (abgearbeitete Daily Notes und Aussortiertes; Archivierung per Drag & Drop in Obsidian, damit Wikilinks erhalten bleiben)
 - **Frontmatter:** `title`, `tags`, `created`, `updated`
 - **Tags:** thematisch (z. B. `ki-agent`, `obsidian`, `wissensmanagement`) + Typ (z. B. `konzept`, `vergleich`, `workflow`)
 - **Verweise:** `[[Wikilinks]]` zwischen Notizen
