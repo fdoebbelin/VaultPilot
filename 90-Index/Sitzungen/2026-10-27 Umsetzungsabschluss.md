@@ -114,7 +114,7 @@ status: active
 - `[[10-Wissensbasis/Git-Grundlagen]]` – neu (K2)
 - `[[Agenten-Workflow]]` – neu (K2)
 - `[[90-Index/Wissensindex]]` – neu (K3, MOC)
-- `[[00-Inbox/2026-10-27]]` – Daily Note
+- `[[20-Archiv/2026-10-27|00-Inbox/2026-10-27]]` – Daily Note (2026-10-29 nach `20-Archiv/` archiviert)
 - `[[Abschlussbericht]]` – neu gefasst
 - `[[10-Wissensbasis/Umsetzung-Checkliste]]` – C.0/C.3/B.4 verifiziert, Abschluss-Sektion aktualisiert
 - `[[10-Wissensbasis/GitHub-Repository]]`, `[[90-Index/Session-Starter]]` – modernisiert
