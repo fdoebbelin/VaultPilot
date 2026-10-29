@@ -28,14 +28,16 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | 2026-10-27 | Pfadneutralisierung: `$env:VAULTPILOT` in Richtlinien & Leitfäden | [[90-Index/Sitzungen/2026-10-27 Pfadneutralisierung]] | abgeschlossen |
 | 2026-10-27 | Konzept finalisiert (CONCEPT.md v2, M1 erfüllt) | [[90-Index/Sitzungen/2026-10-27 Konzeptfinalisierung]] | abgeschlossen |
 | 2026-10-27 | Umsetzungsabschluss: Kernnotizen (K2), MOC (K3), Abschlussbericht | [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]] | abgeschlossen |
+| 2026-10-29 | Einstiegsdokument + Command `/vault-reset` (definierter Startpunkt) | [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `e4a2304` + Abschluss-Commit auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – **Projekt abgeschlossen:** alle Erfolgskriterien K1–K6 erfüllt, alle Meilensteine M1–M4 erreicht
+- **Letzter Stand:** Commit `b5b40cd` + Protokoll-Commit auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Projekt abgeschlossen (K1–K6 ✅, M1–M4 ✅); für die Pilotphase ergänzt: `Einstieg.md` (Außenstehenden-Einstieg) und Command `/vault-reset` (definierter Startpunkt)
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
-- **Phase:** ✅ Umsetzung abgeschlossen (Phase A–D); Detaildokumentation: [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]], Statusübersicht: [[Abschlussbericht]]
+- **Phase:** Pilotvorbereitung – Umsetzung (Phase A–D) ist abgeschlossen; Detaildokumentation: [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]], Statusübersicht: [[Abschlussbericht]], Einstieg für Außenstehende: [[Einstieg]]
+- **Hinweis:** `/vault-reset` wurde noch nicht live ausgeführt – erstes Kommando: `/vault-reset check` (Inventur ohne Änderungen); `apply` fragt vor jedem Löschen/Verschieben nach
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten
@@ -76,4 +78,5 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 - [[90-Index/Sitzungen/2026-10-27 Pfadneutralisierung]] – Protokoll der Pfadneutralisierung
 - [[90-Index/Sitzungen/2026-10-27 Konzeptfinalisierung]] – Protokoll der Konzeptfinalisierung
 - [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]] – Protokoll des Umsetzungsabschlusses
+- [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]] – Protokoll Einstieg & vault-reset
 - [[90-Index/Wissensindex]] – MOC über die Wissensbasis

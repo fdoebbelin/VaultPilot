@@ -23,12 +23,15 @@ Arbeite im Vault-Root (Konvention: `$env:VAULTPILOT`, keine hartcodierten Pfade)
 
 Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehentliche Stub-Notizen) ist **Überschuss**.
 
-**Checkbox-Zurücksetzung gilt nur für Arbeitsmaterial:**
+**Checkbox-Zurücksetzung gilt nur für Arbeitsmaterial – namentlich festgelegt:**
 
 - `10-Wissensbasis/Umsetzung-Checkliste.md`
-- alle `.md`-Dateien direkt in `00-Inbox/` (nach dem Aufräumen = exakt die Startdokumente)
+- `00-Inbox/Übung Obsidian-Grundlagen.md`
+- `00-Inbox/Übungsblatt Neue Notiz.md`
 
 **Ausdrücklich NICHT anfassen** (Historie/Status bleiben unverändert): `90-Index/Sitzungen/*`, alle Daily Notes, `README.md`, `CONCEPT.md`, `Abschlussbericht.md`, `90-Index/*` übrige Dateien, `10-Wissensbasis/*` übrige Notizen (inkl. vorhandener Übungsergebnisse – Reset leert nur die Kästchen, löscht keine Inhalte).
+
+**Wichtig:** Sollte der Nutzer in Phase 2 entscheiden, weitere `00-Inbox`-Dateien zu behalten, gehören deren Checkboxen trotzdem NICHT zum Reset-Scope – der Scope ist die obige feste Liste, nicht „alles in 00-Inbox".
 
 ## Vorgehen
 
@@ -54,7 +57,11 @@ Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehen
 2. Checkboxen zurücksetzen – nur in den Ziel-Dateien, z. B. per PowerShell:
 
    ```powershell
-   $ziel = @("10-Wissensbasis\Umsetzung-Checkliste.md") + (Get-ChildItem "00-Inbox" -Filter *.md).FullName
+   $ziel = @(
+     "10-Wissensbasis\Umsetzung-Checkliste.md",
+     "00-Inbox\Übung Obsidian-Grundlagen.md",
+     "00-Inbox\Übungsblatt Neue Notiz.md"
+   )
    $ziel | ForEach-Object {
      (Get-Content $_ -Raw) -replace '- \[[xX]\]', '- [ ]' | Set-Content $_ -NoNewline
    }
