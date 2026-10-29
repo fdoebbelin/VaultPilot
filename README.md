@@ -6,6 +6,8 @@
 
 Ein Kursprojekt zur Arbeit mit **agentischer KI** am Beispiel von **OpenCode**. Der Fokus liegt auf dem **Aufbau und der Verwaltung eines Obsidian Vaults** zum **Wissensmanagement**.
 
+**Neu hier?** → [Einstieg für Außenstehende](Einstieg.md) – Einstiegspunkt, Schritt-für-Schritt-Weg und definierten Startpunkt (`/vault-reset`) erklärt.
+
 ## ⚙️ Einrichtung
 
 Das Repository wird über eine PowerShell-Umgebungsvariable adressiert – so funktionieren alle Leitfäden unabhängig vom Benutzernamen:
@@ -30,15 +32,14 @@ Wissen strukturiert ablegen, vernetzen und dauerhaft pflegen – unterstützt un
 - [x] Git/GitHub-Repository anlegen
 - [x] Vault-Struktur (Ordner / Tags / Frontmatter)
 - [x] Agenten-Workflow mit OpenCode definiert und getestet
-- [ ] Implementierung & Tests (Rest: Obsidian-Grundlagen-Übungen, Backlinks, Notiz-Ausbau)
-- [ ] Abschlussbericht finalisieren
+- [x] Installation, Einführung, Wissensbasis-Aufbau, Obsidian-Auswertung (abgeschlossen 2026-10-27)
+- [ ] Pilotdurchlauf des Kurses mit Teilnehmern
 
 ## 🔭 Nächste Schritte
 
-- [ ] C.0-Übungen durchlaufen + Backlinks-Ansicht prüfen (Phase-C-Rest)
-- [ ] Wissensbasis auf 5–7 Kernnotizen ausbauen (Erfolgskriterium K2)
-- [ ] Abschlussbericht finalisieren
+- [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
+- [ ] Erfahrungswerte aus dem Piloten zurück in die Materialien (Kurs-Iteration)
 
 ## Status
 
-🚧 Projekt in Umsetzung
+✅ Projekt abgeschlossen (alle Erfolgskriterien K1–K6, alle Meilensteine M1–M4 – Details: `Abschlussbericht.md`) · bereit für Pilotdurchlauf

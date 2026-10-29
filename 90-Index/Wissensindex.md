@@ -34,6 +34,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 
 ## Projekt & Umsetzung
 
+- [[Einstieg]] – Eintrittspunkt für Außenstehende (Weg in 7 Schritten, definierter Startpunkt)
 - [[VaultPilot – Konzept]] – finalisiertes Projektkonzept (M1)
 - [[10-Wissensbasis/Umsetzung-Checkliste]] – maßgebliches Erfolgsmessinstrument (K1)
 - [[10-Wissensbasis/Erster-Workflow-Test]] – erster Agenten-Durchlauf

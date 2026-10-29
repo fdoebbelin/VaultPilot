@@ -33,6 +33,7 @@ Der Unterschied zum Chat: Der Agent **führt aus** (schreibt Dateien, committet)
 - **`commands/vault-new.md`** – `/vault-new "<Thema>"`: legt eine Wissensnotiz mit Frontmatter + `[[Wikilinks]]` an
 - **`commands/vault-link.md`** – `/vault-link "<Notiz>"`: vernetzt eine Notiz mit verwandten Notizen
 - **`commands/vault-index.md`** – `/vault-index "<Fokus>"`: erstellt/aktualisiert den Wissensindex (MOC) in `90-Index/`
+- **`commands/vault-reset.md`** – `/vault-reset check|apply`: stellt den definierten Startpunkt her (00-Inbox nur Startdokumente; Checkboxen im Arbeitsmaterial zurückgesetzt; Historie bleibt unverändert)
 
 **Aufrufen eines Commands (so geht's):**
 
