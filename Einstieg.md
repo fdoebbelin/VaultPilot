@@ -35,7 +35,7 @@ Besonderheit: **Der Vault ist sein eigenes Demonstrationsobjekt.** Sämtliche Pr
 | 4 | Obsidian-Grundlagen lesen (Oberfläche, Markdown, Wikilinks, Graph) | [Obsidian Grundlagen](10-Wissensbasis/Obsidian-Grundlagen.md) |
 | 5 | Übungen durchführen (Tastenkürzel, Split, Graph, erste eigene Notiz) | [Übung Obsidian-Grundlagen](00-Inbox/Übung%20Obsidian-Grundlagen.md) + [Übungsblatt Neue Notiz](00-Inbox/Übungsblatt%20Neue%20Notiz.md) · Muster: [Beispielnotiz Zettelkasten](10-Wissensbasis/Beispielnotiz-Zettelkasten.md) |
 | 6 | Mit dem Agenten arbeiten (`/vault-new`, `/vault-link`, `/vault-index`) | [Agenten-Workflow](10-Wissensbasis/Agenten-Workflow.md) |
-| 7 | Sitzungsrhythmus etablieren: `git pull` → arbeiten → `commit`/`push` | [Git-Grundlagen](10-Wissensbasis/Git-Grundlagen.md) + [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) |
+| 7 | Sitzungsrhythmus etablieren: kurze Inventur (`/vault-update check`) → arbeiten → committen | [Git-Grundlagen](10-Wissensbasis/Git-Grundlagen.md) + [Agenten-Workflow](10-Wissensbasis/Agenten-Workflow.md) |
 
 Die detaillierte Aufgabenliste dahinter: [Umsetzung-Checkliste](10-Wissensbasis/Umsetzung-Checkliste.md) (Phasen A–D).
 
@@ -57,6 +57,33 @@ Er macht genau zwei Dinge – und bewusst nichts anderes:
 
 Nicht angefasst werden Historie und Statusdokumente: Sessionprotokolle, Daily Notes, `README.md`, `CONCEPT.md`, `Abschlussbericht.md`, der Wissensindex und die übrigen Wissensnotizen.
 
+## Kursstand übernehmen: `/vault-update`
+
+Als Teilnehmer arbeitest du in einem **Klon des Kurs-Repositories** – du kannst lesen, aber nicht hineinschieben (pushen). Deine Abgrenzung vom Kursfortschritt läuft deshalb rein lokal über zwei Branches:
+
+| Branch | Inhalt | Regel |
+|---|---|---|
+| `main` | Kursstand des Kursleiters | Spiegel des GitHub-Stands – hier wird **nie** committet |
+| `mein-vault` | dein Stand: Notizen, Daily Notes, Häkchen | hier arbeitest du und commitest – wird **nie gepusht** |
+
+Den neuen Kursstand holst du dir mit dem Command (Details mit Empfehlungen pro Konfliktdatei hält der Command selbst bereit):
+
+```powershell
+cd $env:VAULTPILOT
+opencode
+# im Eingabefeld:  /vault-update check   → nur Inventur + Konflikt-Vorschau, keine Änderungen
+#                  /vault-update apply   → Kursstand nach Bestätigung in dein mein-vault mergen
+```
+
+`check` ist gefahrlos: Er zeigt dir, welche Kursneuerungen fehlen, welche Dateien deine eigenen Commits betreffen und wo beim Merge voraussichtlich Konflikte auftreten (z. B. in Checklisten, in denen du Häkchen gesetzt hast). `apply` fragt vor jeder Ausführung und löst Konflikte nie automatisch – pro Datei wird eine Entscheidung mit Empfehlung abgefragt.
+
+Wichtig zu wissen:
+
+- **Pushen entfällt komplett.** Teilnehmer haben keine Schreibrechte auf das Kurs-Repo; `origin` ist für dich nur lesbar.
+- **Ohne Backup:** `mein-vault` existiert nur auf deinem Rechner. Wer sichergehen will, richtet optional später ein privates eigenes Remote nach – das Modell kann unverändert bleiben.
+- **Versehentlich auf `main` committet?** Kein Grund zur Panik: `/vault-update apply` erkennt das anhand `origin/main..main` und schlägt eine Rettung ohne Datenverlust vor (Commits nach `mein-vault` übernehmen, `main` zurück auf den Kursstand).
+- **Wann `/vault-update`, wann `/vault-reset`?** Erst den Kursstand holen (`/vault-update`), dann den definierten Startpunkt herstellen (`/vault-reset`) – beide Commands arbeiten an denselben Übungsdateien, deshalb die feste Reihenfolge.
+
 ## Landkarte: Wo finde ich was?
 
 | Ort | Inhalt |
@@ -69,7 +96,7 @@ Nicht angefasst werden Historie und Statusdokumente: Sessionprotokolle, Daily No
 | `20-Archiv/` | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten) |
 | `10-Wissensbasis/` | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste) |
 | `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlage für Notizen](90-Index/Templates/Wissensnotiz.md) |
-| `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`) |
+| `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`) |
 
 ## Grundregel: Vertrauen durch Verifikation
 

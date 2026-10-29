@@ -34,7 +34,8 @@ Führe jeden Auftrag in vier Phasen durch:
 - Verwende `[[Wikilinks]]` für Verweise zwischen Notizen.
 - Keine Löschungen ohne explizite Nutzeranfrage.
 - Halte Notizen praxisnah, strukturiert und wiederverwendbar.
-- **Pfad-Konvention:** Das Repository wird ausschließlich über `$env:VAULTPILOT` adressiert (Standardort: `$env:USERPROFILE\Projects\VaultPilot`). Hartcodierte Benutzerpfade (`C:\Users\<Name>\…`) sind verboten – weder in Notizen, Leitfäden, Checklisten noch in Befehlen. Einrichtung der Variable: siehe README (Abschnitt „Einrichtung“).
+- **Pfad-Konvention:** Das Repository wird ausschließlich über `$env:VAULTPILOT` adressiert (Standardort: `$env:USERPROFILE\Projects\VaultPilot`). Hartcodierte Benutzerpfade (`C:\Users\<Name>\…`) sind verboten – weder in Notizen, Leitfäden, Checklisten noch in Befehlen. Einrichtung der Variable: siehe README (Abschnitt „Einrichtung").
+- **Git-Branches:** Gearbeitet und committet wird ausschließlich auf `mein-vault`. Vor jedem Commit `git branch --show-current` prüfen; zeigt es nicht `mein-vault`, stoppen und den Nutzer informieren. Nie committen auf `main`, nie `git push`. Kursstand übernehmen nur über `/vault-update`.
 
 ## Vault-Konventionen
 

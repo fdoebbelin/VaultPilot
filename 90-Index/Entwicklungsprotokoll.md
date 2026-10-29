@@ -29,21 +29,25 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | 2026-10-27 | Konzept finalisiert (CONCEPT.md v2, M1 erfüllt) | [[90-Index/Sitzungen/2026-10-27 Konzeptfinalisierung]] | abgeschlossen |
 | 2026-10-27 | Umsetzungsabschluss: Kernnotizen (K2), MOC (K3), Abschlussbericht | [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]] | abgeschlossen |
 | 2026-10-29 | Einstiegsdokument + Command `/vault-reset` (definierter Startpunkt) | [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]] | abgeschlossen |
+| 2026-10-29 | Teilnehmer-Git-Modell: Command `/vault-update` integriert, Kursdokumentation umgestellt, Testszenarien (Konflikt + Rettung) | [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `b5b40cd` + Protokoll-Commit auf `origin/main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Projekt abgeschlossen (K1–K6 ✅, M1–M4 ✅); für die Pilotphase ergänzt: `Einstieg.md` (Außenstehenden-Einstieg) und Command `/vault-reset` (definierter Startpunkt)
-- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash` (Wechsel von `opencode/nemotron-3.5-super-vl-free`)
-- **Phase:** Pilotvorbereitung – Umsetzung (Phase A–D) ist abgeschlossen; Detaildokumentation: [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]], Statusübersicht: [[Abschlussbericht]], Einstieg für Außenstehende: [[Einstieg]]
-- **Hinweis:** `/vault-reset` ist live getestet (check ✓, apply ✓ – 42 Checkboxen zurückgesetzt, Reset noch unversioniert); abgearbeitete Daily Notes werden nach `20-Archiv/` **in Obsidian per Drag & Drop** archiviert (Nutzer macht das selbst – Obsidian aktualisiert die Wikilinks), die Tages-Note des aktuellen Tages bleibt in der Inbox
+- **Letzter Stand:** Commit `c913e33` auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`); diese Sitzung: Teilnehmer-Git-Modell integriert – Command `/vault-update`, Agenten-Regel, umgestellte Kursdokumentation (`Einstieg`, `Git-Grundlagen`, `GitHub-Repository`), getestet in simulierter Umgebung
+- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
+- **Phase:** Pilotvorbereitung – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokoll: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]]
+- **Hinweis:** `/vault-update check|apply` ist erfolgreich getestet in einem simulierten Teilnehmer-Repo (Inventur, Konflikt-Vorschau, Merge mit Konfliktentscheidung `--theirs`, Rettung versehentlicher main-Commits). Noch nicht in einer echten OpenCode-Session mit Agenten-Ausführung getestet.
+- **Hinweis:** Reihenfolge für Teilnehmer: erst `/vault-update` (Kursstand holen), dann `/vault-reset` (Startpunkt herstellen) – beide Commands arbeiten an denselben Übungsdateien.
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten
-- **Hinweis:** Auf anderen Geräten wird `workspace.json` beim nächsten `git pull` aus dem Repo gelöscht – Obsidian legt sie beim ersten Start automatisch neu an (harmlos)
 - **Offene Punkte (nächste Projektphase):**
+  - [ ] Tags `kurs-start`/`kurs-update` im Kurs-Repo setzen und pushen (Voraussetzung für `git diff kurs-start mein-vault` und frische Durchläufe)
+  - [ ] `/vault-update` in echten OpenCode-Sessions verifizieren (Agent befolgt den Markdown-Command)
   - [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
+  - [ ] Checklisten als Vorlagen nach `90-Index/Templates/` auslagern? (strukturelle Konfliktvermeidung, separat entscheiden)
   - [ ] Erfahrungswerte aus dem Piloten zurück in die Materialien (Kurs-Iteration)
 
 ---

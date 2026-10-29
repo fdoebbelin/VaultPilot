@@ -1,7 +1,7 @@
 ---
 title: Wissensindex (MOC)
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 type: moc
 tags:
   - moc
@@ -29,8 +29,8 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 - [[10-Wissensbasis/Obsidian-Auswertung-Einrichten]] – Auswertungsfläche einrichten (Phase C)
 
 ### Git & Verteilung (Teilziel 5)
-- [[10-Wissensbasis/Git-Grundlagen]] – täglicher Git-Zyklus, `.gitignore`, git status lesen
-- [[10-Wissensbasis/GitHub-Repository]] – Remote einrichten und veröffentlichen
+- [[10-Wissensbasis/Git-Grundlagen]] – Git für Teilnehmer: Klon, Branches `main`/`mein-vault`, fetch/merge statt pull/push, typische Probleme
+- [[10-Wissensbasis/GitHub-Repository]] – Rollenperspektiven: Kursleiter (push, Tags) vs. Teilnehmer (nur lesender Klon)
 
 ## Projekt & Umsetzung
 
