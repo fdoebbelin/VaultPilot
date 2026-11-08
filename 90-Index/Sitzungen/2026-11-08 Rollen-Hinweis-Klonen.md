@@ -78,6 +78,10 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - **Eigenkontrolle:** Fremdschrift-Scan (CJK/Kyrillisch) über alle geänderten Dateien → 0 Treffer (nach mehreren Korrekturen in der Sitzung)
 - Einstufung: **Hilfsnotiz**, keine Kernnotiz (der K2-Kanon von M1 bleibt unverändert auf den 5 Kernnotizen)
 
+### Nachtrag 7 (Ordner-Link entfernt, gleiche Sitzung)
+
+**Nutzerfund:** In der Einstieg-Landkarte linkte „[Sessionprotokollen](90-Index/Sitzungen/)" auf einen **Ordner** – Markdown-Links müssen aber auf Dateien zeigen (Obsidian kann Ordner nicht öffnen; Konvention: Links → Notizen/Dateien, Ordneransichten gibt es nur direkt in GitHub). Ersetzt durch die Formulierung „dort sind alle Sessionprotokolle verlinkt", da das Entwicklungsprotokoll bereits die Sitzungstabelle mit allen Links enthält. Volltext-Scan bestätigt: dieses Muster existierte nur an dieser einen Stelle.
+
 ### Nachtrag 6 (Kanal-Anleitungen + Landkarten-Korrekturen, gleiche Sitzung)
 
 **Nutzerhinweis:** In der Einstieg-Landkarte fehlten die Endverweise für die zwei Kanäle (Issues/Discussions) (Issues/Discussions) – und der Fehlhinweis lenkte auf zwei reale Mängel:
