@@ -15,7 +15,9 @@ Wie du zum Kursmaterial beitragen kannst – abgestimmt auf das Rollenmodell ([R
 |---|---|
 | Fehler melden, Verbesserungsvorschläge, konkrete Feedbacks | **Issue** mit Template „Feedback / Änderungsvorschlag" |
 | Offene Fragen, Ideen **ohne** konkreten Vorschlag | **Discussions** |
-| Kursteilnehmer-Code-Änderungen am Kursrepo | entfällt im Modell – der nur-lesende Klon katapultiert kein Fork-/PR-Verfahren; das Kursmaterial pflegt der Kursleiter |
+| Kursteilnehmer-Code-Änderungen am Kursrepo | entfällt im Modell – der nur-lesende Klon schließt Fork-/PR-Verfahren aus; das Kursmaterial pflegt der Kursleiter |
+
+Ausführlicher Leitfaden für alle Rollen (Wege 1–3 mit Befehlen, Regeln und Kursleiter-Sicht): `10-Wissensbasis/Feedback-Beitragen.md`
 
 ## Regeln für gute Issues
 

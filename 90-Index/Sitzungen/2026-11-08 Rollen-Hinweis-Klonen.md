@@ -69,6 +69,15 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 **Doku-Integration:** [[Einstieg]] (Abschnitt „Pilot-Feedback einreichen" umgebaut: Weg 1 Browser-Formular, Weg 2 `gh issue create --web`/`--title/--body`, Weg 3 lokale Vorlage als Entwurf/Fallback; Landkarte um `.github/` erweitert), [[10-Wissensbasis/GitHub-Repository]] (Teilnehmer-Beitragen-Absatz), [[90-Index/Pilot-Feedback]] (primär Issues, Fallback-Import), [[90-Index/Wissensindex]]. Der `/vault-reset`-Schutz für lokale Feedback-Notizen bleibt unverändert (Fallback-Kanal).
 
+### Nachtrag 5 (Leitfaden „Feedback & Contributions beitragen", gleiche Sitzung)
+
+**Nutzerwunsch:** Ein Leitfaden für **alle**, in der Wissensbasis hinterlegt und an allen passenden Stellen verlinkt (bisher verteilt auf Einstieg + CONTRIBUTING + Templates, ohne Sammel-Dokument).
+
+- **Neu: `10-Wissensbasis/Feedback-Beitragen.md`** – drei Wege (Browser-Issue [empfohlen], `gh`-CLI, lokale Entwurfs-Vorlage als offline/Fallback), feste Kanalzuordnung (Issue / Discussions / entfallendes Material-Editing), Regeln für gute Meldungen, Kursleiter-Sicht (Label `feedback`, Sammel-MOC, Verarbeiten → schließen), Links
+- **Verlinkt an allen Stationen:** [[90-Index/Wissensindex]] (Pilot-Feedback-Sektion, an erster Stelle), [[Einstieg]] (Feedback-Abschnitt), [[10-Wissensbasis/GitHub-Repository]] (Beitragen-Absatz), CONTRIBUTING (Tabellen-Fußzeile mit Pfad), `90-Index/Templates/Feedback.md` (Fußnote)
+- **Eigenkontrolle:** Fremdschrift-Scan (CJK/Kyrillisch) über alle geänderten Dateien → 0 Treffer (nach mehreren Korrekturen in der Sitzung)
+- Einstufung: **Hilfsnotiz**, keine Kernnotiz (der K2-Kanon von M1 bleibt unverändert auf den 5 Kernnotizen)
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt

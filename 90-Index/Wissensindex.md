@@ -49,6 +49,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 
 ## Pilot-Feedback
 
+- **Leitfaden für alle Rollen:** [[10-Wissensbasis/Feedback-Beitragen]] – Wege 1–3, Regeln, Kursleiter-Sicht
 - **Primärer Kanal:** GitHub-Issues mit Template `.github/ISSUE_TEMPLATE/feedback-vorschlag.md` (Label `feedback`) · siehe [CONTRIBUTING.md](CONTRIBUTING.md)
 - [[90-Index/Templates/Feedback]] – lokale Entwurfs-Vorlage (offline/Fallback, Notiz bleibt in `00-Inbox/`)
 - [[90-Index/Pilot-Feedback]] – Sammel-MOC des Kursleiters (Issue-Bearbeitungsstand, Fallback-Importe, Verarbeiten → `20-Archiv/`)

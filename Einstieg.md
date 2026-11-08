@@ -104,7 +104,7 @@ gh issue create --repo fdoebbelin/VaultPilot --title "Kurztitel" --body "Betreff
 
 **Offene Fragen/Ideen ohne konkreten Vorschlag** gehören in **Discussions** (Tab „Discussions" im Repo) – nicht in ein Issue, siehe [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Der Kursleiter pflegt den Übernahmestand in [[90-Index/Pilot-Feedback]] (Issues + im Fallback importierte lokale Notizen).
+Der Kursleiter pflegt den Übernahmestand in [[90-Index/Pilot-Feedback]] (Issues + im Fallback importierte lokale Notizen). Der ausführliche Leitfaden für **alle Rollen** inkl. Regeln und Kursleiter-Sicht: [[10-Wissensbasis/Feedback-Beitragen]].
 
 ## Landkarte: Wo finde ich was?
 

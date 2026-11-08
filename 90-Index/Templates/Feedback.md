@@ -28,4 +28,4 @@ betreff:
 
 ---
 
-**Hinweis:** Diese Notiz entsteht in `00-Inbox/` und **bleibt dort**, bis der Kursleiter sie übernommen hat – bitte nicht selbst löschen oder archivieren (der `/vault-reset` schlägt für Feedback-Notizen „behalten" vor).
+**Hinweis:** Diese Notiz entsteht in `00-Inbox/` und **bleibt dort**, bis der Kursleiter sie übernommen hat – bitte nicht selbst löschen oder archivieren (der `/vault-reset` schlägt für Feedback-Notizen „behalten" vor). Ausführliche Anleitung für alle Rollen und Wege: [[10-Wissensbasis/Feedback-Beitragen]].
