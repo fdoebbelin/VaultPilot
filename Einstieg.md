@@ -84,6 +84,16 @@ Wichtig zu wissen:
 - **Versehentlich auf `main` committet?** Kein Grund zur Panik: `/vault-update apply` erkennt das anhand `origin/main..main` und schlägt eine Rettung ohne Datenverlust vor (Commits nach `mein-vault` übernehmen, `main` zurück auf den Kursstand).
 - **Wann `/vault-update`, wann `/vault-reset`?** Erst den Kursstand holen (`/vault-update`), dann den definierten Startpunkt herstellen (`/vault-reset`) – beide Commands arbeiten an denselben Übungsdateien, deshalb die feste Reihenfolge.
 
+## Pilot-Feedback einreichen (Teilnehmer)
+
+Während des Piloten wird jede Rückmeldung direkt zur Kursmaterial-Iteration – dafür gibt es eine Vorlage:
+
+1. **Notiz anlegen:** `Strg+O` → eindeutigen Namen tippen (z. B. `Feedback Verständnis Einstieg Schritt 3`) → `Enter` (entsteht automatisch in `00-Inbox/`; alternativ `Strg+N` + umbenennen)
+2. **Vorlage einfügen:** `Strg+P` → „Vorlage" tippen → „Vorlage einfügen" → `Feedback`
+3. **Ausfüllen:** Frontmatter-Felder `typ` (Verständnisfrage / Fehler / Verbesserung / neue Idee) und `betreff` (Datei/Abschnitt), dann die drei Abschnitte **Betreff / Ist / Vorschlag**
+4. **Lassen liegen:** Die Notiz **bleibt in `00-Inbox/`** – `/vault-reset` schlägt für Feedback „behalten" vor; lösche sie nicht selbst
+5. **Übergabe an den Kursleiter:** Notiz in der Sitzung zeigen oder die `.md`-Datei weitergeben (Push ist im Modell ausdrücklich ausgeschlossen – siehe `/vault-update`); der Kursleiter legt sie in **seine** Inbox und verlinkt sie in [[90-Index/Pilot-Feedback]]
+
 ## Landkarte: Wo finde ich was?
 
 | Ort | Inhalt |
@@ -95,7 +105,7 @@ Wichtig zu wissen:
 | `00-Inbox/` | Startdokumente (Übungen) + Daily Note des aktuellen Tages (Erfassung) |
 | `20-Archiv/` | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten) |
 | `10-Wissensbasis/` | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste) |
-| `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlage für Notizen](90-Index/Templates/Wissensnotiz.md) |
+| `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlagen](90-Index/Templates/Wissensnotiz.md) für Notizen & Feedback · [Pilot-Feedback-Sammlung](90-Index/Pilot-Feedback.md) |
 | `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`) |
 
 ## Grundregel: Vertrauen durch Verifikation

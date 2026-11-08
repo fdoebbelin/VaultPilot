@@ -47,6 +47,7 @@ Alles andere in `00-Inbox/` (Daily Notes alter Tage, Übungsergebnisse, versehen
 1. Für jede Überschuss-Datei einen Vorschlag unterbreiten:
    - **Wissensinhalt** (ausgearbeitete Notiz) → Verschiebung nach `10-Wissensbasis/` vorschlagen
    - **abgearbeitete Daily Note** (älter als heute) → **Archivierung** vorschlagen: der **Nutzer verschiebt sie selbst in Obsidian** nach `20-Archiv/` (Drag & Drop im Datei-Explorer) – so aktualisiert Obsidian alle `[[Wikilinks]]` automatisch. Der Agent verschiebt Daily Notes **nicht** per Dateisystem (Link-Bruch-Risiko); er gibt nur die Anleitung und verifiziert danach das Ergebnis.
+   - **Feedback-Notiz** (`tags` enthalten `feedback`, `status` typisch `offen`) → **Behalten** vorschlagen: das ist Pilot-Feedback, das auf Übernahme durch den Kursleiter wartet – **niemals löschen oder archivieren**, bis es verarbeitet ist
    - **veraltet/unerwünscht** (ohne eingehende Links) → Löschen vorschlagen
    - **unklar** → Behalten vorschlagen und nachfragen
 2. Checkbox-Reset ankündigen (Dateiliste + Trefferzahlen).

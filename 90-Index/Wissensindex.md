@@ -47,6 +47,11 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 - [[00-Inbox/Übungsblatt Neue Notiz]] – konkrete Werte für die Notiz-Übung
 - [[10-Wissensbasis/Was ist ein LLM]] – Übungsergebnis (Teilnehmernotiz)
 
+## Pilot-Feedback
+
+- [[90-Index/Templates/Feedback]] – Vorlage für Teilnehmernotizen (Felder: `typ`, `betreff`, Betreff/Ist/Vorschlag)
+- [[90-Index/Pilot-Feedback]] – Sammel-MOC des Kursleiters (importierte Notizen, Status, Bearbeitungsnachweise)
+
 ## Wartung
 
 Bei neuen Notizen: hier verlinken oder `/vault-index` ausführen.

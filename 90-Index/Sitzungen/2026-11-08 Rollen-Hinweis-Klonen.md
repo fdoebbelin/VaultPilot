@@ -44,6 +44,17 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - **Evaluation „Checklisten als Vorlagen nach `90-Index/Templates/` auslagern" → Ergebnis: Nein, Status quo bleibt.** Begründung: Der reale Konfliktfall ist selten (der Kurs ändert Checkbox-Zeilen kaum; andereÄnderungshunks außerhalb der Checkbox-Zeilen mergen automatisch) und bereits elegant behandelt – pro-Datei-Empfehlungen inkl. `--theirs` + `/vault-reset`-Folgeschritt, live bestätigt (Nutzerdurchlauf). Die Auslagerung hätte den Merge-**Nutzen** zerstört (automatische Weiterreichung von Kurs-Iterationen in ausgefüllte Checklisten), erzeugt aber manuelle Synchronisationslast, Doppel-Verwaltung Vorlage/Kopie, neue Einstiegs-Friction und einen Umbau der `/vault-reset`-Startzustandsdefinition. Dazu läuft der Pilot bereits – keine Mid-Pilot-Umstrukturierung ohne gemessenen Bedarf. **Re-Evaluations-Kriterium:** nur bei Konflikt-Schwierigkeiten im Pilot-Feedback
 - **Pilot läuft** (Nutzerangabe)
 
+### Nachtrag 3 (Feedback-Flow, gleiche Sitzung)
+
+**Nutzeridee:** Pilot-Feedback soll sich im **Eingang** (`00-Inbox/`) sammeln und es soll eine **Vorlage** geben, mit der Teilnehmer Änderungsvorschläge strukturiert einreichen können. Umgesetzt:
+
+- **Neue Vorlage `90-Index/Templates/Feedback.md`:** Frontmatter-Felder `typ` (Verständnisfrage / Fehler / Verbesserung / neue Idee), `betreff` (Datei/Abschnitt), `status: offen`; Abschnitte Betreff / Ist / Vorschlag / Kontext; feste Fußzeilen-Regel: Notiz bleibt in `00-Inbox/`, bis der Kursleiter sie übernommen hat
+- **Teilnehmer-Ablauf in [[Einstieg]]** (Abschnitt „Pilot-Feedback einreichen"): Anlegen via Quick Switcher → `Feedback`-Template einfügen → füllen → in `00-Inbox/` liegen lassen → Übergabe an den Kursleiter per Sitzung/Datei (kein push, im Modell ausgeschlossen)
+- **Kursleiter-Ablauf:** Datei in die kursseitige `00-Inbox/` importieren → in neuem Sammel-MOC **`90-Index/Pilot-Feedback.md`** registrieren (Abschnitte Eingegangen/Verarbeitet) → verarbeitet: `status: verarbeitet`, Migration nach `20-Archiv/`, Erkenntnisse in die Leitfäden (Kurs-Iteration)
+- **`/vault-reset` erweitert:** Phase 2 kennt Feedback-Notizen (tags `feedback`) und schlägt standardmäßig **Behalten** vor – Feedback wird vom Reset niemals weggeschlagen
+
+**Verifikation:** Difference-Check der Struktur gegen das bestehende `Wissensnotiz`-Template (gleiche Platzhalter-Mechanik); Verweis-Kette geprüft: Einstieg → Templates/Feedback → Pilot-Feedback; `/vault-reset`-Regel deckt die Fußzeilen-Regel der Vorlage
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt
@@ -75,6 +86,7 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - [x] `/vault-update` in echten OpenCode-Sessions verifizieren – erledigt durch Nutzer (echter Teilnehmer-Zugang, Nachtrag 2)
 - [x] Checklisten als Vorlagen nach `90-Index/Templates/` auslagern? – **Nein** (Evaluation → Nachtrag 2; Re-Evaluation nur bei Pilot-Feedback)
 - [ ] Pilotdurchlauf: laufend Feedback sammeln (Pilot läuft bereits)
+- [ ] Feedback-Flow live nutzen: erstes echtes Teilnehmer-Feedback über die neue Vorlage durchlaufen lassen (Einreichen → Import → Wissensindex/Sammlung → Verarbeiten)
 - [ ] Ausgewähltes Pilot-Feedback zurück in die Materialien (Kurs-Iteration)
 
 ---
