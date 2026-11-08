@@ -78,6 +78,18 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - **Eigenkontrolle:** Fremdschrift-Scan (CJK/Kyrillisch) über alle geänderten Dateien → 0 Treffer (nach mehreren Korrekturen in der Sitzung)
 - Einstufung: **Hilfsnotiz**, keine Kernnotiz (der K2-Kanon von M1 bleibt unverändert auf den 5 Kernnotizen)
 
+### Nachtrag 6 (Kanal-Anleitungen + Landkarten-Korrekturen, gleiche Sitzung)
+
+**Nutzerhinweis:** In der Einstieg-Landkarte fehlten die Endverweise für die zwei Kanäle (Issues/Discussions) (Issues/Discussions) – und der Fehlhinweis lenkte auf zwei reale Mängel:
+1. **Kaputter relativer Link** in der `.github/`-Zeile: `../.github/...` stieg aus dem Repo-Root aus (Einstieg.md liegt im Root!) – korrigiert zu `.github/ISSUE_TEMPLATE/feedback-vorschlag.md` (in Obsidian und GitHub-Render korrekt gültigen Pfaden)
+2. **Feedback-Vorlage wurde in der `90-Index/`-Zeile textlich erwähnt, aber nicht verlinkt** – jetzt als eigener Link (`90-Index/Templates/Feedback.md`) alongside der Notiz-Vorlage
+
+**Umsetzung (Nutzerentscheidung „Kanal-Doks je Kanal“):**
+- **Neu: `10-Wissensbasis/GitHub-Issues-nutzen.md`** – Wofür/Wofür-nicht, die drei Wege (Browser / gh CLI / lokale Entwurfsnotiz), Issue-Regeln, Kursleiter-Sicht
+- **Neu: `10-Wissensbasis/Discussions-nutzen.md`** – Abgrenzung zu Issues (Issue=konkret/handelbar vs. Discussion=explorativ), Ankündigung als Reife-Ze, public-Repo-Bewusstsein, Übergang Discussion→Issue
+- **Landkarten-Verlinkung:** `.github/`-Zeile um die zwei Anleitungen erweitert; [[90-Index/Wissensindex]] listet beide im Pilot-Feedback-Abschnitt
+- **Lebenszyklus-Regel konsistent:** eine Discussion läuft unbegrenzt weiter; reift sie zu einem konkreten Vorschlag, wird sie über einen verlinkten Issue materialisiert
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt

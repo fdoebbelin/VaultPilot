@@ -108,18 +108,18 @@ Der Kursleiter pflegt den Übernahmestand in [[90-Index/Pilot-Feedback]] (Issues
 
 ## Landkarte: Wo finde ich was?
 
-| Ort | Inhalt |
-|---|---|
-| `README.md` | Kurzüberblick, Einrichtung, Rollen beim Klonen, Roadmap |
-| `Einstieg.md` | dieses Dokument |
-| `CONCEPT.md` | finalisiertes Projektkonzept (Teilziele, Abgrenzungen, Erfolgskriterien K1–K6, Meilensteine M1–M4) |
-| `Abschlussbericht.md` | Projektabschluss mit Status aller Erfolgskriterien |
-| `00-Inbox/` | Startdokumente (Übungen) + Daily Note des aktuellen Tages (Erfassung) |
-| `20-Archiv/` | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten) |
-| `10-Wissensbasis/` | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste) |
-| `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlagen](90-Index/Templates/Wissensnotiz.md) für Notizen & Feedback · [Pilot-Feedback-Sammlung](90-Index/Pilot-Feedback.md) |
-| `.github/` | [Issue-Vorlage „Feedback / Änderungsvorschlag"](../.github/ISSUE_TEMPLATE/feedback-vorschlag.md) · [CONTRIBUTING.md](CONTRIBUTING.md) – Beitragskanäle für Issues/Discussions |
-| `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`) |
+| Ort                   | Inhalt                                                                                                                                                                                                                                                                                          |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `README.md`           | Kurzüberblick, Einrichtung, Rollen beim Klonen, Roadmap                                                                                                                                                                                                                                         |
+| `Einstieg.md`         | dieses Dokument                                                                                                                                                                                                                                                                                 |
+| `CONCEPT.md`          | finalisiertes Projektkonzept (Teilziele, Abgrenzungen, Erfolgskriterien K1–K6, Meilensteine M1–M4)                                                                                                                                                                                              |
+| `Abschlussbericht.md` | Projektabschluss mit Status aller Erfolgskriterien                                                                                                                                                                                                                                              |
+| `00-Inbox/`           | Startdokumente (Übungen) + Daily Note des aktuellen Tages (Erfassung)                                                                                                                                                                                                                           |
+| `20-Archiv/`          | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten)                                                                                                                                                                             |
+| `10-Wissensbasis/`    | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste)                                                                                                                                                                                                                                          |
+| `90-Index/`           | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlagen für Notizen](90-Index/Templates/Wissensnotiz.md) & [Feedback](90-Index/Templates/Feedback.md) · [Pilot-Feedback-Sammlung](90-Index/Pilot-Feedback.md) |
+| `.github/`            | [Issue-Vorlage „Feedback / Änderungsvorschlag"](.github/ISSUE_TEMPLATE/feedback-vorschlag.md) · [CONTRIBUTING.md](CONTRIBUTING.md) – Beitragskanäle für Issues/Discussions                                                                                                                   |
+| `.opencode/`          | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`)                                                                                                                                                                                |
 
 ## Grundregel: Vertrauen durch Verifikation
 
