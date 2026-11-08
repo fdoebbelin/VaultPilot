@@ -29,15 +29,17 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | 2026-10-27 | Konzept finalisiert (CONCEPT.md v2, M1 erfüllt) | [[90-Index/Sitzungen/2026-10-27 Konzeptfinalisierung]] | abgeschlossen |
 | 2026-10-27 | Umsetzungsabschluss: Kernnotizen (K2), MOC (K3), Abschlussbericht | [[90-Index/Sitzungen/2026-10-27 Umsetzungsabschluss]] | abgeschlossen |
 | 2026-10-29 | Einstiegsdokument + Command `/vault-reset` (definierter Startpunkt) | [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]] | abgeschlossen |
+| 2026-10-29 | Command `/vault-update` integriert (Teilnehmer-Git-Modell) | [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] | abgeschlossen |
+| 2026-11-08 | Rollen-Hinweis beim Klonen (README + Einstieg) | [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] | abgeschlossen |
 | 2026-10-29 | Teilnehmer-Git-Modell: Command `/vault-update` integriert, Kursdokumentation umgestellt, Testszenarien (Konflikt + Rettung) | [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `c913e33` auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`); diese Sitzung: Teilnehmer-Git-Modell integriert – Command `/vault-update`, Agenten-Regel, umgestellte Kursdokumentation (`Einstieg`, `Git-Grundlagen`, `GitHub-Repository`), getestet in simulierter Umgebung
+- **Letzter Stand:** Commit `57cf864` (+ Protokoll-Commit) auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Rollen-Hinweis beim Klonen: README-Abschnitt „🧑‍🏫 Rollen beim Klonen" + Verweis in Einstieg-Schritt 1; damit ist das Teilnehmer-Git-Modell (vom 2026-10-29) schon beim ersten Klonen sichtbar
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
-- **Phase:** Pilotvorbereitung – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokoll: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]]
+- **Phase:** Pilotvorbereitung – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokolle: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] (Modell), [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] (Sichtbarkeit)
 - **Hinweis:** `/vault-update check|apply` ist erfolgreich getestet in einem simulierten Teilnehmer-Repo (Inventur, Konflikt-Vorschau, Merge mit Konfliktentscheidung `--theirs`, Rettung versehentlicher main-Commits). Noch nicht in einer echten OpenCode-Session mit Agenten-Ausführung getestet.
 - **Hinweis:** Reihenfolge für Teilnehmer: erst `/vault-update` (Kursstand holen), dann `/vault-reset` (Startpunkt herstellen) – beide Commands arbeiten an denselben Übungsdateien.
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
