@@ -55,6 +55,20 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 **Verifikation:** Difference-Check der Struktur gegen das bestehende `Wissensnotiz`-Template (gleiche Platzhalter-Mechanik); Verweis-Kette geprüft: Einstieg → Templates/Feedback → Pilot-Feedback; `/vault-reset`-Regel deckt die Fußzeilen-Regel der Vorlage
 
+### Nachtrag 4 (GitHub-Issue-Kanal als primärer Feedback-Weg, gleiche Sitzung)
+
+**Nutzerentscheidung:** Für Teilnehmer-Feedback soll der **GitHub-Issue-Mechanismus** genutzt werden (Issues für Vorschläge ohne Code; Discussions für offene Fragen/Ideen) – statt nur Dateiübertragung per Sitzung.
+
+**Infrastruktur (via `gh`-CLI, authentifiziert als Repobesitzer):**
+- Repo-Prüfung: **public** → jeder Einsteiger kann Issues eröffnen/kommentieren (kein Zugangsproblem); Issues enabled; Discussions **aktiviert** (`gh repo edit --enable-discussions`)
+- Label `feedback` erstellt („Rückmeldung zur Pilotphase")
+- **`.github/ISSUE_TEMPLATE/feedback-vorschlag.md`** angelegt – gleiche Felder wie die lokale Vorlage (Betreff / Ist / Vorschlag / Kontext), Label-Assign `feedback`
+- **`CONTRIBUTING.md`** im Repo-Root: Kanaltabelle (Issues für konkretes Feedback, Discussions für offene Fragen), Rollen-Zuordnung, Issue-Regeln, Kursleiter-Hinweise
+
+**Modellabgrenzung (bewusst dokumentiert im CONTRIBUTING):** Der aus dem Nutzerzitat übernommene Fork/PR-Teil („Allow edits by maintainers", Zweig pro Änderung) trifft auf unser nur-lesendes Klon-Modell **nicht zu** – es gibt keine Teilnehmer-PRs; ein `PULL_REQUEST_TEMPLATE.md` wurde daher bewusst **nicht** angelegt. Re-Evaluation nur, falls das Modell später auf Fork+PR erweitert wird.
+
+**Doku-Integration:** [[Einstieg]] (Abschnitt „Pilot-Feedback einreichen" umgebaut: Weg 1 Browser-Formular, Weg 2 `gh issue create --web`/`--title/--body`, Weg 3 lokale Vorlage als Entwurf/Fallback; Landkarte um `.github/` erweitert), [[10-Wissensbasis/GitHub-Repository]] (Teilnehmer-Beitragen-Absatz), [[90-Index/Pilot-Feedback]] (primär Issues, Fallback-Import), [[90-Index/Wissensindex]]. Der `/vault-reset`-Schutz für lokale Feedback-Notizen bleibt unverändert (Fallback-Kanal).
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt

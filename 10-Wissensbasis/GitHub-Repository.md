@@ -51,6 +51,8 @@ git switch -c mein-vault
 
 Kursneuerungen kommen nicht per `pull`, sondern über den Command `/vault-update` (fetch + merge mit Inventur, Konflikt-Vorschau und Bestätigung). Details: [[10-Wissensbasis/Git-Grundlagen]] und [[Einstieg]].
 
+**Beitragen:** Feedback läuft über **GitHub Issues** (Template „Feedback / Änderungsvorschlag" in `.github/ISSUE_TEMPLATE/`) – die Read-Rolle darf Issues eröffnen und kommentieren (Repo ist public). Offene Fragen/Ideen ohne konkreten Vorschlag: **Discussions** (im Repo aktiviert). Lokaler Entwurf: [[90-Index/Templates/Feedback]]. Konventionen kompakt: [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## Projektbezogene Einordnung
 
 - Repo enthält: Konzept, Agenda, Wissensnotizen, Agent-Konfiguration, Vault-Struktur

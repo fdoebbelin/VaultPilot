@@ -49,8 +49,9 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 
 ## Pilot-Feedback
 
-- [[90-Index/Templates/Feedback]] – Vorlage für Teilnehmernotizen (Felder: `typ`, `betreff`, Betreff/Ist/Vorschlag)
-- [[90-Index/Pilot-Feedback]] – Sammel-MOC des Kursleiters (importierte Notizen, Status, Bearbeitungsnachweise)
+- **Primärer Kanal:** GitHub-Issues mit Template `.github/ISSUE_TEMPLATE/feedback-vorschlag.md` (Label `feedback`) · siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+- [[90-Index/Templates/Feedback]] – lokale Entwurfs-Vorlage (offline/Fallback, Notiz bleibt in `00-Inbox/`)
+- [[90-Index/Pilot-Feedback]] – Sammel-MOC des Kursleiters (Issue-Bearbeitungsstand, Fallback-Importe, Verarbeiten → `20-Archiv/`)
 
 ## Wartung
 

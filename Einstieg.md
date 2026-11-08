@@ -86,13 +86,25 @@ Wichtig zu wissen:
 
 ## Pilot-Feedback einreichen (Teilnehmer)
 
-Während des Piloten wird jede Rückmeldung direkt zur Kursmaterial-Iteration – dafür gibt es eine Vorlage:
+Während des Piloten wird jede Rückmeldung direkt zur Kursmaterial-Iteration. **Primärer Kanal: GitHub Issues** – dein GitHub-Konto reicht aus, Code-Rechte sind nicht nötig (das Repo ist public; die Read-Rolle darf Issues eröffnen und kommentieren). Vorlage im Repo: „Feedback / Änderungsvorschlag".
 
-1. **Notiz anlegen:** `Strg+O` → eindeutigen Namen tippen (z. B. `Feedback Verständnis Einstieg Schritt 3`) → `Enter` (entsteht automatisch in `00-Inbox/`; alternativ `Strg+N` + umbenennen)
-2. **Vorlage einfügen:** `Strg+P` → „Vorlage" tippen → „Vorlage einfügen" → `Feedback`
-3. **Ausfüllen:** Frontmatter-Felder `typ` (Verständnisfrage / Fehler / Verbesserung / neue Idee) und `betreff` (Datei/Abschnitt), dann die drei Abschnitte **Betreff / Ist / Vorschlag**
-4. **Lassen liegen:** Die Notiz **bleibt in `00-Inbox/`** – `/vault-reset` schlägt für Feedback „behalten" vor; lösche sie nicht selbst
-5. **Übergabe an den Kursleiter:** Notiz in der Sitzung zeigen oder die `.md`-Datei weitergeben (Push ist im Modell ausdrücklich ausgeschlossen – siehe `/vault-update`); der Kursleiter legt sie in **seine** Inbox und verlinkt sie in [[90-Index/Pilot-Feedback]]
+**Weg 1 – Browser (einfachster Weg):** Repo öffnen → Tab **Issues** → „New issue" → Template „Feedback / Änderungsvorschlag" → füllen: **Betreff** (wo?), **Ist** (was erlebst du?), **Vorschlag** (wie sollte es sein?) → Submit
+
+**Weg 2 – per `gh`-CLI (falls installiert):**
+
+```powershell
+gh issue create --web --repo fdoebbelin/VaultPilot   # öffnet das Formular im Browser
+# oder komplett im Terminal:
+gh issue create --repo fdoebbelin/VaultPilot --title "Kurztitel" --body "Betreff: ...`nIst: ...`nVorschlag: ..."
+```
+
+**Weg 3 – lokal als Entwurf (offline/Fallback):** `Strg+O` → Namen vergeben → Template `Feedback` einfügen (`90-Index/Templates/Feedback.md`) → ausfüllen. Die Notiz bleibt in `00-Inbox/` (`/vault-reset` schlägt dafür „behalten" vor) – dann entweder den Inhalt per Copy-Paste ins Issue heben oder die `.md`-Datei dem Kursleiter direkt geben.
+
+**Regeln:** Ein Thema pro Issue · Wortlaut belegen statt paraphrasieren („Vertrauen durch Verifikation") · Kriterien: siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+
+**Offene Fragen/Ideen ohne konkreten Vorschlag** gehören in **Discussions** (Tab „Discussions" im Repo) – nicht in ein Issue, siehe [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Der Kursleiter pflegt den Übernahmestand in [[90-Index/Pilot-Feedback]] (Issues + im Fallback importierte lokale Notizen).
 
 ## Landkarte: Wo finde ich was?
 
@@ -106,6 +118,7 @@ Während des Piloten wird jede Rückmeldung direkt zur Kursmaterial-Iteration �
 | `20-Archiv/` | abgearbeitete Daily Notes und Aussortiertes – Archivierung in Obsidian per Drag & Drop (Wikilinks bleiben erhalten) |
 | `10-Wissensbasis/` | Wissensnotizen und Leitfäden (Kernnotizen, Checkliste) |
 | `90-Index/` | [Wissensindex (MOC)](90-Index/Wissensindex.md) · [Entwicklungsprotokoll](90-Index/Entwicklungsprotokoll.md) mit allen [Sessionprotokollen](90-Index/Sitzungen/) · [Vorlagen](90-Index/Templates/Wissensnotiz.md) für Notizen & Feedback · [Pilot-Feedback-Sammlung](90-Index/Pilot-Feedback.md) |
+| `.github/` | [Issue-Vorlage „Feedback / Änderungsvorschlag"](../.github/ISSUE_TEMPLATE/feedback-vorschlag.md) · [CONTRIBUTING.md](CONTRIBUTING.md) – Beitragskanäle für Issues/Discussions |
 | `.opencode/` | Agent-Konfiguration und Slash-Commands (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`) |
 
 ## Grundregel: Vertrauen durch Verifikation

@@ -8,7 +8,9 @@ status: active
 
 # Pilot-Feedback (Sammlung)
 
-Sammel-MOC des **Kursleiters** für die Pilotphase: hier landen Verweise auf alle Teilnehmer-Feedback-Notizen, sobald ihre Dateien in `00-Inbox/` importiert sind.
+Sammel-MOC des **Kursleiters** für die Pilotphase.
+
+**Primärer Kanal:** **GitHub Issues** (Template „Feedback / Änderungsvorschlag", Label `feedback`) – der Kursleiter pflegt Bearbeitungsstand direkt in GitHub (`gh issue list --repo fdoebbelin/VaultPilot`), verarbeitete Issues schließen mit Kommentar. **Fallback:** importierte Feedback-Notizen in `00-Inbox/` (offline/ohne GitHub-Konto), die hier registriert werden.
 
 ## Workflow (Kursleiter)
 
