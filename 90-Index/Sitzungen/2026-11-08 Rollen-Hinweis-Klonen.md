@@ -82,6 +82,14 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 **Nutzerfund:** In der Einstieg-Landkarte linkte „[Sessionprotokollen](90-Index/Sitzungen/)" auf einen **Ordner** – Markdown-Links müssen aber auf Dateien zeigen (Obsidian kann Ordner nicht öffnen; Konvention: Links → Notizen/Dateien, Ordneransichten gibt es nur direkt in GitHub). Ersetzt durch die Formulierung „dort sind alle Sessionprotokolle verlinkt", da das Entwicklungsprotokoll bereits die Sitzungstabelle mit allen Links enthält. Volltext-Scan bestätigt: dieses Muster existierte nur an dieser einen Stelle.
 
+### Nachtrag 8 (Kreuzverweise der Feedback-Vorlagen, gleiche Sitzung)
+
+**Nutzeranforderung:** der fehlende Verweis auf die GitHub-„Änderungsvorschlag"-Vorlage gehört neben das Obsidian-Template. Umgesetzt:
+
+- **`90-Index/`-Zeile:** die zwei Vorlagen-Varianten stehen jetzt mit Rollen-Label nebeneinander – „[Feedback-Vorlage (Obsidian)](90-Index/Templates/Feedback.md) & [Änderungsvorschlag (GitHub-Issue-Vorlage)](.github/ISSUE_TEMPLATE/feedback-vorschlag.md)"
+- **`.github/`-Zeile:** umgekehrter Querverweis – „Entwurfs-Variante im Vault: [Feedback-Vorlage (Obsidian)](90-Index/Templates/Feedback.md)"
+- **Begründung:** die zwei Templates sind zwei Varianten desselben Feedback-Zwecks (Betreff/Ist/Vorschlag): Obsidian-Vorlage = lokaler Entwurf + offline-Fallback (bleibt in `00-Inbox/`, `/vault-reset`-Schutz), GitHub-Issue-Vorlage = gerendertes Web-Formular (primärer Kanal). Beide immer zusammen sichtbar verhindert, dass ein Einsteiger nur eine von zwei gültigen Einreichungsvarianten entdeckt.
+
 ### Nachtrag 6 (Kanal-Anleitungen + Landkarten-Korrekturen, gleiche Sitzung)
 
 **Nutzerhinweis:** In der Einstieg-Landkarte fehlten die Endverweise für die zwei Kanäle (Issues/Discussions) (Issues/Discussions) – und der Fehlhinweis lenkte auf zwei reale Mängel:
