@@ -38,6 +38,12 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - Verifikation: `git ls-remote --tags origin` zeigt `refs/tags/kurs-start` auf `ce358be` ✓ – Teilnehmer klonen jetzt den Stand, der `/vault-update`, `/vault-reset`, die Rollen-Hinweise und die Archiv-Konvention vollständig enthält
 - `kurs-update` wurde **bewusst nicht gesetzt**: der Tag-Name ist in keinem Material referenziert (genutzt wird nur `kurs-start`, z. B. `git diff kurs-start mein-vault` und `git switch -c versuch-2 kurs-start`). Falls künftige Kursiterationen einen „zuletzt ausgelieferten Stand" markieren wollen, wird der Tag zusammen mit der dokumentierten Konvention bei Bedarf in [[10-Wissensbasis/Git-Grundlagen]] ergänzt
 
+### Nachtrag 2 (live-Test `/vault-update`, Evaluation, Pilot-Status – gleiche Sitzung)
+
+- **Nutzerbestätigung:** `/vault-update` ist in einem **echten Teilnehmer-Zugang korrekt durchgelaufen** (Inventur, Merge, Konfliktentscheidungen) – der offene Punkt „in echten OpenCode-Sessions verifizieren" gilt damit als erfüllt
+- **Evaluation „Checklisten als Vorlagen nach `90-Index/Templates/` auslagern" → Ergebnis: Nein, Status quo bleibt.** Begründung: Der reale Konfliktfall ist selten (der Kurs ändert Checkbox-Zeilen kaum; andereÄnderungshunks außerhalb der Checkbox-Zeilen mergen automatisch) und bereits elegant behandelt – pro-Datei-Empfehlungen inkl. `--theirs` + `/vault-reset`-Folgeschritt, live bestätigt (Nutzerdurchlauf). Die Auslagerung hätte den Merge-**Nutzen** zerstört (automatische Weiterreichung von Kurs-Iterationen in ausgefüllte Checklisten), erzeugt aber manuelle Synchronisationslast, Doppel-Verwaltung Vorlage/Kopie, neue Einstiegs-Friction und einen Umbau der `/vault-reset`-Startzustandsdefinition. Dazu läuft der Pilot bereits – keine Mid-Pilot-Umstrukturierung ohne gemessenen Bedarf. **Re-Evaluations-Kriterium:** nur bei Konflikt-Schwierigkeiten im Pilot-Feedback
+- **Pilot läuft** (Nutzerangabe)
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt
@@ -66,8 +72,10 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 ## Nächste Schritte (Pickup für nächste Sitzung)
 
 - [x] Tags `kurs-start`/`kurs-update` im Kurs-Repo setzen und pushen (offen seit 2026-10-29) – erledigt: `kurs-start` auf HEAD verschoben und gepusht; `kurs-update` bewusst nicht gesetzt (unreferenziert, siehe Nachtrag oben)
-- [ ] `/vault-update` in echten OpenCode-Sessions verifizieren
-- [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
+- [x] `/vault-update` in echten OpenCode-Sessions verifizieren – erledigt durch Nutzer (echter Teilnehmer-Zugang, Nachtrag 2)
+- [x] Checklisten als Vorlagen nach `90-Index/Templates/` auslagern? – **Nein** (Evaluation → Nachtrag 2; Re-Evaluation nur bei Pilot-Feedback)
+- [ ] Pilotdurchlauf: laufend Feedback sammeln (Pilot läuft bereits)
+- [ ] Ausgewähltes Pilot-Feedback zurück in die Materialien (Kurs-Iteration)
 
 ---
 
@@ -75,7 +83,7 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 **Zusammenfassung in 1–2 Sätzen:**
 
-Der Rollen-Unterschied (Kursleiter pusht, Teilnehmer klonen nur-lesend) ist jetzt schon beim Klonen sichtbar: neuer README-Abschnitt „🧑‍🏫 Rollen beim Klonen" plus Verweis in Einstieg-Schritt 1 auf [[10-Wissensbasis/GitHub-Repository]]. Das Modell selbst blieb unverändert.
+Der Rollen-Unterschied (Kursleiter pusht, Teilnehmer klonen nur-lesend) ist jetzt schon beim Klonen sichtbar: neuer README-Abschnitt „🧑‍🏫 Rollen beim Klonen" plus Verweis in Einstieg-Schritt 1 auf [[10-Wissensbasis/GitHub-Repository]]. Das Modell selbst blieb unverändert. Nachtrag 2: `/vault-update` live im Teilnehmer-Zugang bestätigt; Vorlagen-Auslagerung evaluiert → **Nein** (Status quo); **Pilot läuft**.
 
 **Wichtigste Dateien/Commits:**
 
@@ -85,5 +93,5 @@ Der Rollen-Unterschied (Kursleiter pusht, Teilnehmer klonen nur-lesend) ist jetz
 
 **Offen für nächste Sitzung:**
 
-- [ ] Tags `kurs-start`/`kurs-update` setzen + pushen
-- [ ] Pilotdurchlauf vorbereiten
+- [ ] Pilotbegleitung: Feedback sammeln und Kuratieren
+- [ ] Kurs-Iteration mit ausgewähltem Pilot-Feedback

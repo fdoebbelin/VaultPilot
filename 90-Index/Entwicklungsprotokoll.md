@@ -37,19 +37,18 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `57cf864` (+ Protokoll-Commit) auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Rollen-Hinweis beim Klonen: README-Abschnitt „🧑‍🏫 Rollen beim Klonen" + Verweis in Einstieg-Schritt 1; damit ist das Teilnehmer-Git-Modell (vom 2026-10-29) schon beim ersten Klonen sichtbar
+- **Letzter Stand:** Commit `5b467d0` + Nachtrags-Commit auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Rollen-Hinweis beim Klonen (README + Einstieg); `kurs-start` auf HEAD (`ce358be`) gepusht; `/vault-update` **live im echten Teilnehmer-Zugang** bestätigt; Vorlagen-Auslagerung evaluiert → **Nein**; **Pilot läuft** (Nutze)
 - **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
-- **Phase:** Pilotvorbereitung – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokolle: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] (Modell), [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] (Sichtbarkeit)
-- **Hinweis:** `/vault-update check|apply` ist erfolgreich getestet in einem simulierten Teilnehmer-Repo (Inventur, Konflikt-Vorschau, Merge mit Konfliktentscheidung `--theirs`, Rettung versehentlicher main-Commits). Noch nicht in einer echten OpenCode-Session mit Agenten-Ausführung getestet.
-- **Hinweis:** Reihenfolge für Teilnehmer: erst `/vault-update` (Kursstand holen), dann `/vault-reset` (Startpunkt herstellen) – beide Commands arbeiten an denselben Übungsdateien.
+- **Phase:** 🚦 **Pilot läuft** – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokolle: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] (Modell), [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] (Sichtbarkeit + Nachträge)
+- **Hinweis:** `/vault-update` ist erfolgreich getestet: simuliertes Teilnehmer-Repo (29.10.) **und** echtes Teilnehmer-Zugang (08.11., Nutzeangabe). Reihenfolge für Teilnehmer: erst `/vault-update`, dann `/vault-reset`.
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten
-- **Offene Punkte (nächste Projektphase):**
+- **Offene Punkte (Pilotbegleitung):**
   - [x] ~~Tags `kurs-start`/`kurs-update`~~ erledigt 2026-11-08: `kurs-start` auf HEAD verschoben (`ce358be`) und gepusht; `kurs-update` bewusst nicht gesetzt (in Materialien unreferenziert)
-  - [ ] `/vault-update` in echten OpenCode-Sessions verifizieren (Agent befolgt den Markdown-Command)
-  - [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
-  - [ ] Checklisten als Vorlagen nach `90-Index/Templates/` auslagern? (strukturelle Konfliktvermeidung, separat entscheiden)
+  - [x] ~~`/vault-update` in echten OpenCode-Sessions verifizieren~~ erledigt 2026-11-08 (echter Teilnehmer-Zugang)
+  - [x] ~~Checklisten als Vorlagen nach `90-Index/Templates/` auslagern~~ evaluiert → **Nein**, Status quo bleibt (Evaluation im Protokoll 2026-11-08, Nachtrag 2; Re-Evaluation nur bei Pilot-Feedback)
+  - [ ] Pilot läuft: laufend Feedback sammeln (Schwierigkeiten, Konfliktentscheidungen, Verständnisfragen)
   - [ ] Erfahrungswerte aus dem Piloten zurück in die Materialien (Kurs-Iteration)
 
 ---
