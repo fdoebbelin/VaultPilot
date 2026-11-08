@@ -46,7 +46,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
 - **Hinweis:** `$env:VAULTPILOT` ist dauerhaft im User-Scope gesetzt; die Variable steht erst in Prozessen zur Verfügung, die **nach** dem Setzen gestartet wurden – notfalls Terminal komplett neu starten
 - **Offene Punkte (nächste Projektphase):**
-  - [ ] Tags `kurs-start`/`kurs-update` im Kurs-Repo setzen und pushen (Voraussetzung für `git diff kurs-start mein-vault` und frische Durchläufe)
+  - [x] ~~Tags `kurs-start`/`kurs-update`~~ erledigt 2026-11-08: `kurs-start` auf HEAD verschoben (`ce358be`) und gepusht; `kurs-update` bewusst nicht gesetzt (in Materialien unreferenziert)
   - [ ] `/vault-update` in echten OpenCode-Sessions verifizieren (Agent befolgt den Markdown-Command)
   - [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
   - [ ] Checklisten als Vorlagen nach `90-Index/Templates/` auslagern? (strukturelle Konfliktvermeidung, separat entscheiden)

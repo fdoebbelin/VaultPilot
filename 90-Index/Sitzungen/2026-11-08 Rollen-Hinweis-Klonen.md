@@ -32,6 +32,12 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 - **Einstieg.md (Landkarte):** README-Zeile um „Rollen beim Klonen" ergänzt
 - Commit `57cf864` (Protokoll-Commit folgt)
 
+### Nachtrag (Kurs-Tags, gleiche Sitzung)
+
+- Inventur: `kurs-start` existierte bereits lokal **und** auf `origin`, zeigte aber auf `f209170` – also auf den Stand **ohne** den heutigen Rollen-Hinweis in README/Einstieg. Der Tag wurde auf HEAD verschoben: `git tag -f kurs-start HEAD` + `git push -f origin kurs-start` (sicher: der Pilot läuft noch nicht, niemand nutzt den Tag)
+- Verifikation: `git ls-remote --tags origin` zeigt `refs/tags/kurs-start` auf `ce358be` ✓ – Teilnehmer klonen jetzt den Stand, der `/vault-update`, `/vault-reset`, die Rollen-Hinweise und die Archiv-Konvention vollständig enthält
+- `kurs-update` wurde **bewusst nicht gesetzt**: der Tag-Name ist in keinem Material referenziert (genutzt wird nur `kurs-start`, z. B. `git diff kurs-start mein-vault` und `git switch -c versuch-2 kurs-start`). Falls künftige Kursiterationen einen „zuletzt ausgelieferten Stand" markieren wollen, wird der Tag zusammen mit der dokumentierten Konvention bei Bedarf in [[10-Wissensbasis/Git-Grundlagen]] ergänzt
+
 ## Probleme & Lösungen
 
 ### Rollenbinfo war tief im Material versteckt
@@ -59,7 +65,7 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 ## Nächste Schritte (Pickup für nächste Sitzung)
 
-- [ ] Tags `kurs-start`/`kurs-update` im Kurs-Repo setzen und pushen (offen seit 2026-10-29)
+- [x] Tags `kurs-start`/`kurs-update` im Kurs-Repo setzen und pushen (offen seit 2026-10-29) – erledigt: `kurs-start` auf HEAD verschoben und gepusht; `kurs-update` bewusst nicht gesetzt (unreferenziert, siehe Nachtrag oben)
 - [ ] `/vault-update` in echten OpenCode-Sessions verifizieren
 - [ ] Pilotdurchlauf des Kurses mit echten Teilnehmern
 
