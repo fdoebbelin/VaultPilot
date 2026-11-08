@@ -29,7 +29,7 @@ Besonderheit: **Der Vault ist sein eigenes Demonstrationsobjekt.** Sämtliche Pr
 
 | # | Schritt | Leitfaden |
 |---|---------|-----------|
-| 1 | Repository holen + Pfad-Variable `$env:VAULTPILOT` einrichten | [README – Einrichtung](README.md) |
+| 1 | Repository holen + Pfad-Variable `$env:VAULTPILOT` einrichten — **Rolle beachten: der Kursleiter pusht ins GitHub-Repo, Teilnehmer haben einen nur-lesenden Klon und arbeiten auf `mein-vault`** (→ [GitHub-Repository – Rollenperspektiven](10-Wissensbasis/GitHub-Repository.md)) | [README – Einrichtung & Rollen](README.md) |
 | 2 | OpenCode installieren (PowerShell + scoop) | [Phase A – Installation](10-Wissensbasis/Phase-A-Installation.md) |
 | 3 | Obsidian installieren und diesen Ordner als Vault öffnen | [Obsidian Installation & Einrichtung](10-Wissensbasis/Obsidian-Installation-Einrichtung.md) |
 | 4 | Obsidian-Grundlagen lesen (Oberfläche, Markdown, Wikilinks, Graph) | [Obsidian Grundlagen](10-Wissensbasis/Obsidian-Grundlagen.md) |
@@ -88,7 +88,7 @@ Wichtig zu wissen:
 
 | Ort | Inhalt |
 |---|---|
-| `README.md` | Kurzüberblick, Einrichtung, Roadmap |
+| `README.md` | Kurzüberblick, Einrichtung, Rollen beim Klonen, Roadmap |
 | `Einstieg.md` | dieses Dokument |
 | `CONCEPT.md` | finalisiertes Projektkonzept (Teilziele, Abgrenzungen, Erfolgskriterien K1–K6, Meilensteine M1–M4) |
 | `Abschlussbericht.md` | Projektabschluss mit Status aller Erfolgskriterien |

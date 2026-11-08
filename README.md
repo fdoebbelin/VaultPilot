@@ -22,6 +22,17 @@ $env:VAULTPILOT = "$env:USERPROFILE\Projects\VaultPilot"
 
 **Konvention:** Pfade nie hartkodieren. In Leitfäden, Notizen, Checklisten und Befehlen wird das Repository immer über `$env:VAULTPILOT` adressiert. Standardort ist `$env:USERPROFILE\Projects\VaultPilot`.
 
+## 🧑‍🏫 Rollen beim Klonen
+
+Schon beim ersten `git clone` unterscheidet sich die Nutzung des Repos je nach Rolle – die wichtigste Weichenstellung für Einsteiger:
+
+| Rolle | Verhältnis zu `origin` (GitHub-Repo) | Arbeitsbranch | Push |
+|---|---|---|---|
+| **Kursleiter** (Repobesitzer) | Lesen **und Schreiben** – verwaltet den Kursstand in `main` | `main` | ja |
+| **Teilnehmer** | **nur lesen** – der Kursstand wird abgeholt, nicht beschrieben | `mein-vault` | **nie** – Kursneuerungen kommen via `/vault-update` |
+
+Kommandos und Begründung: [GitHub-Repository – Einrichtung & Workflow](10-Wissensbasis/GitHub-Repository.md) · Schritt-für-Schritt-Einstieg: [Einstieg](Einstieg.md)
+
 ## 🎯 Ziel
 
 Wissen strukturiert ablegen, vernetzen und dauerhaft pflegen – unterstützt und automatisiert durch einen KI-Agenten.
