@@ -82,6 +82,14 @@ Sitzungsvorbereitende Inventur: das Rollenmodell (Kursleiter = Lesen + Schreiben
 
 **Nutzerfund:** In der Einstieg-Landkarte linkte „[Sessionprotokollen](90-Index/Sitzungen/)" auf einen **Ordner** – Markdown-Links müssen aber auf Dateien zeigen (Obsidian kann Ordner nicht öffnen; Konvention: Links → Notizen/Dateien, Ordneransichten gibt es nur direkt in GitHub). Ersetzt durch die Formulierung „dort sind alle Sessionprotokolle verlinkt", da das Entwicklungsprotokoll bereits die Sitzungstabelle mit allen Links enthält. Volltext-Scan bestätigt: dieses Muster existierte nur an dieser einen Stelle.
 
+### Nachtrag 9 (`.github`-Verweise aus der Landkarte entfernt, gleiche Sitzung)
+
+**Nutzerentscheidung:** die `.github/`-Zeile verschwindet **komplett**, alle klickbaren `.github`-Verweise auch aus der `90-Index/`-Zeile – und der Grund wird präzisiert (schärfer als Nachtrag 7): Obsidian indexiert **Punkt-Ordner** (`.github`, `.obsidian`) generell nicht – Markdown-Links aus Vault-Notizen in solche Ordner sind in Obsidian **prinzipiell nicht auflösbar**, unabhängig von der Pfadform. Auf GitHub funktionieren die Links zwar, aber die Landkarte ist primär ein Obsidian-Dokument.
+
+- **`90-Index/`-Zeile:** Feedback-Vorlage bleibt verlinkt (Label „(Obsidian)“ gestrichen, da das Paar entfällt); hinzu der Hinweis „Feedback-Kanäle siehe [CONTRIBUTING.md](CONTRIBUTING.md)“ (gültiger Root-Link)
+- **`.github/`-Zeile entfernt** – die GitHub-Dokumente erreichen Leser direkt über GitHub (Issues-Tab, `CONTRIBUTING.md` im Repo-Listing); die Teilnehmner-Anleitungen bleiben über den Abschnitt „Pilot-Feedback einreichen“ und den Wissensindex verlinkt
+- Volltext-Scan: keine klickbaren `.github`-Links mehr in Vault-Dokumenten; der einzige verbleibende Beleg steht im historischen Nachtrag-8-Zitat dieses Protokolls (dokumentationskonform)
+
 ### Nachtrag 8 (Kreuzverweise der Feedback-Vorlagen, gleiche Sitzung)
 
 **Nutzeranforderung:** der fehlende Verweis auf die GitHub-„Änderungsvorschlag"-Vorlage gehört neben das Obsidian-Template. Umgesetzt:
