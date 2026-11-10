@@ -1,6 +1,6 @@
 ---
 description: Definierter Startpunkt herstellen – 00-Inbox auf Startdokumente prüfen, Checkboxen im Arbeitsmaterial zurücksetzen
-agent: build
+agent: vaultpilot
 subtask: false
 ---
 

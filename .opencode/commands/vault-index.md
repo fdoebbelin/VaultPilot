@@ -1,6 +1,6 @@
 ---
 description: Erstellt oder aktualisiert den Wissensindex (MOC) des Vaults
-agent: build
+agent: vaultpilot
 subtask: false
 ---
 

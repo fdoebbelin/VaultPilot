@@ -33,4 +33,4 @@ Der Agent (VaultPilot) nutzt das OpenCode-Äquivalent: Ziel → Plan → Tool-Us
 
 ## Links
 
-- [[VaultPilot – Konzept]]
+- [[CONCEPT|VaultPilot – Konzept]]

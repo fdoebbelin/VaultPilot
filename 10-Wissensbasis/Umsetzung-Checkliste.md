@@ -101,7 +101,7 @@ Leitfaden: [[10-Wissensbasis/Obsidian-Installation-Einrichtung]]
 ### B.3 Notiz vernetzen
 
 - [ ] `/vault-link "10-Wissensbasis/Erster Test: Wie funktioniert ein KI-Agent?"` ausführen
-- [ ] Prüfen: Verknüpfung zu `[[VaultPilot – Konzept]]` oder verwandten Notizen ergänzt?
+- [ ] Prüfen: Verknüpfung zu `[[CONCEPT|VaultPilot – Konzept]]` oder verwandten Notizen ergänzt?
 
 ### B.4 Wissensindex aktualisieren
 

@@ -67,5 +67,5 @@ Kursneuerungen kommen nicht per `pull`, sondern über den Command `/vault-update
 
 - [[10-Wissensbasis/Git-Grundlagen]]
 - [[Einstieg]]
-- [[VaultPilot – Konzept]]
+- [[CONCEPT|VaultPilot – Konzept]]
 - [[90-Index/Wissensindex]]

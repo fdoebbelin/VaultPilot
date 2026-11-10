@@ -52,7 +52,7 @@ In Obsidian prüfen:
 
 1. Strg+P (Befehlspalette) → „Tagesnotiz erstellen" oder über das Kalender-Symbol in der Seitenleiste
 2. Die neue Notiz wird automatisch in `00-Inbox/` angelegt
-3. Inhalt ergänzen und mit `[[Wikilinks]]` zu bestehenden Notizen verlinken (z. B. `[[Erster-Workflow-Test]]`, `[[VaultPilot – Konzept]]`)
+3. Inhalt ergänzen und mit `[[Wikilinks]]` zu bestehenden Notizen verlinken (z. B. `[[Erster-Workflow-Test]]`, `[[CONCEPT|VaultPilot – Konzept]]`)
 
 ### 4. Wissensindex / MOC pflegen
 
@@ -84,4 +84,4 @@ Nach erfolgreichem Abschluss:
 - [[10-Wissensbasis/Obsidian-Grundlagen]] – Bedienungsgrundlagen
 - [[90-Index/Entwicklungsprotokoll]]
 - [[10-Wissensbasis/Umsetzung-Checkliste]]
-- [[VaultPilot – Konzept]]
+- [[CONCEPT|VaultPilot – Konzept]]

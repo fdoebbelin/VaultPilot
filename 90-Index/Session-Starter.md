@@ -31,7 +31,7 @@ status: active
 1. Lies `90-Index/Entwicklungsprotokoll.md` (oder ich lese es für dich)
 2. Wähle einen offenen Punkt aus dem Handoff
 3. Arbeite im Projekt
-4. Am Ende: neues Sessionprotokoll in `90-Index/Sitzungen/` erstellen, committen, pushen
+4. Am Ende: neues Sessionprotokoll in `90-Index/Sitzungen/` erstellen und committen (pushen nur als Kursleiter – Teilnehmer pushen nie)
 
 ## So startest du eine neue Sitzung
 

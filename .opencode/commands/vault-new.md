@@ -1,6 +1,6 @@
 ---
 description: Erstellt eine neue Wissensnotiz im Obsidian Vault
-agent: build
+agent: vaultpilot
 subtask: false
 ---
 
