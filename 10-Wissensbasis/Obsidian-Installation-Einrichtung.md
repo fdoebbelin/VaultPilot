@@ -81,7 +81,7 @@ Nach erfolgreichem Abschluss:
 - `scoop list obsidian` zeigt die installierte Version (oder Installer-Variante: Obsidian startet)
 - Obsidian öffnet den VaultPilot-Ordner als Vault
 - Die Ordnerstruktur `00-Inbox/`, `10-Wissensbasis/`, `90-Index/` ist sichtbar
-- Notizen lassen sich öffnen und rendern (z. B. `10-Wissensbasis/Konzept.md`)
+- Notizen lassen sich öffnen und rendern (z. B. `10-Wissensbasis/KI-Agent-vs-Chat.md`)
 
 ## Links
 

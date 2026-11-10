@@ -7,6 +7,8 @@ tags:
   - vaultpilot
   - wissensmanagement
 status: final
+aliases:
+  - VaultPilot – Konzept
 ---
 
 # VaultPilot – Konzept

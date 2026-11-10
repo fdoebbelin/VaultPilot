@@ -1,6 +1,6 @@
 ---
 description: Kursstand übernehmen – neue Kursinhalte von GitHub holen und in den eigenen Branch mein-vault mergen, eigene Änderungen bleiben abgegrenzt
-agent: build
+agent: vaultpilot
 subtask: false
 ---
 

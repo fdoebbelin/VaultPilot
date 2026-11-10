@@ -35,7 +35,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 ## Projekt & Umsetzung
 
 - [[Einstieg]] – Eintrittspunkt für Außenstehende (Weg in 7 Schritten, definierter Startpunkt)
-- [[VaultPilot – Konzept]] – finalisiertes Projektkonzept (M1)
+- [[CONCEPT|VaultPilot – Konzept]] – finalisiertes Projektkonzept (M1)
 - [[10-Wissensbasis/Umsetzung-Checkliste]] – maßgebliches Erfolgsmessinstrument (K1)
 - [[10-Wissensbasis/Erster-Workflow-Test]] – erster Agenten-Durchlauf
 - [[90-Index/Entwicklungsprotokoll]] – Sitzungsübersicht mit Handoff
@@ -52,7 +52,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 - **Leitfaden für alle Rollen:** [[10-Wissensbasis/Feedback-Beitragen]] – Wege 1–3, Regeln, Kursleiter-Sicht
 - [[10-Wissensbasis/GitHub-Issues-nutzen]] – Kanal-Anleitung „Vorschläge ohne Code“
 - [[10-Wissensbasis/Discussions-nutzen]] – Kanal-Anleitung „offene Fragen/Ideen“
-- **Primärer Kanal:** GitHub-Issues mit Template `.github/ISSUE_TEMPLATE/feedback-vorschlag.md` (Label `feedback`) · siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Primärer Kanal:** GitHub-Issues mit Template `.github/ISSUE_TEMPLATE/feedback-vorschlag.md` (Label `feedback`) · siehe [CONTRIBUTING.md](../CONTRIBUTING.md)
 - [[90-Index/Templates/Feedback]] – lokale Entwurfs-Vorlage (offline/Fallback, Notiz bleibt in `00-Inbox/`)
 - [[90-Index/Pilot-Feedback]] – Sammel-MOC des Kursleiters (Issue-Bearbeitungsstand, Fallback-Importe, Verarbeiten → `20-Archiv/`)
 

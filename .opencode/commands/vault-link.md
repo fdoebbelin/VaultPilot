@@ -1,6 +1,6 @@
 ---
 description: Vernetzt Vault-Notizen über Wikilinks
-agent: build
+agent: vaultpilot
 subtask: false
 ---
 

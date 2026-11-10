@@ -19,7 +19,7 @@ Erster echter Test des VaultPilot-Agenten-Workflows: Eine neue Wissensnotiz wird
    - Frontmatter mit `title`, `tags`, `created`, `updated` ergänzen
    - `[[Wikilink]]` zu verwandten Notizen setzen
 3. **Tool-Use:** Datei `10-Wissensbasis/Erster-Workflow-Test.md` erstellt.
-4. **Iteration:** Verknüpfung mit `[[VaultPilot – Konzept]]` und `[[KI-Agent vs. KI-Chat]]` geprüft.
+4. **Iteration:** Verknüpfung mit `[[CONCEPT|VaultPilot – Konzept]]` und `[[KI-Agent-vs-Chat|KI-Agent vs. KI-Chat]]` geprüft.
 
 ## Ergebnis
 
@@ -35,6 +35,6 @@ Erster echter Test des VaultPilot-Agenten-Workflows: Eine neue Wissensnotiz wird
 
 ## Links
 
-- [[VaultPilot – Konzept]]
-- [[KI-Agent vs. KI-Chat]]
+- [[CONCEPT|VaultPilot – Konzept]]
+- [[KI-Agent-vs-Chat|KI-Agent vs. KI-Chat]]
 - [[90-Index/Entwicklungsprotokoll]]

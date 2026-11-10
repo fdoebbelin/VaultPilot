@@ -15,7 +15,7 @@ status: active
 
 ## Zweck
 
-Der regulierte Weg, wie **alle Rollen** (Kursleiter, Teilnehmer, Interessierte) Feedback und Beiträge zum Kursmaterial einreichen – Kernaussage: **Code-Rechte sind nicht nötig.** Routing aller Fälle kompakt: [CONTRIBUTING.md](CONTRIBUTING.md).
+Der regulierte Weg, wie **alle Rollen** (Kursleiter, Teilnehmer, Interessierte) Feedback und Beiträge zum Kursmaterial einreichen – Kernaussage: **Code-Rechte sind nicht nötig.** Routing aller Fälle kompakt: [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Rollen & Kanäle (Kurzfassung)
 
@@ -85,7 +85,7 @@ Die Notiz **bleibt in `00-Inbox/`** – `/vault-reset` schlägt für Feedback-No
 
 - [[90-Index/Pilot-Feedback]] – Sammel-MOC (Issues + Fallback-Importe)
 - [[90-Index/Templates/Feedback]] – die lokale Entwurfs-Vorlage
-- [CONTRIBUTING.md](CONTRIBUTING.md) – Routing-Tabelle und Regeln
+- [CONTRIBUTING.md](../CONTRIBUTING.md) – Routing-Tabelle und Regeln
 - [[Einstieg]] – Abschnitt „Pilot-Feedback einreichen" (kompakte Teilnehmer-Sicht)
 - [[10-Wissensbasis/GitHub-Repository]] – Rollenperspektiven und Feedback-Kanal
 

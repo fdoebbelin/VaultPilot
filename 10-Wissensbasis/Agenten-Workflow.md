@@ -1,7 +1,7 @@
 ---
 title: Agenten-Workflow in VaultPilot
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-10
 tags:
   - ki-agent
   - opencode
@@ -34,20 +34,25 @@ Der Unterschied zum Chat: Der Agent **führt aus** (schreibt Dateien, committet)
 - **`commands/vault-link.md`** – `/vault-link "<Notiz>"`: vernetzt eine Notiz mit verwandten Notizen
 - **`commands/vault-index.md`** – `/vault-index "<Fokus>"`: erstellt/aktualisiert den Wissensindex (MOC) in `90-Index/`
 - **`commands/vault-reset.md`** – `/vault-reset check|apply`: stellt den definierten Startpunkt her (00-Inbox nur Startdokumente; Checkboxen im Arbeitsmaterial zurückgesetzt; Historie bleibt unverändert)
+- **`commands/vault-update.md`** – `/vault-update check|apply`: holt den Kursstand von GitHub und mergt ihn in den eigenen Branch `mein-vault` (Teilnehmer-Rolle)
+
+Alle Commands laufen mit dem Agenten `vaultpilot` (`agent: vaultpilot` im Command-Kopf) – damit gelten dessen Regeln und Berechtigungen (`permission`) auch innerhalb der Commands. Riskante Befehle wie `git push` oder Löschungen lösen eine Rückfrage aus, Force-Push ist gesperrt.
 
 **Aufrufen eines Commands (so geht's):**
 
 1. OpenCode im Vault starten: `cd $env:VAULTPILOT` → `opencode` (TUI)
-2. Im Eingabefeld `/` tippen → OpenCode zeigt die verfügbaren Slash-Commands mit Autocomplete (`vault-new`, `vault-link`, `vault-index`)
+2. Im Eingabefeld `/` tippen → OpenCode zeigt die verfügbaren Slash-Commands mit Autocomplete (`vault-new`, `vault-link`, `vault-index`, `vault-reset`, `vault-update`)
 3. Command mit Argument ausführen, z. B. `/vault-index Allgemeiner Überblick`
 4. Der Agent arbeitet den Auftrag ab (Ziel → Plan → Tool-Use → Iteration) und meldet das Ergebnis – **verifizieren**: die betroffene Datei öffnen (z. B. `90-Index/Wissensindex.md`) und prüfen
-5. Danach wie immer: `git add` → `git commit` → `git push` (siehe [[10-Wissensbasis/Git-Grundlagen]])
+5. Danach wie immer versionieren – je nach Rolle (siehe [[10-Wissensbasis/Git-Grundlagen]] und [[10-Wissensbasis/GitHub-Repository]]):
+   - **Teilnehmer:** `git add` → `git commit` auf `mein-vault` – **kein** `git push`
+   - **Kursleiter:** `git add` → `git commit` → `git push` auf `main`
 
 ## Der Sitzungs-Workflow (Handoff/Pickup)
 
 1. **Pickup:** Entwicklungsprotokoll öffnen, „Aktueller Handoff" lesen, bei offenen Punkten fortsetzen
 2. **Arbeit:** Themen umsetzen – dabei Checklisten ([[10-Wissensbasis/Umsetzung-Checkliste]]) abhaken
-3. **Handoff:** Sessionprotokoll in `90-Index/Sitzungen/` nach Vorlage erstellen, Tabellenzeile + Handoff-Block aktualisieren, `git add` → `commit` → `push`
+3. **Handoff:** Sessionprotokoll in `90-Index/Sitzungen/` nach Vorlage erstellen, Tabellenzeile + Handoff-Block aktualisieren, `git add` → `commit` (Kursleiter zusätzlich `push`; Teilnehmer pushen nie)
 
 Ablageort der Details: [[90-Index/Entwicklungsprotokoll]].
 
@@ -55,7 +60,7 @@ Ablageort der Details: [[90-Index/Entwicklungsprotokoll]].
 
 Agenten sind fehleranfällig (Planung, Tool-Use) – deshalb gilt „Vertrauen durch Verifikation":
 
-- **Behauptungen gegen Gegenbeweise prüfen:** „ gepusht" → selbst `git status` ausführen; „Notiz erstellt" → Datei öffnen
+- **Behauptungen gegen Gegenbeweise prüfen:** „gepusht" → selbst `git status` ausführen; „Notiz erstellt" → Datei öffnen
 - **Diffs lesen:** `git diff` zeigt, was der Agent wirklich geändert hat
 - **Checklisten als Messinstrument:** Erfolgskriterien K1–K6 in CONCEPT.md sind bewusst agentenprüfbar formuliert
 - **Grenzen kennen:** Der Agent entscheidet nicht über Projektziele – Entscheidungen (wie die Konzept-Abgrenzungen) trifft der Mensch
