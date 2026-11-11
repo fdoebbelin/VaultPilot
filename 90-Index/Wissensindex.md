@@ -1,7 +1,7 @@
 ---
 title: Wissensindex (MOC)
 created: 2026-10-27
-updated: 2026-10-29
+updated: 2026-11-11
 type: moc
 tags:
   - moc
@@ -45,6 +45,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 - [[10-Wissensbasis/Beispielnotiz-Zettelkasten|Beispielnotiz „Zettelkasten"]] – Muster einer vollständigen Wissensnotiz (Vorlagen-Nutzung)
 - [[00-Inbox/Übung Obsidian-Grundlagen]] – Abarbeitungsliste C.0
 - [[00-Inbox/Übungsblatt Neue Notiz]] – konkrete Werte für die Notiz-Übung
+- [[10-Wissensbasis/Arbeitsblatt Git-Zeilenenden]] – „modified" trotz leerem `git diff`: Stat-Cache, CRLF/LF, Diagnose und Fix
 - [[10-Wissensbasis/Was ist ein LLM]] – Übungsergebnis (Teilnehmernotiz)
 
 ## Pilot-Feedback
