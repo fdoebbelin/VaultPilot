@@ -31,6 +31,7 @@ Map of Content über die Wissensbasis – aktualisiert via `/vault-index` (Erfol
 ### Git & Verteilung (Teilziel 5)
 - [[10-Wissensbasis/Git-Grundlagen]] – Git für Teilnehmer: Klon, Branches `main`/`mein-vault`, fetch/merge statt pull/push, typische Probleme
 - [[10-Wissensbasis/GitHub-Repository]] – Rollenperspektiven: Kursleiter (push, Tags) vs. Teilnehmer (nur lesender Klon)
+- [[10-Wissensbasis/Merkblatt Meld]] – Textdateien mit Meld vergleichen: Einrichtung, `difftool`-Rezepte, Konflikte lösen (Druckfassung als PDF in `_resources/`)
 
 ## Projekt & Umsetzung
 
