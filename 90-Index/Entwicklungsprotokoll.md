@@ -1,7 +1,7 @@
 ---
 title: Entwicklungsprotokoll VaultPilot
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-11-11
 type: entwicklungsprotokoll
 tags:
   - entwicklungsprotokoll
@@ -31,15 +31,16 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
 | 2026-10-29 | Einstiegsdokument + Command `/vault-reset` (definierter Startpunkt) | [[90-Index/Sitzungen/2026-10-29 Einstieg-und-vault-reset]] | abgeschlossen |
 | 2026-10-29 | Command `/vault-update` integriert (Teilnehmer-Git-Modell) | [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] | abgeschlossen |
 | 2026-11-08 | Rollen-Hinweis beim Klonen (README + Einstieg) | [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] | abgeschlossen |
+| 2026-11-11 | Git-Zeilenenden: Stat-Cache-Phantom aufgeklärt, Arbeitsblatt erstellt und überarbeitet | [[90-Index/Sitzungen/2026-11-11 Git-Zeilenenden-Arbeitsblatt]] | abgeschlossen |
 | 2026-10-29 | Teilnehmer-Git-Modell: Command `/vault-update` integriert, Kursdokumentation umgestellt, Testszenarien (Konflikt + Rettung) | [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] | abgeschlossen |
 
 ---
 
 ## Aktueller Handoff (Ende der letzten Sitzung)
 
-- **Letzter Stand:** Commit `5b467d0` + Nachtrags-Commit auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Rollen-Hinweis beim Klonen (README + Einstieg); `kurs-start` auf HEAD (`ce358be`) gepusht; `/vault-update` **live im echten Teilnehmer-Zugang** bestätigt; Vorlagen-Auslagerung evaluiert → **Nein**; **Pilot läuft** (Nutze)
-- **Aktives OpenCode-Modell:** `opencode-go/glm-5.3-flash`
-- **Phase:** 🚦 **Pilot läuft** – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokolle: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] (Modell), [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] (Sichtbarkeit + Nachträge)
+- **Letzter Stand:** Commit `9fe653a` + Protokoll-Commit auf `main` (`https://github.com/fdoebbelin/VaultPilot.git`) – Git-Zeilenenden-Arbeitsblatt überarbeitet und in der Wissensbasis verankert; `core.autocrlf=false` global gesetzt; Rollen-Hinweis beim Klonen (README + Einstieg) weiterhin gültig; `/vault-update` **live im echten Teilnehmer-Zugang** bestätigt; Vorlagen-Auslagerung evaluiert → **Nein**; **Pilot läuft** (Nutzerangabe)
+- **Aktives OpenCode-Modell:** `opencode/big-pickle`
+- **Phase:** 🚦 **Pilot läuft** – Umsetzung abgeschlossen; Teilnehmer-Workflow (kein push, kein pull, `mein-vault`) ist in den Materialien verankert. Detailprotokolle: [[90-Index/Sitzungen/2026-10-29 vault-update Integration]] (Modell), [[90-Index/Sitzungen/2026-11-08 Rollen-Hinweis-Klonen]] (Sichtbarkeit + Nachträge), [[90-Index/Sitzungen/2026-11-11 Git-Zeilenenden-Arbeitsblatt]] (Zeilenenden/Stat-Cache)
 - **Hinweis:** `/vault-update` ist erfolgreich getestet: simuliertes Teilnehmer-Repo (29.10.) **und** echtes Teilnehmer-Zugang (08.11., Nutzeangabe). Reihenfolge für Teilnehmer: erst `/vault-update`, dann `/vault-reset`.
 - **Hinweis:** Kein CLI-Befehl `opencode model` vorhanden; Modell-Wechsel nur über OpenCode TUI (`Ctrl+X` → `m`) oder Config-Datei
 - **Hinweis:** Repository-Pfad immer über `$env:VAULTPILOT` adressieren (Einrichtung siehe README, Abschnitt „Einrichtung"); hartcodierte Benutzerpfade sind verboten
@@ -48,6 +49,7 @@ Das detaillierte Sessionprotokoll wird bei Bedarf erzeugt (z. B. bei einem **Han
   - [x] ~~Tags `kurs-start`/`kurs-update`~~ erledigt 2026-11-08: `kurs-start` auf HEAD verschoben (`ce358be`) und gepusht; `kurs-update` bewusst nicht gesetzt (in Materialien unreferenziert)
   - [x] ~~`/vault-update` in echten OpenCode-Sessions verifizieren~~ erledigt 2026-11-08 (echter Teilnehmer-Zugang)
   - [x] ~~Checklisten als Vorlagen nach `90-Index/Templates/` auslagern~~ evaluiert → **Nein**, Status quo bleibt (Evaluation im Protokoll 2026-11-08, Nachtrag 2; Re-Evaluation nur bei Pilot-Feedback)
+  - [ ] Optional: Querverweis aus [[10-Wissensbasis/Git-Grundlagen]] auf [[10-Wissensbasis/Arbeitsblatt Git-Zeilenenden]] ergänzen
   - [ ] Pilot läuft: laufend Feedback sammeln (Schwierigkeiten, Konfliktentscheidungen, Verständnisfragen)
   - [ ] Erfahrungswerte aus dem Piloten zurück in die Materialien (Kurs-Iteration)
 
